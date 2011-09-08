@@ -13,10 +13,7 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/forms.css?v=2">
-	<script src="js/libs/modernizr-1.7.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/elements/js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 <body>
 
@@ -184,13 +181,13 @@ return(preg_match("/^[-_.[:alnum:]]+@((([[:alnum:]]|[[:alnum:]][[:alnum:]-]*[[:a
 </div><!--/container-->
 
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
-	<script src="js/plugins.js"></script>
-	<script src="js/script.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="https://s3.amazonaws.com/toolkit.mshanken.com/elements/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+	<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/elements/js/plugins.js"></script>
+	<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/elements/js/script.js"></script>
 	<!--[if lt IE 7 ]>
-	<script src="js/libs/dd_belatedpng.js"></script>
-	<script> DD_belatedPNG.fix('img, .png_bg');</script>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 	<![endif]-->
 	<script type="text/javascript">
 	var _gaq = _gaq || [];
