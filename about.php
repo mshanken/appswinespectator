@@ -45,6 +45,7 @@
 		<p>Anchored by Wine Spectator magazine, a print publication that reaches more than 3 million readers worldwide, the brand also encompasses WineSpectator.com&#8212;the web&rsquo;s most comprehensive wine site&#8212;as well as Wine Spectator Mobile and signature wine-tasting events such as the Wine Experience and the Grand Tour. Parent company M. Shanken Communications also publishes Cigar Aficionado, Food Arts, Market Watch, Malt Advocate and Impact.</p>
 	</div><!--/intro-->
 	
+<!--
 	<hr/>
 	
 	
@@ -72,6 +73,7 @@
 		<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
 	</ul>
 	</div><!--/copy-->
+-->
 	
 <div class="clear"></div>
 	
