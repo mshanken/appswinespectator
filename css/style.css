@@ -1,8 +1,4 @@
-@import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/css/reset.css");
-@import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/css/h5bp.css");
-@import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/css/prettify.css");
-@import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/css/elements.css");
-@import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/css/structure.css");
+@import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/css/elements-min.css");
 @import url("apps.css");
 @import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/tooltip/style.css");
 @import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/modal/style.css");
