@@ -35,7 +35,7 @@
 	
 	<ul id="feat">
 		<li class="feat-left">
-			<a href="guide-to-napa-valley.php"><img src="img/ipad-napa.png"/>
+			<div class="feat-img"><a href="guide-to-napa-valley.php"><img src="img/ipad-napa.png"/></div>
 			<div class="feat-copy">
 			<h3>Wine Spectator's Guide to Napa Valley</h3>
 			<p>Discover the best of this spectacular California wine region. Whether you&rsquo;re planning a trip or are a lover of Napa&rsquo;s legendary Cabernets, Wine Spectator&rsquo;s Guide to Napa Valley on iPad gives you our editors&rsquo; top recommendations on where to stay, where to dine, which wineries to visit and what to drink.</p>
@@ -52,7 +52,7 @@
 			<p>Make smarter decisions when faced with unfamiliar wines. Wine Spectator&rsquo;s free VintageChart+ smartphone apps let you easily compare the quality of wines from different years for more than 50 top regions and varietals so you can find the best vintage to drink now. Our editors rate each vintage, recommend when to drink the wines and describe the growing season&rsquo;s impact on the wines&rsquo; character.</p>
 			<span class="button">Learn More &raquo;</span>
 			</div><!--/feat-copy-->
-			<img src="img/iphone-vintage2.png"/></a>
+			<div class="feat-img"><img src="img/iphone-vintage2.png"/></a></div>
 			<div class="clear"></div>
 		</li>
 	</ul>

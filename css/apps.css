@@ -70,13 +70,17 @@ li{
 }
 
 hr{
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0 1px 0 #fff;
 	margin: 0;
 }
 /* ========================================================= Page ===*/
+/*
 .container{
 	margin: 0 auto;
 	width: 960px;
 }
+*/
 header{
 	background: none;
 	border: none;
@@ -303,10 +307,20 @@ nav a:hover{
 	-webkit-box-shadow: 0 1px 0 #fff;
 	-moz-box-shadow: 0 1px 0 #fff;
 	box-shadow: 0 1px 0 #fff;
+	width: 100%; height: auto;
 }
-
+.feat-img{
+	max-width: 380px;
+}
 .feat-left{
 
+}
+.feat-left .feat-img{
+	max-width: 380px;
+}
+.feat-right .feat-img{
+	float: right;
+	max-width: 250px;
 }
 .feat-left img{
 	float: left;
@@ -314,7 +328,7 @@ nav a:hover{
 }
 .feat-left .feat-copy{
 	float: left;
-	width: 460px;
+	max-width: 460px;
 	margin: 8px 0 0 0;
 }
 
@@ -327,7 +341,7 @@ nav a:hover{
 }
 .feat-right .feat-copy{
 	float: left;
-	width: 460px;
+	max-width: 460px;
 	margin: 22px 0 0 0;
 }
 
@@ -522,4 +536,14 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
 #contact-form .button{
 	float: right;
 	margin: 0 10px 0 0;
+}
+
+/* ========================================================= Media Q ===*/
+
+@media (min-width: 1024px) {
+	.container {max-width: 960px;}
+}
+/* ========================================================= 1280 ===*/
+@media (min-width: 1280px) {
+	.container {max-width: 960px;}
 }
