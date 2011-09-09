@@ -150,7 +150,7 @@
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
 	</script>
-	<script language="JavaScript" type="text/javascript" src="//assets.winespectator.com/wso/js/s_code_wsmobile.js"></script>
+	<script language="JavaScript" type="text/javascript" src="//assets.winespectator.com/wso/js/s_code_wsmobile_fpc.js"></script> 
 	<script language="JavaScript" type="text/javascript"><!--
 	s.pageName="Guide to Napa Valley"  //Page name goes here
 	s.channel="appsite" // Numbers all grouped in this channel
