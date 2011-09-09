@@ -10,8 +10,8 @@
 	<title>Page Not Found - 404 | Wine Spectator Apps</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/libs/modernizr-1.7.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
@@ -33,7 +33,7 @@
 	
 </header>
 
-<div class="container" id="home">
+<div class="container">
 <div class="page">
 	
 	<div class="content">

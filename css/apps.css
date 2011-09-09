@@ -400,7 +400,8 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
 }
 /* ========================================================= 404 ===*/
 #error404{
-	margin: -123px 0 0 279px;
+	margin: 0 auto;
+	max-width: 100%; height: auto;
 }
 /* ========================================================= Footer ===*/
 footer{
@@ -581,6 +582,9 @@ footer p{
 	}
 	#social-links{
 		padding: 7px 0 0 10px;
+	}
+	#error404{
+		margin: -123px 0 0 279px;
 	}
 }
 /* -----------
