@@ -20,122 +20,105 @@
 
 <header>
 	<nav>
-	<div class="container">
-		<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
-		<ul>
-			<li><a href="about.php" title="">About</a></li>
-			<li><a href="contact.php" title="">Contact</a></li>
-		</ul>
+		<div class="container">
+			<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
+			<ul>
+				<li><a href="about.php" title="">About</a></li>
+				<li><a href="contact.php" title="">Contact</a></li>
+			</ul>
 		</div><!--/container-->
-		<div class="clear"></div>
 	</nav>
-	
-	<img src="img/napavalley/teaser.png" id="teaser"/>
-	
+	<div class="container">
+		<div class="content">
+			<div class="one_full" style="float:none;">
+				<img src="img/napavalley/teaser.png" id="teaser"/>
+			</div><!--/one_full-->
+		</div><!--/one_full-->
+	</div><!--/container-->
 </header>
 
 <div class="container">
-<div id="page" class="app-page">
+<div class="page" class="app-page">
 	
-	<div id="intro">
-		<div id="intro-copy">
+	<div class="content">
+		<div class="two_third">
 			<h2>Wine Spectator's Guide to Napa Valley</h1>
-			<p>Discover the best of this spectacular California wine region with our innovative app on iPad. Make the most of your travels with our editors&rsquo; picks for the top places to stay, dine, taste and visit. Learn more about Napa Valley with Wine Spectator&rsquo;s rich articles, beautiful photographs, food-matching tips and reviews of hundreds of Napa&rsquo;s greatest wines.</p>
-		</div><!--/intro-copy-->
-		<div id="buy">
+			<p class="last">Discover the best of this spectacular California wine region with our innovative app on iPad. Make the most of your travels with our editors&rsquo; picks for the top places to stay, dine, taste and visit. Learn more about Napa Valley with Wine Spectator&rsquo;s rich articles, beautiful photographs, food-matching tips and reviews of hundreds of Napa&rsquo;s greatest wines.</p>
+		</div><!--/two_third-->
+		<div class="one_third" id="price">
 			<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="img/appstore.png" id="appstore"/></a>
-			<img src="img/napavalley/price.png" id="price"/>
-		</div><!--/buy-price-->
-		<div class="clear"></div>
-	</div><!--/intro-->
+			<span><img src="img/napavalley/price.png"/></span>
+		</div><!--/one_third-->
+	</div><!--/content-->
 	
 	<hr/>
 	
-	<ul id="feat">
-		<li class="feat-left">
-			<a id="fb" href="img/napavalley/map_b.png"><img src="img/napavalley/map_s.png"/></a>
-			<div class="feat-copy">
+	<div class="content" id="features">
+		<div class="two_third right">
 			<h3>Plan Your Trip to Napa</h3>
 			<p>Find the hotels, restaurants, wineries and attractions that suit your interests and budget. Wine Spectator&rsquo;s California editors reviewed every venue included to ensure that they deliver the quality our readers expect. The interactive map plots our recommendations to give you a geographic sense of place for each destination. And the convenient lists for each category can be quickly filtered by location, price range or other criteria. It&rsquo;s easy to plan your perfect itinerary!</p>
-			</div><!--/feat-copy-->
-			<div class="clear"></div>
-		</li>
-		<li class="feat-right">
-			<div class="feat-copy">
+		</div><!--/two_third-->
+		<div class="one_third">
+			<a id="fb" href="img/napavalley/map_b.png"><img src="img/napavalley/map_s.png"/></a>
+		</div><!--/one_third-->
+		
+		<div class="two_third">
 			<h3>A Napa Valley Primer</h3>
 			<p>Get to know Napa Valley and its star player, Cabernet Sauvignon, with in-depth articles on the region&rsquo;s history, geography, appellations and wines. Stunning photography created exclusively for the app gives you a unique view of the places that produce your favorite wines. Pop-up definitions quickly define complex wine terms, and top chefs explain perfect food pairings for Cabernet, with recipes.</p>
-			</div><!--/feat-copy-->
+		</div><!--/two_third-->
+		<div class="one_third">
 			<a id="fb" href="img/napavalley/content_b.png"><img src="img/napavalley/content_s.png"/></a>
-			<div class="clear"></div>
-		</li>
-		<li class="feat-left">
-			<a id="fb" href="img/napavalley/filter_b.png"><img src="img/napavalley/filter_s.png"/></a>
-			<div class="feat-copy"><br/>
+		</div><!--/one_third-->
+		
+		<div class="two_third right">
 			<h3>400+ Top-Scoring Napa Wines</h3>
 			<p>You&rsquo;ll enjoy special access to Wine Spectator reviews spotlighting the most impressive wines and most important producers across Napa&rsquo;s appellations. Our editors selected 240 diverse Cabernets&mdash;plus Chardonnays, Merlots, Sauvignon Blancs and Zinfandels&mdash;that you can filter and sort by score, price and vintage.</p>
-			</div><!--/feat-copy-->
-			<div class="clear"></div>
-		</li>
-	</ul>
+		</div><!--/two_third-->
+		<div class="one_third">
+			<a id="fb" href="img/napavalley/filter_b.png"><img src="img/napavalley/filter_s.png"/></a>
+		</div><!--/one_third-->
+	</div><!--/content-->
 	
 	<hr/>
-		<!--
-<ul id="quotes">
-			<li>
-				<blockquote><span class="bqstart">&#8220;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.<span class="bqend">&#8221;</span></blockquote>
-				<div class="quote-author">- Marvin Shanken</div>
-			</li>
-			<li>
-				<blockquote><span class="bqstart">&#8220;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span class="bqend">&#8221;</span></blockquote>
-				<div class="quote-author">- Tom Matthews</div>
-			</li>
-			<li class="last">
-				<blockquote><span class="bqstart">&#8220;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.<span class="bqend">&#8221;</span></blockquote>
-				<div class="quote-author">- Dana Nigro</div>
-			</li>
-			<div class="clear"></div>
-		</ul>
 	
-	<hr/>
--->
-
-<ul id="about-more">
+	<div class="content">
+		<div class="one_quarter">
+			<h3>Press</h3>
+			<p>Members of the media can contact Adam Ghahramani for press releases, high-resolution screen shots and other material about our apps.</p>
+			<a href="mailto:apps@winespectator.com" class="button">Email Us</a>
+		</div><!--/one_quarter-->
+		<div class="one_quarter">
+			<img src="img/press-icon.png" id="press-icon"/>
+		</div><!--/one_quarter-->
+		<div id="vert-hr"></div>
+		<div class="one_quarter">
+			<h3>Site Badge</h3>
+			<p>Let customers know that Wine Spectator has recommended your business in our app. Add this badge to your website.</p>
+			<a href="site-badge.php" class="button">Get your Badge</a>
+		</div><!--/one_quarter-->
+		<div class="one_quarter">
+			<img src="img/badge-icon.png" id="badge-ribbon"/>
+		</div><!--/one_quarter-->
+	</div><!--/content-->
 		<!--
-<li>
 			<span>
 			<h3>Press</h3>
 			<p>Members of the media can download press releases, high-resolution screen shots and other material about our apps.</p>
 			<a href="press.php" class="button">View the Press Kit</a>
 			</span>
 			<img src="img/press-icon.png"/>
-		</li>
--->
-		<li>
-			<span>
-			<h3>Press</h3>
-			<p>Members of the media can contact Adam Ghahramani for press releases, high-resolution screen shots and other material about our apps.</p>
-			<a href="mailto:apps@winespectator.com" class="button">Email Us</a>
-			</span>
-			<img src="img/press-icon.png"/>
-		</li>
-		<li>
-			<span>
-			<h3>Site Badge</h3>
-			<p>Let customers know that Wine Spectator has recommended your business in our app. Add this badge to your website.</p>
-			<a href="site-badge.php" class="button">Get your Badge</a>
-			</span>
-			<img src="img/badge-icon.png" id="badge-ribbon"/>
-		</li>
-	</ul>
-	<div class="clear"></div>
+		-->
 	<hr/>
-	
-	<div id="final">
-		<img src="img/napavalley/plane.png" id="plane"/>
-		<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="img/appstore.png" id="button"/></a>
-		<p>And check out our <a href="vintagechart.php">other app</a>.</p>
-		<div class="clear"></div>
-	</div><!--/final-->
+
+	<div class="content">
+		<div class="one_half">
+			<img src="img/napavalley/plane.png" id="plane"/>
+		</div><!--/one_half-->
+		<div class="one_half" id="last-buy">
+			<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="img/appstore.png" id="button"/></a>
+			<p>And check out our <a href="vintagechart.php">other app</a>.</p>
+		</div><!--/one_half-->
+	</div><!--/content-->
 	
 </div><!--/page-->
 

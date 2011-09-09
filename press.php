@@ -17,38 +17,33 @@
 </head>
 <body>
 
-<header>
-	<nav>
+	<header>
+		<nav>
+		<div class="container">
+			<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
+			<ul>
+				<li><a href="about.php" title="">About</a></li>
+				<li><a href="contact.php" title="">Contact</a></li>
+			</ul>
+			</div><!--/container-->
+			<div class="clear"></div>
+		</nav>
+	</header>
+
 	<div class="container">
-		<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
-		<ul>
-			<li><a href="about.php" title="">About</a></li>
-			<li><a href="contact.php" title="">Contact</a></li>
-		</ul>
-		</div><!--/container-->
-		<div class="clear"></div>
-	</nav>
 	
+		<div class="page">
+			<div class="content">
+				<h2>Press</h1>
+				<p>Members of the media can download press releases, high-resolution screen shots and other material about our apps. For questions or to arrange interviews, please contact Adam Ghahramani</p>
+			</div><!--/content-->
+		</div><!--/page-->
 	
-</header>
-
-<div class="container" id="home">
-<div id="page">
-	
-	<div id="intro">
-		<h2>Press</h1>
-		<p>Members of the media can download press releases, high-resolution screen shots and other material about our apps. For questions or to arrange interviews, please contact Adam Ghahramani</p>
-	</div><!--/intro-->
-	
-<div class="clear"></div>
-	
-</div><!--/page-->
-
-	<footer>
-		<p>&copy; 2011 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
-	</footer>
-	
-</div><!--/container-->
+		<footer>
+			<p>&copy; 2011 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
+		</footer>
+		
+	</div><!--/container-->
 
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>

@@ -27,30 +27,20 @@
 			<li><a href="about.php" title="">About</a></li>
 			<li><a href="contact.php" title="">Contact</a></li>
 		</ul>
-		</div><!--/container-->
-		<div class="clear"></div>
+	</div><!--/container-->
 	</nav>
 	
 	
 </header>
 
 <div class="container" id="home">
-<div id="page">
+<div class="page">
 	
-	<div id="intro">
+	<div class="content">
 		<h2>404 Not Found</h2>
 		<p>Sorry, but the page you were trying to view does not exist.</p>
-		<img src="img/error.png" id="error-img"/>
-	   <!--
-<script>
-	    var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),
-	        GOOG_FIXURL_SITE = location.host;
-	    </script>
-	    <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
--->
-	</div><!--/intro-->
-	
-<div class="clear"></div>
+		<img src="img/error.png" id="error404"/>
+	</div><!--/content-->
 	
 </div><!--/page-->
 

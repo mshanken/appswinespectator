@@ -25,30 +25,28 @@
 			<li><a href="about.php" title="">About</a></li>
 			<li><a href="contact.php" title="">Contact</a></li>
 		</ul>
-		</div><!--/container-->
-		<div class="clear"></div>
+	</div><!--/container-->
 	</nav>
 	
 	
 </header>
 
 <div class="container" id="home">
-<div id="page">
+<div class="page">
 	
-	<div id="intro">
+	<div class="content">
 		<h2>Site Badge</h1>
 		<p>Let customers know that Wine Spectator has recommended your business. As long as your establishment is listed in the most recent available version of Wine Spectator&rsquo;s Guide to Napa Valley app, you can display this badge on your website.</p>
 		<p><strong>Instructions:</strong> Copy and paste the code shown to the right of the badge to your web site.</p>
-	</div><!--/intro-->
+	</div><!--/content-->
 	
 	<hr/>
 	
-	<div id="badge">
+	<div class="content" id="badge">
 		<img src="img/badge/guide-to-napa-valley-200.png"/>
 		<textarea onfocus="$(this).select()">&lt;a href=&quot;http://apps.winespectator.com/guide-to-napa-valley?utm_source=site_badge&amp;utm_medium=badge&amp;utm_campaign=napa_badge&quot;&gt;
 &lt;img src=&quot;http://apps.winespectator.com/badge/guide-to-napa-valley-200.png&quot; width=&quot;200&quot; height=&quot;201&quot; alt=&quot;Appearing in the Wine Spectator&#39;s Guide to Napa Valley App&quot; title=&quot;Appearing in the Wine Spectator&#39;s Guide to Napa Valley App&quot; /&gt;
 &lt;/a&gt;</textarea>
-		<div class="clear"></div>
 	</div>
 
 	

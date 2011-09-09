@@ -17,56 +17,50 @@
 </head>
 <body id="home">
 
-<header>
-	<nav>
+	<header>
+		<nav>
+		<div class="container">
+			<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
+			<ul>
+				<li><a href="about.php" title="">About</a></li>
+				<li><a href="contact.php" title="">Contact</a></li>
+			</ul>
+			</div><!--/container-->
+		</nav>
+	</header>
+
 	<div class="container">
-		<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
-		<ul>
-			<li><a href="about.php" title="">About</a></li>
-			<li><a href="contact.php" title="">Contact</a></li>
-		</ul>
-		</div><!--/container-->
-		<div class="clear"></div>
-	</nav>
-</header>
-
-<div class="container">
-<div id="page">
+		<div class="page">
+			<div class="content">
+					
+				<div class="one_half copy">
+					<h3>Wine Spectator's Guide to Napa Valley</h3>
+					<p>Discover the best of this spectacular California wine region. Whether you&rsquo;re planning a trip or are a lover of Napa&rsquo;s legendary Cabernets, Wine Spectator&rsquo;s Guide to Napa Valley on iPad gives you our editors&rsquo; top recommendations on where to stay, where to dine, which wineries to visit and what to drink.</p>
+					<a href="guide-to-napa-valley.php"><span class="button">Learn More &raquo;</span></a>
+				</div><!--/one_half-->
+				<div class="one_half">
+					<a href="guide-to-napa-valley.php"><img src="img/ipad-napa.png"/></a>
+				</div><!--/one_half-->
+			</div><!--/content-->
+			<hr/>
+			<div class="content">
+				<div class="one_half right copy">
+					<h3>VintageChart+</h3>
+					<p>Make smarter decisions when faced with unfamiliar wines. Wine Spectator&rsquo;s free VintageChart+ smartphone apps let you easily compare the quality of wines from different years for more than 50 top regions and varietals so you can find the best vintage to drink now. Our editors rate each vintage, recommend when to drink the wines and describe the growing season&rsquo;s impact on the wines&rsquo; character.</p>
+					<a href="vintagechart.php"><span class="button">Learn More &raquo;</span></a>
+				</div><!--/one_half-->
+				<div class="one_half">
+					<a href="vintagechart.php">
+						<img src="img/iphone-vintage2.png"/>
+					</a>
+				</div><!--/one_half-->
+			</div><!--/content-->
+		</div><!--/page-->
 	
-	<ul id="feat">
-		<li class="feat-left">
-			<div class="feat-img"><a href="guide-to-napa-valley.php"><img src="img/ipad-napa.png"/></div>
-			<div class="feat-copy">
-			<h3>Wine Spectator's Guide to Napa Valley</h3>
-			<p>Discover the best of this spectacular California wine region. Whether you&rsquo;re planning a trip or are a lover of Napa&rsquo;s legendary Cabernets, Wine Spectator&rsquo;s Guide to Napa Valley on iPad gives you our editors&rsquo; top recommendations on where to stay, where to dine, which wineries to visit and what to drink.</p>
-			<span class="button">Learn More &raquo;</span>
-			</div><!--/feat-copy-->
-			</a>
-			<div class="clear"></div>
-		</li>
-		<li><hr/></li>
-		<li class="feat-right">
-			<a href="vintagechart.php">
-			<div class="feat-copy">
-			<h3>VintageChart+</h3>
-			<p>Make smarter decisions when faced with unfamiliar wines. Wine Spectator&rsquo;s free VintageChart+ smartphone apps let you easily compare the quality of wines from different years for more than 50 top regions and varietals so you can find the best vintage to drink now. Our editors rate each vintage, recommend when to drink the wines and describe the growing season&rsquo;s impact on the wines&rsquo; character.</p>
-			<span class="button">Learn More &raquo;</span>
-			</div><!--/feat-copy-->
-			<div class="feat-img"><img src="img/iphone-vintage2.png"/></a></div>
-			<div class="clear"></div>
-		</li>
-	</ul>
-	
-<div class="clear"></div>
-	
-</div><!--/page-->
-
-	<footer>
-		<p>&copy; 2011 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
-	</footer>
-	
-</div><!--/container-->
-
+		<footer>
+			<p>&copy; 2011 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
+		</footer>
+	</div><!--/container-->
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="https://s3.amazonaws.com/toolkit.mshanken.com/elements/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
