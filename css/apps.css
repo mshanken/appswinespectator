@@ -212,10 +212,7 @@ nav a:hover{
 .napa #price span{
 	margin: 0 0 0 43px;
 }
-.napa #price{
-	margin: 85px 0 0 15px;
-	float: left;
-}
+
 #app #plane{
 	max-width: 100%; height: auto;
 }
@@ -237,10 +234,6 @@ nav a:hover{
 /* -----------
  -- Badge --
 ----------- */
-#badge img{
-	float: left;
-	margin: 0 35px 0 130px;
-}
 #badge textarea{
 	border-radius: 4px;
 	border: 1px solid #ccc;
@@ -254,7 +247,7 @@ nav a:hover{
 	margin: 12px 0 0;
 	padding: 10px;
 	resize: none;
-	width: 360px; height: 160px;
+	width: 216px; height: 276px;
 }
 /* ========================================================= Vintage Chart ===*/
 .vintagechart header{
@@ -419,7 +412,7 @@ footer p{
 	margin: 0;
 }
 
-/* ========================================================= MediaQueries ===*/
+/* ========================================================= Media Queries ===*/
 /* -----------
  -- 480px --
 ----------- */
@@ -429,6 +422,9 @@ footer p{
 	}
 	input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select, .uneditable-input {
 		width: 390px; /*XXX*/
+	}
+	#badge textarea{
+		width: 378px; height: 160px;
 	}
 }
 /* -----------
@@ -477,6 +473,10 @@ footer p{
 		float: left;
 		margin: 5px 0 0 122px;
 	}
+	#badge img{
+		float: left;
+		margin: 0 35px 0 31px;
+	}
 	.vintagechart #price{
 		margin: 16px 0 0 25px;
 		float: left;
@@ -496,6 +496,9 @@ footer p{
 	}
 	input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select, .uneditable-input {
 		width: 399px; /*XXX*/
+	}
+	#badge textarea{
+		width: 360px; height: 160px;
 	}
 }
 /* -----------
@@ -527,6 +530,9 @@ footer p{
 	}
 	.napa #badge-ribbon{
 		margin: -31px 0 0 34px;
+	}
+	#badge img{
+		margin: 0 35px 0 184px;
 	}
 	#app #plane{
 		margin: -37px 0 0 -4px;
