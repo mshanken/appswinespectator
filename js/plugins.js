@@ -22,10 +22,10 @@ yepnope.addPrefix('amazon', function(resourceObj) {
 
 // Jquery
 yepnope([{
-	load: '//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js',
+	load: '//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js',
 	complete: function () {
 		if (!window.jQuery) {
-			yepnope('amazon!toolkit/js/jquery-1.6.2.min.js');
+			yepnope('amazon!toolkit/js/jquery.min.js');
 		}
 	}
 }, {
