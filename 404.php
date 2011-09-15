@@ -17,9 +17,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/style.css">
-	<script src="js/libs/modernizr-1.7.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+	<script src="//s3.amazonaws.com/toolkit.mshanken.com/toolkit/js/modernizr-2.0.6.min.js"></script>
 </head>
 <body>
 
@@ -55,8 +53,6 @@
 </div><!--/container-->
 
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
 	<script src="js/plugins.js"></script>
 	<!--[if lt IE 7 ]>
 	<script src="js/libs/dd_belatedpng.js"></script>

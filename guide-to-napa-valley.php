@@ -17,8 +17,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
-	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/elements/js/libs/modernizr-2.0.6.min.js"></script>
+	<script src="//s3.amazonaws.com/toolkit.mshanken.com/toolkit/js/modernizr-2.0.6.min.js"></script>
 </head>
 <body id="app" class="napa">
 
@@ -132,13 +131,7 @@
 	
 </div><!--/container-->
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="https://s3.amazonaws.com/toolkit.mshanken.com/elements/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-	<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/elements/js/plugins.js"></script>
-	<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/elements/js/script.js"></script>
-	<script src="js/script.js"></script>
-	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script src="js/plugins.js"></script>
 	<!--[if lt IE 7 ]>
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>

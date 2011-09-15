@@ -1,6 +1,4 @@
-@import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/css/elements.min.css");
+@import url("https://s3.amazonaws.com/toolkit.mshanken.com/toolkit/css/elements.min.css");
 @import url("apps.css");
-@import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/tooltip/style.css");
-@import url("https://s3.amazonaws.com/toolkit.mshanken.com/elements/modal/style.css");
 @import url("http://fonts.googleapis.com/css?family=Actor");
 @import url("http://fonts.googleapis.com/css?family=Lato:400,900");
