@@ -47,9 +47,16 @@
 	<hr/>
 	
 	<div class="content" id="badge">
-		<img src="img/badge/guide-to-napa-valley-200.png"/>
-		<textarea onfocus="$(this).select()">&lt;a href=&quot;http://apps.winespectator.com/guide-to-napa-valley?utm_source=site_badge&amp;utm_medium=badge&amp;utm_campaign=napa_badge&quot;&gt;
-&lt;img src=&quot;http://apps.winespectator.com/badge/guide-to-napa-valley-200.png&quot; width=&quot;200&quot; height=&quot;201&quot; alt=&quot;Appearing in the Wine Spectator&#39;s Guide to Napa Valley App&quot; title=&quot;Appearing in the Wine Spectator&#39;s Guide to Napa Valley App&quot; /&gt;
+		<img src="img/badge/guide-to-napa-valley-dark-200.png"/>
+		<textarea onfocus="$(this).select()">&lt;a href=&quot;http://apps.winespectator.com/guide-to-napa-valley?utm_source=site_badge&amp;utm_medium=badge_dark&amp;utm_campaign=napa_badge&quot;&gt;
+&lt;img src=&quot;http://apps.winespectator.com/badge/guide-to-napa-valley-dark-200.png&quot; width=&quot;200&quot; height=&quot;201&quot; alt=&quot;Appearing in the Wine Spectator's Guide to Napa Valley App&quot; title=&quot;Appearing in the Wine Spectator's Guide to Napa Valley App&quot; /&gt;
+&lt;/a&gt;</textarea>
+	</div>
+	
+	<div class="content" id="badge">
+		<img src="img/badge/guide-to-napa-valley-light-200.png"/>
+		<textarea onfocus="$(this).select()">&lt;a href=&quot;http://apps.winespectator.com/guide-to-napa-valley?utm_source=site_badge&amp;utm_medium=badge_light&amp;utm_campaign=napa_badge&quot;&gt;
+&lt;img src=&quot;http://apps.winespectator.com/badge/guide-to-napa-valley-light-200.png&quot; width=&quot;200&quot; height=&quot;201&quot; alt=&quot;Appearing in the Wine Spectator's Guide to Napa Valley App&quot; title=&quot;Appearing in the Wine Spectator's Guide to Napa Valley App&quot; /&gt;
 &lt;/a&gt;</textarea>
 	</div>
 
