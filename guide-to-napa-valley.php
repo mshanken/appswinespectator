@@ -17,7 +17,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/style.css">
-	<script src="//s3.amazonaws.com/toolkit.mshanken.com/toolkit/js/modernizr-2.0.6.min.js"></script>
+	<script src="//s3.amazonaws.com/toolkit.mshanken.com/toolkit/js/modernizr.min.js"></script>
 </head>
 <body id="app" class="napa">
 
