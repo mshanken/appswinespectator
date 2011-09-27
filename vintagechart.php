@@ -17,7 +17,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/style.css">
-	<script src="//s3.amazonaws.com/toolkit.mshanken.com/toolkit/js/modernizr.min.js"></script>
+	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
 </head>
 <body id="app" class="vintagechart">
 
@@ -122,7 +122,7 @@
 	
 </div><!--/container-->
 
-	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
 	<!--[if lt IE 7 ]>
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>

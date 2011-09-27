@@ -17,7 +17,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/style.css">
-	<script src="//s3.amazonaws.com/toolkit.mshanken.com/toolkit/js/modernizr.min.js"></script>
+	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
 </head>
 <body>
 
@@ -53,7 +53,7 @@
 </div><!--/container-->
 
 
-	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
 	<!--[if lt IE 7 ]>
 	<script src="js/libs/dd_belatedpng.js"></script>
 	<script> DD_belatedPNG.fix('img, .png_bg');</script>
