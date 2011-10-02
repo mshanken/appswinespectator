@@ -1,19 +1,17 @@
 <!doctype html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>About | Wine Spectator Apps</title>
 	<meta name="description" content="">
-	<meta name="author" content="">
-	<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0;'>
+	<meta name="author" content="M. Shanken Communications, Inc.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/style.css">
@@ -21,33 +19,29 @@
 </head>
 <body>
 
-<header>
-	<nav>
-	<div class="container">
-		<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
-		<ul>
-			<li class="active"><a href="about.php" title="">About</a></li>
-			<li><a href="contact.php" title="">Contact</a></li>
-		</ul>
-	</div><!--/container-->
-	</nav>
-	
-	
-</header>
+	<header>
+		<nav>
+			<div class="container">
+				<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
+				<ul>
+					<li><a href="about.php" title="About">About</a></li>
+					<li><a href="http://support.mshanken.com/customer/portal/topics/81338-guide-to-napa-valley/articles" title="Support">Support</a></li>
+					<li><a href="contact.php" title="Contact">Contact</a></li>
+				</ul>
+			</div><!--/container-->
+		</nav>
+	</header>
 
-<div class="container" id="home">
-<div class="page">
-	<div class="content">
-		<h2>About Wine Spectator Apps</h2>
-		<p>Wine Spectator is the world&rsquo;s leading authority on wine, delivering expert reviews of more than 15,000 wines each year, including tasting notes, scores and recommendations on when to drink. Our all-star team of senior editors has spent more than 140 years collectively covering the world of wine, from the vineyard to the table. Our readers are passionate, well-informed, eager to learn and enthusiastic about sharing their experiences.</p>
-		<p>Our app team is dedicated to bringing Wine Spectator&rsquo;s expertise, educational resources and handy interactive tools to desktop, tablet and mobile platforms. The free VintageChart+ was our first entrance into the smartphone app market, providing an easy-to-use reference to vintage quality. We followed up with our Guide to Napa Valley for the iPad, a trip planner with editors&rsquo; recommendations on the region&rsquo;s best places to visit and top-scoring wines. We&rsquo;ve got more exciting products on the way&hellip;.</p>
-		<p class="last">Anchored by Wine Spectator magazine, a print publication that reaches more than 3 million readers worldwide, the brand also encompasses WineSpectator.com&#8212;the web&rsquo;s most comprehensive wine site&#8212;as well as Wine Spectator Mobile and signature wine-tasting events such as the Wine Experience and the Grand Tour. Parent company M. Shanken Communications also publishes Cigar Aficionado, Food Arts, Market Watch, Malt Advocate and Impact.</p>
-	</div><!--/content-->	
-	
-	<!--
-	
+	<div class="container" id="home">
+		<div class="page">
+			<div class="content">
+				<h2>About Wine Spectator Apps</h2>
+				<p>Wine Spectator is the world&rsquo;s leading authority on wine, delivering expert reviews of more than 15,000 wines each year, including tasting notes, scores and recommendations on when to drink. Our all-star team of senior editors has spent more than 140 years collectively covering the world of wine, from the vineyard to the table. Our readers are passionate, well-informed, eager to learn and enthusiastic about sharing their experiences.</p>
+				<p>Our app team is dedicated to bringing Wine Spectator&rsquo;s expertise, educational resources and handy interactive tools to desktop, tablet and mobile platforms. The free VintageChart+ was our first entrance into the smartphone app market, providing an easy-to-use reference to vintage quality. We followed up with our Guide to Napa Valley for the iPad, a trip planner with editors&rsquo; recommendations on the region&rsquo;s best places to visit and top-scoring wines. We&rsquo;ve got more exciting products on the way&hellip;.</p>
+				<p class="last">Anchored by Wine Spectator magazine, a print publication that reaches more than 3 million readers worldwide, the brand also encompasses WineSpectator.com&#8212;the web&rsquo;s most comprehensive wine site&#8212;as well as Wine Spectator Mobile and signature wine-tasting events such as the Wine Experience and the Grand Tour. Parent company M. Shanken Communications also publishes Cigar Aficionado, Food Arts, Market Watch, Malt Advocate and Impact.</p>
+			</div><!--/content-->	
+<!--
 	<hr/>
-	
 	<div class="content">
 		<h3>The Team</h3>
 		<ul id="team">
@@ -72,13 +66,13 @@
 		</ul>
 	</div>
 -->	
-</div><!--/page-->
+		</div><!--/page-->
 
-	<footer>
-		<p>&copy; 2011 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
-	</footer>
+		<footer>
+			<p>&copy; 2011 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
+		</footer>
 	
-</div><!--/container-->
+	</div><!--/container-->
 
 	<script src="js/script.js"></script>
 	<!--[if lt IE 7 ]>

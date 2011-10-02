@@ -7,6 +7,7 @@ a, a:visited, a:active {
 	color:#55A4B7;
 	-webkit-transition:all .2s ease-out;
 	-moz-transition:all .2s ease-out;
+	-o-transition:all .2s ease-out;
 	transition:all .2s ease-out;
 }
 a:hover {
@@ -67,17 +68,6 @@ li{
 	font-weight: 400;
 	text-shadow: 0 1px 0 #fff;
 }
-hr{
-	border-bottom: 1px solid #ccc;
-	box-shadow: 0 1px 0 #fff;
-	margin: 0;
-}
-
-.last{margin: 0 !important;}
-.right{
-	float: right;
-}
-
 /* ========================================================= Header ===*/
 header{
 	background: none;
@@ -99,7 +89,6 @@ nav{
 }
 nav h1{
 	color: #000;
-	font-family: Georgia;
 	margin: 0 auto;
 	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.2);
 	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.2);
@@ -113,7 +102,7 @@ nav ul{
 	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.2);
 	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.2);
 	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-	width: 118px;
+	width: 185px;
 }
 nav li{
 	display: inline;
@@ -133,8 +122,8 @@ nav a:hover{
 .page{
 	background-color: #fafafa;
 	border-radius: 10px;
-	box-shadow: 0 5px 10px rgba(0,0,0,0.3), 0 0 0 1px #fff inset;
-	box-shadow: 0 5px 10px rgba(0,0,0,0.3), 0 0 0 1px #fff inset;
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.3), 0 0 0 1px #fff inset;
+	-moz-box-shadow: 0 5px 10px rgba(0,0,0,0.3), 0 0 0 1px #fff inset;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.3), 0 0 0 1px #fff inset;
 	position: relative;
 	z-index: 3;
@@ -212,7 +201,6 @@ nav a:hover{
 .napa #price span{
 	margin: 0 0 0 43px;
 }
-
 #app #plane{
 	max-width: 100%; height: auto;
 }
@@ -274,8 +262,6 @@ nav a:hover{
 	display: block;
 	margin: 0 0 10px 23px;
 }
-
-
 /* -----------
  -- quotes --
 ----------- */
@@ -358,9 +344,9 @@ blockquote{
 }
 #team li img{
 	border-radius: 4px;
-	-webkit-box-shadow: 0 -1px 0px rgba(0,0,0,0.6);
-	-moz-box-shadow: 0 -1px 0px rgba(0,0,0,0.6);
-	box-shadow: 0 -1px 0px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 -1px 0 rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 -1px 0 rgba(0,0,0,0.6);
+	box-shadow: 0 -1px 0 rgba(0,0,0,0.6);
 	position: relative;
 	z-index: -1;
 }
@@ -396,7 +382,8 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
 }
 #social-links li p{
 	display: inline-block;
-	margin: -2px 0 0 10px;
+	margin: 0 0 0 10px;
+	line-height: 1.0;
 }
 /* ========================================================= 404 ===*/
 #error404{
@@ -412,7 +399,12 @@ footer p{
 	font-size: 12px;
 	margin: 0;
 }
-
+/* ========================================================= Utlities ===*/
+hr{
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0 1px 0 #fff;
+	margin: 0;
+}
 /* ========================================================= Media Queries ===*/
 /* -----------
  -- 480px --
