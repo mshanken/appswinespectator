@@ -1,17 +1,48 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
-
-
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
-
-/* THANKS */
-  Names (& URL): 
+	Director of Technology: Mike Turro
+	Site: http://mturro.com/
+	Twitter: @MTurro
+	Location: New York, NY
+	
+	Director of Internet Strategy: David VanHook
+	Twitter: @winehook
+	Location: Chapel Hill, NC
+	
+	Lead UX Strategist: Christopher Kennedy
+	Site: http://kennedysgarage.com
+	Twitter: @KennedysGarage
+	Location: New York, NY
+	
+	Information & Software Architect: David Chan
+	Twitter: @Chandeeland
+	Location: New York, NY
+	
+	Mobile & Tablet Developer: Richard Owens
+	Twitter: @rjowens
+	Location: New York, NY
+	
+	Front-end Developer: Stephen Cannizzaro
+	Site: http://www.swcimaging.com
+	Twitter: @swcimaging
+	Location: New York, NY
+	
+	System Administrator: Sergey Zhukov
+	Twitter: @SergeyZ8605
+	Location: New York, NY
+	
+	Front-end Developer: Edison Leon
+	Site: http://www.elwebdeveloper.net
+	Twitter: @elwebdeveloper
+	Location: New York, NY
+	
+	Developer: Anu Udyaver
+	Location: New York, NY
+	
+	Junior PHP Developer: Nicholes Gauthier
+	Site: http://nicksglobal.com
+	Twitter: @NicksGlobal
+	Location:  New York, NY
 
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software:
+	Standards: HTML5, CSS3
+	Components: Modernizr, yepnope, jQuery
