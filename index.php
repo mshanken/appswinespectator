@@ -35,7 +35,6 @@
 				<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
 				<ul>
 					<li><a href="about.php" title="About">About</a></li>
-					<li><a href="http://support.mshanken.com/customer/portal/topics/81338-guide-to-napa-valley/articles" title="Support">Support</a></li>
 					<li><a href="contact.php" title="Contact">Contact</a></li>
 				</ul>
 			</div><!--/container-->
