@@ -11,7 +11,7 @@ yepnope.addPrefix('amazon', function(resourceObj) {
 
 // Jquery
 yepnope([{
-	load: '//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js',
+	load: '//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.js',
 	complete: function () {
 		if (!window.jQuery) {
 			yepnope('amazon!toolkit/js/jquery.min.js');
