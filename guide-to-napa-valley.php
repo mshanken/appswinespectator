@@ -16,6 +16,9 @@
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
+	<link href="https://s3.amazonaws.com/toolkit.mshanken.com/toolkit/plugins/respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+    <link href="cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+    <script src="cross-domain/respond.proxy.js"></script>
 	<script>
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-23484466-5']);
