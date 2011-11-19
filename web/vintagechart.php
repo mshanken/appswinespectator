@@ -14,7 +14,9 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/elements.css">
+
+	<link rel="stylesheet" href="css/apps.css">
 	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
 	<link href="https://s3.amazonaws.com/toolkit.mshanken.com/toolkit/plugins/respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
     <link href="cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
@@ -124,27 +126,11 @@
 		
 	</div><!--/container-->
 
-	<script src="js/script.js"></script>
+
 	<!--[if lt IE 7 ]>
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 	<![endif]-->
-	<script language="JavaScript" type="text/javascript" src="//assets.winespectator.com/wso/js/s_code_wsmobile_fpc.js"></script>  
-	<script language="JavaScript" type="text/javascript"><!--
-	s.pageName="VintageChart+"  //Page name goes here
-	s.channel="appsite" // Numbers all grouped in this channel
-	s.prop1=""
-	s.prop2=""
-	s.prop3=""
-	s.prop4=""
-	s.prop5=""
-	s.prop14=""
-	s.eVar1=""
-	s.campaign=""
-	s.events=""
-	s.products=""
-	s.purchaseID=""
-	var s_code=s.t();if(s_code)document.write(s_code)//-->
-	</script>
+
 </body>
 </html>
