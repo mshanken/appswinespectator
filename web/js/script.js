@@ -17,11 +17,6 @@ yepnope([
 	test: Modernizr.mq('only all'), // Testing if browser supports mq
 	nope: {
 		'respondJS' : 'amazon!js/respond.min.js'
-	},
-	callback: {
-		'respondJS' : function(url, result, key){
-			console.info('Loaded: respondJS');
-		}
 	}
 },
 {
