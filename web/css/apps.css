@@ -491,3 +491,18 @@ hr{
 @media screen and (min-width: 768px){
 
 }
+/* ----------
+ -- 1280px --
+---------- */
+@media screen and (min-width: 1280px){
+	.container {width: 1004px;}
+	.one_full {max-width: 924px;}
+	.three_quarter {max-width: 688px;}
+	.two_third {max-width: 610px;}
+	.one_half {max-width: 452px;}
+	.two_fifth {max-width: 360px;}
+	.one_third {max-width: 294px;}
+	.one_quarter {max-width: 216px;}
+	.one_fifth {max-width: 168px;}
+	.four_fifth {max-width: 736px;}
+}
