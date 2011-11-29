@@ -1,9 +1,11 @@
 html,body {
-	background-color: #f2f2f2;
+	background-color: #e6e6e6;
 	background-image: url(../img/bg.png);
+	background-repeat: repeat;
+	display: block;
 }
 /* ========================================================= Typography ===*/
-a, a:visited, a:active {
+a{
 	color:#55A4B7;
 	-webkit-transition:all .2s ease-out;
 	-moz-transition:all .2s ease-out;
@@ -15,7 +17,7 @@ a:hover {
 	text-decoration: underline;
 }
 p{
-	font-family: Lato;
+	font-family: 'Lato';
 	font-weight: 400;
 	font-size: 14px;
 	margin: 0 0 20px;
@@ -36,10 +38,10 @@ h1 img{
 }
 h1 span{
 	color: #333;
-	font-family: Lato;
+	font-family: 'Lato';
 	font-size: 25px;
 	font-weight: 700;
-	margin: 4px 0 0 10px;
+	margin: 9px 0 0 10px;
 	display: inline-block;
 	text-transform: uppercase;
 }
@@ -47,7 +49,7 @@ h2 {
 	color: #333;
 	font-size: 31px;
 	margin: 0 0 10px;
-	font-family: Lato;
+	font-family: 'Lato';
 	font-weight: 700;
 	-webkit-text-shadow: 0 1px 0 #fff;
 	-moz-text-shadow: 0 1px 0 #fff;
@@ -56,7 +58,7 @@ h2 {
 h3 {
 	color: #444b51;
 	font-size: 20px;
-	font-family: Lato;
+	font-family: 'Lato';
 	font-weight: 700;
 	margin: 0 0 5px;
 	-webkit-text-shadow: 0 1px 0 #fff;
@@ -64,7 +66,7 @@ h3 {
 	text-shadow: 0 1px 0 #fff;
 }
 li{
-	font-family: Lato;
+	font-family: 'Lato';
 	font-weight: 400;
 	text-shadow: 0 1px 0 #fff;
 }
@@ -89,20 +91,20 @@ nav{
 }
 nav h1{
 	color: #000;
+	float: left;
 	margin: 0 auto;
 	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.2);
 	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-	width: 224px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);	
 }
 nav ul{
+	float: right;
 	font-size: 15px;
 	margin: 12px auto 0;
 	padding: 0;
 	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.2);
 	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.2);
 	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-	width: 185px;
 }
 nav li{
 	display: inline;
@@ -137,8 +139,11 @@ nav a:hover{
 	margin: 0 auto;
 	max-width: 100%; height: auto;
 }
+#home .copy{
+	margin-top:  70px;
+}
 #home .button{
-	display: block;
+	display: inline-block;
 	margin: 0 0 20px;
 }
 /* ========================================================= Apps ===*/
@@ -151,7 +156,7 @@ nav a:hover{
 	-webkit-box-shadow: 0 10px 10px rgba(255, 255, 255, 0.8);
 	-moz-box-shadow: 0 10px 10px rgba(255, 255, 255, 0.8);
 	box-shadow: 0 10px 10px rgba(255, 255, 255, 0.8);
-	max-height:246px;
+	max-height:465px;
 }
 #teaser{
 	display: block;
@@ -168,6 +173,9 @@ nav a:hover{
 #home #feat a:hover .button{
 	background-color: #44b2cd;
 }
+#app #features .two_third, #app #features .one_third{
+		margin: 40px 10px;
+	}
 .button{
 	background-color: #55a4b7;
 	border: none;
@@ -190,9 +198,9 @@ nav a:hover{
 }
 .napa #price{
 	display: block;
-	float: none;
-	margin: 0 auto;
-	width: 189px
+	float: left;
+	margin: 34px 0 0 70px;
+	width: 189px;
 }
 .napa #appstore{
 	float: left;
@@ -217,7 +225,79 @@ nav a:hover{
 	padding-bottom: 0;
 }
 #press-icon, #badge-ribbon{
+	margin: 10px 0 0 22px;
+}
+#press-icon{
+	margin: 10px 0 0 22px;
+}
+
+
+.napa #price{
+	margin: 85px 0 0 15px;
+	float: left;
+}
+#app #last-buy{
+	float: left;
+	margin: 5px 0 0 122px;
+}
+
+
+#home .copy{
+	margin-top:  136px;
+}
+
+.napa #price{
+	margin: 43px 0 0 68px;
+}
+
+.napa #vert-hr{
+	border-right: 1px solid #ccc;
+	box-shadow: 1px 0 0 #fff;
+	height: 248px;
+	float: left;
+	margin: -30px 0 -30px -13px;
+}
+.napa #badge-ribbon{
+	margin: -31px 0 0 34px;
+}
+#badge img{
+	margin:0 35px 0 145px;
+}
+#app #plane{
+	margin: -37px 0 0 -4px;
+}
+#app #last-buy{
+	margin: 2px 0 0 67px;
+	width: 395px;
+}
+#app #last-buy img{
+	float: left;
+}
+#app #last-buy p{
+	margin: 20px 0 0 20px;
+	float: left;
+}
+.vintagechart #price{
+	margin: 60px 0 0 7px;
+	width: 305px;
+}
+.vintagechart  #appstore{
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 132px;
+}
+.vintagechart #html5{
+	float: left;
+	margin-bottom: 10px;
+	width: 132px;
+}
+.vintagechart #price #first-price{
 	display: none;
+	margin: 0;
+}
+.vintagechart  #price span{
+	margin: 0 0 0 78px;
 }
 /* -----------
  -- Badge --
@@ -229,7 +309,7 @@ nav a:hover{
 	-moz-box-shadow: 0 1px 0 #fff;
 	box-shadow: 0 1px 0 #fff;
 	font-size: 14px;
-	font-family: Lato;
+	font-family: 'Lato';
 	font-weight: 400;
 	line-height: 1.2;
 	margin: 12px 0 0;
@@ -237,6 +317,18 @@ nav a:hover{
 	resize: none;
 	width: 216px; height: 276px;
 }
+#badge-ribbon{
+		display: block;
+		margin: -31px 0 0 11px;
+	}
+	
+	#badge img{
+		float: left;
+
+	}
+	#badge textarea{
+		width: 360px; height: 160px;
+	}
 /* ========================================================= Vintage Chart ===*/
 .vintagechart header{
 	background-image: url("../img/vintagechart/header.png");
@@ -245,7 +337,11 @@ nav a:hover{
 	display: block;
 	float: none;
 	margin: 0 auto;
-	width: 189px
+	width: 289px;
+}
+.vintagechart #price{
+	margin: 64px 0 0 25px;
+	float: left;
 }
 .vintagechart  #appstore{
 	float: left;
@@ -260,7 +356,7 @@ nav a:hover{
 }
 .vintagechart  #price span{
 	display: block;
-	margin: 0 0 10px 23px;
+	margin: 0 0 10px 64px;
 }
 /* -----------
  -- quotes --
@@ -279,6 +375,7 @@ blockquote{
 	display: block;
 	font-size: 15px;
 	position: relative;
+	width: 288px;
 }
 #quotes p{
 	margin: 0;
@@ -315,50 +412,20 @@ blockquote{
     margin: 10px 0 0;
 }
 /* ========================================================= About ===*/
-/* -----------
- -- Team --
------------ */
-#team{
-	margin: 20px 0 0 25px;
-	padding: 0;
-}
-#team li{
-	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-	border: 4px solid #fff;
-	border-top: 5px solid #fff;
-	border-radius: 4px;
-	float: left;
-	list-style: none;
-	margin: 0 15px 30px;
-	width: 100px; height: 100px;
-}
-#team li span{
-	display: block;
-	border-radius: 4px;
-	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6) inset;
-	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6) inset;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6) inset;
-	width: 100px; height: 100px;
-}
-#team li img{
-	border-radius: 4px;
-	-webkit-box-shadow: 0 -1px 0 rgba(0,0,0,0.6);
-	-moz-box-shadow: 0 -1px 0 rgba(0,0,0,0.6);
-	box-shadow: 0 -1px 0 rgba(0,0,0,0.6);
-	position: relative;
-	z-index: -1;
-}
 /* ========================================================= Contact ===*/
 #contact-form{
+	border-right: 1px solid #ccc;
+	box-shadow: 1px 0 0 rgba(255,255,255,0.9);
 	color:#333;
+	float: left;
+	padding: 0 30px 0 0;
+	min-height: 170px;
 }
 #contact-form label{
-	width: 39px; /*XXX*/
+	width: 58px;
 }
 input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select, .uneditable-input {
-	width: 233px; /*XXX*/
+	width: 486px;
 }
 #contact-form .button{
 	float: right;
@@ -387,7 +454,7 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
 }
 /* ========================================================= 404 ===*/
 #error404{
-	margin: 0 auto;
+	margin: -123px 0 0 279px;
 	max-width: 100%; height: auto;
 }
 /* ========================================================= Footer ===*/
@@ -401,197 +468,26 @@ footer p{
 }
 /* ========================================================= Utlities ===*/
 hr{
-	border-bottom: 1px solid #ccc;
-	box-shadow: 0 1px 0 #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
 	margin: 0;
 }
-/* ========================================================= Media Queries ===*/
-/* -----------
+/* ========================================================= Structure ===*/
+/* ---------
+ -- 280px --
+--------- */
+@media screen and (min-width: 280px){
+
+}
+/* ---------
  -- 480px --
------------ */
-@media and screen (min-width: 480px) {
-	#app header{
-		max-height:299px;
-	}
-	input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select, .uneditable-input {
-		width: 390px; /*XXX*/
-	}
-	#badge textarea{
-		width: 378px; height: 160px;
-	}
+--------- */
+@media screen and (min-width: 480px){
+
 }
-/* -----------
+/* ---------
  -- 768px --
------------ */
-@media and screen (min-width: 768px) {
-	#app header{
-		max-height:437px;
-	}
-	nav h1{
-		float: left;
-	}
-	nav ul{
-		float: right;
-	}
-	#home .button{
-		display: inline-block;
-	}
-	#home .copy{
-		margin-top:  70px;
-	}
-	#app #features .one_third{
-		margin: 37px 0;
-	}
-	#press-icon{
-		display: block;
-		max-width: 100%;
-		height: auto;
-	}
-	.napa #vert-hr{
-		border-right: 1px solid #ccc;
-		box-shadow: 1px 0 0 #fff;
-		height: 271px;
-		float: left;
-		margin: -30px 0px -30px -3px;
-	}
-	#badge-ribbon{
-		display: block;
-		margin: -31px 0 0 11px;
-	}
-	.napa #price{
-		margin: 85px 0 0 15px;
-		float: left;
-	}
-	#app #last-buy{
-		float: left;
-		margin: 5px 0 0 122px;
-	}
-	#badge img{
-		float: left;
-		margin: 0 35px 0 31px;
-	}
-	.vintagechart #price{
-		margin: 16px 0 0 25px;
-		float: left;
-	}
-	#quotes .one_third{
-		width: 202px;
-	}
-	#social-links{
-		padding: 42px 0 0 10px;
-	}
-	#contact-form{
-		border-right: 1px solid #ccc;
-		box-shadow: 1px 0 0 rgba(255,255,255,0.9);
-		float: left;
-		padding: 0 30px 0 0;
-		min-height: 170px;
-	}
-	input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select, .uneditable-input {
-		width: 399px; /*XXX*/
-	}
-	#badge textarea{
-		width: 360px; height: 160px;
-	}
-}
-/* -----------
- -- 1024px --
------------ */
-@media and screen (min-width: 1024px) {
-	.container {max-width: 1024px;}
-	#app header{
-		max-height:465px;
-	}
-	#home .copy{
-		margin-top:  136px;
-	}
-	#app #features .two_third, #app #features .one_third{
-		margin: 40px 10px;
-	}
-	.napa #price{
-		margin: 43px 0 0 68px;
-	}
-	#press-icon{
-		margin: 10px 0 0 22px;
-	}
-	.napa #vert-hr{
-		border-right: 1px solid #ccc;
-		box-shadow: 1px 0 0 #fff;
-		height: 240px;
-		float: left;
-		margin: -30px 0px -30px -10px;
-	}
-	.napa #badge-ribbon{
-		margin: -31px 0 0 34px;
-	}
-	#badge img{
-		margin: 0 35px 0 184px;
-	}
-	#app #plane{
-		margin: -37px 0 0 -4px;
-	}
-	#app #last-buy{
-		margin: 2px 0 0 67px;
-		width: 395px;
-	}
-	#app #last-buy img{
-		float: left;
-	}
-	#app #last-buy p{
-		margin: 20px 0 0 20px;
-		float: left;
-	}
-	.vintagechart #price{
-		margin: 60px 0 0 7px;
-		width: 305px;
-	}
-	.vintagechart  #appstore{
-		float: left;
-		margin-bottom: 10px;
-		margin-right: 10px;
-		width: 147px;
-	}
-	.vintagechart #html5{
-		float: left;
-		margin-bottom: 10px;
-		width: 147px;
-	}
-	.vintagechart #price #first-price{
-		display: none;
-		margin: 0;
-	}
-	.vintagechart  #price span{
-		margin: 0 0 0 78px;
-	}
-	#quotes .one_third{
-		width: 288px;
-	}
-	#contact-form label{
-		width: 80px; /*XXX*/
-	}
-	input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select, .uneditable-input {
-		width: 474px; /*XXX*/
-	}
-	#social-links{
-		padding: 7px 0 0 10px;
-	}
-	#error404{
-		margin: -123px 0 0 279px;
-	}
-}
-/* -----------
- -- 1280px --
------------ */
-@media and screen (min-width: 1280px) {
-	.container {max-width: 1024px;}
-	.one_full {width: 924px;}
-	.three_quarter {width: 688px;}
-	.two_third {width: 610px;}
-	.one_half {width: 452px;}
-	.one_third {width: 294px;}
-	.one_quarter {width: 216px;}
-	
-	#app header{
-		max-height:465px;
-	}
+--------- */
+@media screen and (min-width: 768px){
+
 }

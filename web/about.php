@@ -14,15 +14,10 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	
-	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/elements.css">
+	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/core.min.css">
 	<link rel="stylesheet" href="css/apps.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,900">
-	
 	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
-	<link href="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-    <link href="cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
-    <script src="cross-domain/respond.proxy.js"></script>
 </head>
 <body>
 
@@ -45,33 +40,7 @@
 				<p>Wine Spectator is the world&rsquo;s leading authority on wine, delivering expert reviews of more than 15,000 wines each year, including tasting notes, scores and recommendations on when to drink. Our all-star team of senior editors has spent more than 140 years collectively covering the world of wine, from the vineyard to the table. Our readers are passionate, well-informed, eager to learn and enthusiastic about sharing their experiences.</p>
 				<p>Our app team is dedicated to bringing Wine Spectator&rsquo;s expertise, educational resources and handy interactive tools to desktop, tablet and mobile platforms. The free VintageChart+ was our first entrance into the smartphone app market, providing an easy-to-use reference to vintage quality. We followed up with our Guide to Napa Valley for the iPad, a trip planner with editors&rsquo; recommendations on the region&rsquo;s best places to visit and top-scoring wines. We&rsquo;ve got more exciting products on the way&hellip;.</p>
 				<p class="last">Anchored by Wine Spectator magazine, a print publication that reaches more than 3 million readers worldwide, the brand also encompasses WineSpectator.com&#8212;the web&rsquo;s most comprehensive wine site&#8212;as well as Wine Spectator Mobile and signature wine-tasting events such as the Wine Experience and the Grand Tour. Parent company M. Shanken Communications also publishes Cigar Aficionado, Food Arts, Market Watch, Malt Advocate and Impact.</p>
-			</div><!--/content-->	
-<!--
-	<hr/>
-	<div class="content">
-		<h3>The Team</h3>
-		<ul id="team">
-			<li><a class="tip" title="Christopher Kennedy - Lead UX Strategist"><span><img src="img/team/kennedy.png"/></span></a></li>
-			<li><a class="tip" title="Test"><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-			<li><a class="tip" title=""><span><img src="http://placehold.it/100x100"/></span></a></li>
-		</ul>
-	</div>
--->	
+			</div><!--/content-->
 		</div><!--/page-->
 
 		<footer>

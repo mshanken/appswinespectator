@@ -14,12 +14,6 @@ yepnope([
 	}
 },
 {
-	test: Modernizr.mq('only all'), // Testing if browser supports mq
-	nope: {
-		'respondJS' : 'amazon!js/respond.min.js'
-	}
-},
-{
 	test: document.getElementById('fb'), // Fancybox
 	yep: {
 		'MousewheelJS': 'amazon!plugins/fancybox/jquery.mousewheel-3.0.4.pack.js',

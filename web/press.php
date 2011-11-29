@@ -14,15 +14,10 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	
-	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/elements.css">
+	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/core.min.css">
 	<link rel="stylesheet" href="css/apps.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,900">
-	
 	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
-	<link href="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-    <link href="cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
-    <script src="cross-domain/respond.proxy.js"></script>
 </head>
 <body>
 
