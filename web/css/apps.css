@@ -11,6 +11,7 @@ a{
 	-moz-transition:all .2s ease-out;
 	-o-transition:all .2s ease-out;
 	transition:all .2s ease-out;
+	text-decoration: none;
 }
 a:hover {
 	color:#55A4B7;
@@ -163,7 +164,7 @@ nav a:hover{
 	margin: 0 auto;
 	max-width: 100%; height: auto;
 }
-#fb img{
+.lightbox img{
 	border-radius: 10px;
 	-webkit-box-shadow: 0 1px 0 #fff;
 	-moz-box-shadow: 0 1px 0 #fff;
@@ -268,7 +269,7 @@ nav a:hover{
 }
 #app #last-buy{
 	margin: 2px 0 0 67px;
-	width: 395px;
+	width: 393px;
 }
 #app #last-buy img{
 	float: left;
@@ -340,7 +341,7 @@ nav a:hover{
 	width: 289px;
 }
 .vintagechart #price{
-	margin: 64px 0 0 25px;
+	margin: 64px 0 0 20px;
 	float: left;
 }
 .vintagechart  #appstore{
@@ -375,7 +376,7 @@ blockquote{
 	display: block;
 	font-size: 15px;
 	position: relative;
-	width: 288px;
+	width: 280px;
 }
 #quotes p{
 	margin: 0;
@@ -425,7 +426,7 @@ blockquote{
 	width: 58px;
 }
 input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select, .uneditable-input {
-	width: 486px;
+	width: 456px;
 }
 #contact-form .button{
 	float: right;
@@ -472,37 +473,108 @@ hr{
 	border-bottom: 1px solid #fff;
 	margin: 0;
 }
+
 /* ========================================================= Structure ===*/
-/* ---------
- -- 280px --
---------- */
-@media screen and (min-width: 280px){
-
+#structure .one_full,
+#structure .four_fifth,
+#structure .three_quarter,
+#structure .two_third,
+#structure .three_fifth,
+#structure .one_half,
+#structure .two_fifth,
+#structure .one_third,
+#structure .one_quarter,
+#structure .one_fifth {
+    background-color: #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
 }
-/* ---------
- -- 480px --
---------- */
-@media screen and (min-width: 480px){
-
+.container {
+	margin: 0 auto;
+	padding-right: 20px;
+	padding-left: 20px;
 }
+.content{
+	padding: 30px;
+}
+.container:before, .container:after, .content:before, .content:after { content: ""; display: table; }
+.container:after, .content:after { clear: both; }
+.container, .content { zoom: 1; }
+
+.one_full,.four_fifth,.three_quarter,.two_third,.three_fifth,.one_half,.two_fifth,.one_third,.one_quarter,.one_fifth {
+	float: left;
+	margin: 0 10px 10px;
+	width: 100%;
+}
+/* ----------
+ -- 1024px --
+---------- */
+	.container {width: 980px}
+	.one_full {max-width: 900px}
+	.four_fifth {max-width: 716px}
+	.three_quarter {max-width: 670px}
+	.two_third {max-width: 594px}
+	.three_fifth {max-width: 532px}
+	.one_half {max-width: 440px}
+	.two_fifth {max-width: 348px}
+	.one_third {max-width: 286px}
+	.one_quarter {max-width: 210px}
+	.one_fifth {max-width: 164px}
 /* ---------
  -- 768px --
 --------- */
-@media screen and (min-width: 768px){
-
+/*
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.container {width: 725px}
+	.one_full {max-width: 645px}
+	.four_fifth {max-width: 512px}
+	.three_quarter {max-width: 479px}
+	.two_third {max-width: 424px}
+	.three_fifth {max-width: 379px}
+	.one_half {max-width: 312px}
+	.two_fifth {max-width: 246px}
+	.one_third {max-width: 201px}
+	.one_quarter {max-width: 146px}
+	.one_fifth {max-width: 113px}
 }
-/* ----------
- -- 1280px --
----------- */
-@media screen and (min-width: 1280px){
-	.container {width: 1004px;}
-	.one_full {max-width: 924px;}
-	.three_quarter {max-width: 688px;}
-	.two_third {max-width: 610px;}
-	.one_half {max-width: 452px;}
-	.two_fifth {max-width: 360px;}
-	.one_third {max-width: 294px;}
-	.one_quarter {max-width: 216px;}
-	.one_fifth {max-width: 168px;}
-	.four_fifth {max-width: 736px;}
+*/
+/* ---------
+ -- 480px --
+--------- */
+/*
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.one_full,.four_fifth,.three_quarter,.two_third,.three_fifth,.one_half,.two_fifth,.one_third,.one_quarter,.one_fifth {margin: 0 0 10px}
+	.container {width: 440px}
+	.one_full {max-width: 380px}
+	.four_fifth {max-width: 380px}
+	.three_quarter {max-width: 380px}
+	.two_third {max-width: 380px}
+	.three_fifth {max-width: 380px}
+	.one_half {max-width: 380px}
+	.two_fifth {max-width: 380px}
+	.one_third {max-width: 380px}
+	.one_quarter {max-width: 380px}
+	.one_fifth {max-width: 380px}
 }
+*/
+/* ---------
+ -- 320px --
+--------- */
+/*
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	.one_full,.four_fifth,.three_quarter,.two_third,.three_fifth,.one_half,.two_fifth,.one_third,.one_quarter,.one_fifth {margin: 0 0 10px}
+	.container {width: 280px}
+	.one_full {max-width: 220px}
+	.four_fifth {max-width: 220px}
+	.three_quarter {max-width: 220px}
+	.two_third {max-width: 220px}
+	.three_fifth {max-width: 220px}
+	.one_half {max-width: 220px}
+	.two_fifth {max-width: 220px}
+	.one_third {max-width: 220px}
+	.one_quarter {max-width: 220px}
+	.one_fifth {max-width: 220px}
+}
+*/

@@ -14,10 +14,21 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/core.min.css">
+	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/core.css">
 	<link rel="stylesheet" href="css/apps.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,900">
+	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.fancybox-1.3.4.css">
 	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
+	<script>
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-23484466-5']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 </head>
 <body id="app" class="napa">
 
@@ -59,7 +70,7 @@
 					<p>Find the hotels, restaurants, wineries and attractions that suit your interests and budget. Wine Spectator&rsquo;s California editors reviewed every venue included to ensure that they deliver the quality our readers expect. The interactive map plots our recommendations to give you a geographic sense of place for each destination. And the convenient lists for each category can be quickly filtered by location, price range or other criteria. It&rsquo;s easy to plan your perfect itinerary!</p>
 				</div><!--/two_third-->
 				<div class="one_third">
-					<a id="fb" href="img/napavalley/map_b.png"><img src="img/napavalley/map_s.png"/></a>
+					<a class="lightbox" href="img/napavalley/map_b.png"><img src="img/napavalley/map_s.png"/></a>
 				</div><!--/one_third-->
 				
 				<div class="two_third">
@@ -67,7 +78,7 @@
 					<p>Get to know Napa Valley and its star player, Cabernet Sauvignon, with in-depth articles on the region&rsquo;s history, geography, appellations and wines. Stunning photography created exclusively for the app gives you a unique view of the places that produce your favorite wines. Pop-up definitions quickly define complex wine terms, and top chefs explain perfect food pairings for Cabernet, with recipes.</p>
 				</div><!--/two_third-->
 				<div class="one_third">
-					<a id="fb" href="img/napavalley/content_b.png"><img src="img/napavalley/content_s.png"/></a>
+					<a class="lightbox" href="img/napavalley/content_b.png"><img src="img/napavalley/content_s.png"/></a>
 				</div><!--/one_third-->
 				
 				<div class="two_third right">
@@ -75,7 +86,7 @@
 					<p>You&rsquo;ll enjoy special access to Wine Spectator reviews spotlighting the most impressive wines and most important producers across Napa&rsquo;s appellations. Our editors selected 240 diverse Cabernets&mdash;plus Chardonnays, Merlots, Sauvignon Blancs and Zinfandels&mdash;that you can filter and sort by score, price and vintage.</p>
 				</div><!--/two_third-->
 				<div class="one_third">
-					<a id="fb" href="img/napavalley/filter_b.png"><img src="img/napavalley/filter_s.png"/></a>
+					<a class="lightbox" href="img/napavalley/filter_b.png"><img src="img/napavalley/filter_s.png"/></a>
 				</div><!--/one_third-->
 			</div><!--/content-->
 			<hr/>
@@ -124,6 +135,14 @@
 	
 	</div><!--/container-->
 
-<script src="js/script.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.7.0.min.js">\x3C/script>')</script>
+<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script defer src="js/script.js"></script>
+<!--[if lt IE 7 ]>
+<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
 </body>
 </html>

@@ -14,10 +14,21 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/core.min.css">
+	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/core.css">
 	<link rel="stylesheet" href="css/apps.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,900">	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,900">
+	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.fancybox-1.3.4.css">
 	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
+	<script>
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-23484466-5']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 </head>
 <body>
 
@@ -49,6 +60,14 @@
 	</div><!--/container-->
 
 
-<script src="js/script.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.7.0.min.js">\x3C/script>')</script>
+<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script defer src="js/script.js"></script>
+<!--[if lt IE 7 ]>
+<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
 </body>
 </html>
