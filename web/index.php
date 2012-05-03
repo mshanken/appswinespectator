@@ -53,7 +53,7 @@
 					<a href="guide-to-napa-valley.php"><span class="button">Learn More &raquo;</span></a>
 				</div><!--/one_half-->
 				<div class="one_half">
-					<a href="guide-to-napa-valley.php"><img src="img/ipad-napa.png"/></a>
+					<a href="guide-to-napa-valley.php"><img src="img/ipad-napa-2012.png"/></a>
 				</div><!--/one_half-->
 			</div><!--/content-->
 			<hr/>

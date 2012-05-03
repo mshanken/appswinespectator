@@ -82,8 +82,8 @@
 				</div><!--/one_third-->
 				
 				<div class="two_third right">
-					<h3>400+ Top-Scoring Napa Wines</h3>
-					<p>You&rsquo;ll enjoy special access to Wine Spectator reviews spotlighting the most impressive wines and most important producers across Napa&rsquo;s appellations. Our editors selected 240 diverse Cabernets&mdash;plus Chardonnays, Merlots, Sauvignon Blancs and Zinfandels&mdash;that you can filter and sort by score, price and vintage.</p>
+					<h3>440+ Top-Scoring Napa Wines</h3>
+					<p>You&rsquo;ll enjoy special access to Wine Spectator reviews spotlighting the most impressive wines and most important producers across Napa&rsquo;s appellations. Our editors selected 280 diverse Cabernets&mdash;plus Chardonnays, Merlots, Sauvignon Blancs and Zinfandels&mdash;that you can filter and sort by score, price and vintage.</p>
 				</div><!--/two_third-->
 				<div class="one_third">
 					<a class="lightbox" href="img/napavalley/filter_b.png"><img src="img/napavalley/filter_s.png"/></a>
