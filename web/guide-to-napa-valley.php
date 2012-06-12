@@ -60,7 +60,7 @@
 				</div><!--/two_third-->
 				<div class="one_third" id="price">
 					<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="img/appstore.png" id="appstore"/></a>
-					<span><img src="img/napavalley/price.png"/></span>
+					<!--<span><img src="img/napavalley/price.png"/></span>-->
 				</div><!--/one_third-->
 			</div><!--/content-->
 			<hr/>
