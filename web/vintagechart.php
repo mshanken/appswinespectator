@@ -59,9 +59,13 @@
 					<p>Have expert information at hand whenever you need help choosing the right wine: at a restaurant or retail shop, or in your own cellar. Wine lovers know that a year can make a world of difference. Now you can quickly select a reliable vintage with our free smartphone app. VintageChart+ provides Wine Spectator&rsquo;s ratings of vintage quality in the world&rsquo;s top wine regions, along with a guide to when the wines should be drinking at their best. Remove the guesswork and get the most out of what&rsquo;s in your glass.</p>
 				</div><!--/two_third-->
 				<div class="one_third" id="price">
-					<a href="http://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648"><img src="img/appstore.png" id="appstore"/></a>
+					
+						<a href="http://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648"><img src="img/appstore.png" id="appstore"/></a>
+					
+
 					<span id="first-price"><img src="img/vintagechart/price-2.png"/></span>
-					<a href="http://mobile.winespectator.com/vcplus/iphone-android/"><img src="img/vintagechart/html5.png" id="html5"/></a>
+					<a href="http://mobile.winespectator.com/vcplus/iphone-android/"><img src="img/vintagechart/html5b.png" id="html5"/></a>
+					<div class="clear"></div>
 					<span><img src="img/vintagechart/price-2.png"/></span>
 				</div><!--/one_third-->
 			</div><!--/content-->
@@ -113,7 +117,7 @@
 				</div><!--/one_half-->
 				<div class="one_half" id="last-buy">
 					<a href="http://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648"><img src="img/appstore.png" id="button"/></a>
-				<p>And check out our <a href="guide-to-napa-valley.php">other app</a>.</p>
+				<div id="appMsg">Android and other smartphone users <a href="http://mobile.winespectator.com/vcplus/iphone-android/">download the webapp</a>. And check out our <a href="guide-to-napa-valley.php">other app</a>.</div>
 				</div><!--/one_half-->
 			</div><!--/content-->
 		</div><!--/page-->

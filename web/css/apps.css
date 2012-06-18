@@ -273,6 +273,7 @@ nav a:hover{
 }
 #app #last-buy img{
 	float: left;
+	margin-right:12px;
 }
 #app #last-buy p{
 	margin: 20px 0 0 20px;
@@ -299,6 +300,10 @@ nav a:hover{
 }
 .vintagechart  #price span{
 	margin: 0 0 0 78px;
+}
+div#appMsg {
+	font-size:13px;
+	line-height: 1.4;
 }
 /* -----------
  -- Badge --
