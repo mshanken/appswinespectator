@@ -1,2 +1,1 @@
-<?php echo exec('whoami'); ?>
-<?php `git pull` ?>
+<?php `sudo -u ubuntu git pull origin master`;
