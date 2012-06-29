@@ -72,7 +72,7 @@
 		</div><!--/page-->
 	
 		<footer>
-			<p>&copy; 1999 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
+			<p>&copy; 1812 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
 		</footer>
 		
 	</div><!--/container-->
