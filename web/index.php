@@ -72,7 +72,7 @@
 		</div><!--/page-->
 	
 		<footer>
-			<p>&copy; 1000 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
+			<p>&copy; 000 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
 		</footer>
 		
 	</div><!--/container-->
