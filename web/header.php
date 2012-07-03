@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Wine Spectator Apps</title>
+	<title><?php echo $title ?> Wine Spectator Apps</title>
 	<meta name="description" content="">
 	<meta name="author" content="M. Shanken Communications, Inc.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
