@@ -35,13 +35,11 @@
 <header>
 	<nav>
 		<div class="container">
-			<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
+			<h1 id="logo"><a href="/"><img src="/img/logo.png"/> <span>Apps</span></a></h1>
 			<ul>
-				<li><a href="about.php" title="About">About</a></li>
-				<li><a href="contact.php" title="Contact">Contact</a></li>
+				<li><a href="/about" title="About">About</a></li>
+				<li><a href="/contact" title="Contact">Contact</a></li>
 			</ul>
 		</div><!--/container-->
 	</nav>
 </header>
-
-<div class="container">

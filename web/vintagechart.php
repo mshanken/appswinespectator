@@ -35,17 +35,17 @@
 	<header>
 		<nav>
 			<div class="container">
-				<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
+				<h1 id="logo"><a href="/"><img src="/img/logo.png"/> <span>Apps</span></a></h1>
 				<ul>
-					<li><a href="about.php" title="About">About</a></li>
-					<li><a href="contact.php" title="Contact">Contact</a></li>
+					<li><a href="about" title="About">About</a></li>
+					<li><a href="contact" title="Contact">Contact</a></li>
 				</ul>
 			</div><!--/container-->
 		</nav>
 		<div class="container">
 			<div class="content">
 				<div class="one_full" style="float:none;">
-					<img src="img/vintagechart/teaser.png" id="teaser"/>
+					<img src="/img/vintagechart/teaser.png" id="teaser"/>
 				</div><!--/one_full-->
 			</div><!--/one_full-->
 		</div><!--/container-->
@@ -60,13 +60,13 @@
 				</div><!--/two_third-->
 				<div class="one_third" id="price">
 					
-						<a href="http://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648"><img src="img/appstore.png" id="appstore"/></a>
+						<a href="http://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648"><img src="/img/appstore.png" id="appstore"/></a>
 					
 
-					<span id="first-price"><img src="img/vintagechart/price-2.png"/></span>
-					<a href="http://mobile.winespectator.com/vcplus/iphone-android/"><img src="img/vintagechart/html5b.png" id="html5"/></a>
+					<span id="first-price"><img src="/img/vintagechart/price-2.png"/></span>
+					<a href="http://mobile.winespectator.com/vcplus/iphone-android/"><img src="/img/vintagechart/html5b.png" id="html5"/></a>
 					<div class="clear"></div>
-					<span><img src="img/vintagechart/price-2.png"/></span>
+					<span><img src="/img/vintagechart/price-2.png"/></span>
 				</div><!--/one_third-->
 			</div><!--/content-->
 			<hr/>
@@ -76,7 +76,7 @@
 					<p>VintageChart+ gives you a simple, effective way to compare the relative quality of wines from different years. Quickly and easily navigate to the country and region of your choice and, where appropriate, select the grape variety. These charts&mdash;automatically updated on the iPhone app&mdash;are created and maintained by Wine Spectator&rsquo;s highly experienced editors. Each year, they analyze vintage quality for more than 50 different regions and varietals, based on blind tastings of hundreds of wines in each category.</p>
 				</div><!--/two_third-->
 				<div class="one_third">
-					<a class="lightbox" href="img/vintagechart/feat1_b.png"><img src="img/vintagechart/feat1_s.png"/></a>
+					<a class="lightbox" href="img/vintagechart/feat1_b.png"><img src="/img/vintagechart/feat1_s.png"/></a>
 				</div><!--/one_third-->
 				
 				<div class="two_third">
@@ -84,7 +84,7 @@
 					<p>Deepen your understanding of wine with iPhone app extras such as the Map View, which gives you a geographic sense of place for where wines are produced, and WS360, a news feed that keeps you up-to-date on what&rsquo;s going on in the world of wine. A Learn More section&mdash;available in both the iPhone version and the Web App for all smartphones&mdash;explains how vintage charts are created and used, along with a behind-the-scenes video of how Wine Spectator editors rate wines in blind tastings.</p>
 				</div><!--/two_third-->
 				<div class="one_third">
-					<a class="lightbox" href="img/vintagechart/feat2_b.png"><img src="img/vintagechart/feat2_s.png"/></a>
+					<a class="lightbox" href="img/vintagechart/feat2_b.png"><img src="/img/vintagechart/feat2_s.png"/></a>
 				</div><!--/one_third-->
 				
 				<div class="two_third right">
@@ -92,7 +92,7 @@
 					<p>Not sure if it&rsquo;s the ideal moment to open that special bottle you&rsquo;ve been saving? Along with the scores that indicate general quality for each vintage, our editors, who have decades of experience evaluating these regions&rsquo; wines, provide &ldquo;drinkability&rdquo; recommendations&mdash;whether the wines are ready to enjoy now or should be held in the cellar to fully mature. Want to know more about the wines&rsquo; character? Tap the &ldquo;i&rdquo; icon to get a description of the growing season and its impact on the wines.</p>
 				</div><!--/two_third-->
 				<div class="one_third">
-					<a class="lightbox" href="img/vintagechart/feat3_b.png"><img src="img/vintagechart/feat3_s.png"/></a>
+					<a class="lightbox" href="img/vintagechart/feat3_b.png"><img src="/img/vintagechart/feat3_s.png"/></a>
 				</div><!--/one_third-->
 			</div><!--/content-->
 			<hr/>
@@ -113,29 +113,13 @@
 			<hr/>
 			<div class="content">
 				<div class="one_half">
-					<img src="img/vintagechart/select.png" id="plane"/>
+					<img src="/img/vintagechart/select.png" id="plane"/>
 				</div><!--/one_half-->
 				<div class="one_half" id="last-buy">
-					<a href="http://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648"><img src="img/appstore.png" id="button"/></a>
-				<div id="appMsg">Android and other smartphone users <a href="http://mobile.winespectator.com/vcplus/iphone-android/">download the webapp</a>. And check out our <a href="guide-to-napa-valley.php">other app</a>.</div>
+					<a href="http://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648"><img src="/img/appstore.png" id="button"/></a>
+				<div id="appMsg">Android and other smartphone users <a href="http://mobile.winespectator.com/vcplus/iphone-android/">download the webapp</a>. And check out our <a href="guide-to-napa-valley">other app</a>.</div>
 				</div><!--/one_half-->
 			</div><!--/content-->
 		</div><!--/page-->
-
-		<footer>
-			<p>&copy; 2011 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
-		</footer>
 		
-	</div><!--/container-->
-	
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.7.0.min.js">\x3C/script>')</script>
-<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script defer src="js/script.js"></script>
-<!--[if lt IE 7 ]>
-<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-<![endif]-->
-</body>
-</html>
+<?php include("footer.php"); ?>

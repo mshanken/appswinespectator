@@ -35,10 +35,10 @@
 	<header>
 		<nav>
 			<div class="container">
-				<h1 id="logo"><a href="index.php"><img src="img/logo.png"/> <span>Apps</span></a></h1>
+				<h1 id="logo"><a href="/"><img src="/img/logo.png"/> <span>Apps</span></a></h1>
 				<ul>
-					<li><a href="about.php" title="About">About</a></li>
-					<li><a href="contact.php" title="Contact">Contact</a></li>
+					<li><a href="about" title="About">About</a></li>
+					<li><a href="contact" title="Contact">Contact</a></li>
 				</ul>
 			</div><!--/container-->
 		</nav>
@@ -50,10 +50,10 @@
 				<div class="one_half copy">
 					<h3>Wine Spectator's Guide to Napa Valley</h3>
 					<p>Discover the best of this spectacular California wine region. Whether you&rsquo;re planning a trip or are a lover of Napa&rsquo;s legendary Cabernets, Wine Spectator&rsquo;s Guide to Napa Valley on iPad gives you our editors&rsquo; top recommendations on where to stay, where to dine, which wineries to visit and what to drink.</p>
-					<a href="guide-to-napa-valley.php"><span class="button">Learn More &raquo;</span></a>
+					<a href="guide-to-napa-valley"><span class="button">Learn More &raquo;</span></a>
 				</div><!--/one_half-->
 				<div class="one_half">
-					<a href="guide-to-napa-valley.php"><img src="img/ipad-napa-2012.png"/></a>
+					<a href="guide-to-napa-valley"><img src="/img/ipad-napa-2012.png"/></a>
 				</div><!--/one_half-->
 			</div><!--/content-->
 			<hr/>
@@ -61,30 +61,14 @@
 				<div class="one_half right copy">
 					<h3>VintageChart+</h3>
 					<p>Make smarter decisions when faced with unfamiliar wines. Wine Spectator&rsquo;s free VintageChart+ smartphone apps let you easily compare the quality of wines from different years for more than 50 top regions and varietals so you can find the best vintage to drink now. Our editors rate each vintage, recommend when to drink the wines and describe the growing season&rsquo;s impact on the wines&rsquo; character.</p>
-					<a href="vintagechart.php"><span class="button">Learn More &raquo;</span></a>
+					<a href="vintagechart"><span class="button">Learn More &raquo;</span></a>
 				</div><!--/one_half-->
 				<div class="one_half">
-					<a href="vintagechart.php">
-						<img src="img/iphone-vintage.png"/>
+					<a href="vintagechart">
+						<img src="/img/iphone-vintage.png"/>
 					</a>
 				</div><!--/one_half-->
 			</div><!--/content-->
 		</div><!--/page-->
 	
-		<footer>
-			<p>&copy; 2012 <a href="http://www.winespectator.com">Wine Spectator</a>. All Rights Reserved.</p>
-		</footer>
-		
-	</div><!--/container-->
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.7.0.min.js">\x3C/script>')</script>
-<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-<script defer src="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script defer src="js/script.js"></script>
-<!--[if lt IE 7 ]>
-<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-<![endif]-->
-</body>
-</html>
+<?php include("footer.php"); ?>
