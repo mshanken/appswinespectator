@@ -14,10 +14,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/css/core.css">
-	<link rel="stylesheet" href="/css/apps.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,900">
-	<link rel="stylesheet" href="https://s3.amazonaws.com/toolkit.mshanken.com/plugins/fancybox/jquery.fancybox-1.3.4.css">
+	<link rel="stylesheet" href="/style/css/apps.css">
 	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
 	<script>
 		var _gaq = _gaq || [];
