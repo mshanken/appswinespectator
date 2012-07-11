@@ -1,0 +1,333 @@
+@import "reset.less";
+@import "variables.less";
+@import "structure.less";
+@import "forms.less";
+@import "jquery.fancybox.less";
+/* ========================================================= WS Apps ===*/
+html,body {
+	background-color: #e6e6e6;
+	background-image: url(../img/bg.png);
+	background-repeat: repeat;
+	display: block;
+}
+/* ========================================================= Typography ===*/
+html, body{
+	background-color: #f7f7f7;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+h1{
+
+}
+h2 {
+	font-family: 'Droid Sans Bold', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+	margin: 0 0 20px;
+}
+h3{
+	color: #333;
+	font-family: 'Droid Sans Bold', sans-serif;
+	font-weight: 700;
+	margin: 0 0 20px;
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+p{
+	margin: 0 0 20px 0;
+}
+/* ========================================================= Header ===*/
+header{
+	background: rgb(66,71,77);
+	background: -moz-linear-gradient(top,  rgba(66,71,77,1) 0%, rgba(46,49,56,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(66,71,77,1)), color-stop(100%,rgba(46,49,56,1)));
+	background: -webkit-linear-gradient(top,  rgba(66,71,77,1) 0%,rgba(46,49,56,1) 100%);
+	background: -o-linear-gradient(top,  rgba(66,71,77,1) 0%,rgba(46,49,56,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(66,71,77,1) 0%,rgba(46,49,56,1) 100%);
+	background: linear-gradient(top,  rgba(66,71,77,1) 0%,rgba(46,49,56,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42474d', endColorstr='#2e3138',GradientType=0 );
+	border-top: 1px solid #acaeb1;
+	border-bottom: 1px solid #000000;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	position:relative;
+	
+
+}
+header h1{
+	color: #ffffff;
+	display: inline-block;
+	font-family: Helvetica;
+	font-weight: 100;
+	margin: 12px 0 0 10px;
+}
+header h1 a, header h1 a:hover{
+	color: #ffffff;
+}
+/* ------
+-- nav --
+------ */
+nav{
+	background: rgb(58,63,68);
+	background: -moz-linear-gradient(top,  rgba(58,63,68,1) 0%, rgba(42,45,51,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(58,63,68,1)), color-stop(100%,rgba(42,45,51,1)));
+	background: -webkit-linear-gradient(top,  rgba(58,63,68,1) 0%,rgba(42,45,51,1) 100%);
+	background: -o-linear-gradient(top,  rgba(58,63,68,1) 0%,rgba(42,45,51,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(58,63,68,1) 0%,rgba(42,45,51,1) 100%);
+	background: linear-gradient(top,  rgba(58,63,68,1) 0%,rgba(42,45,51,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3f44', endColorstr='#2a2d33',GradientType=0 );
+	border: 1px solid #010101;
+	border-radius: 4px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 1px 0 rgba(255,255,255,0.2) inset;
+	float: right;
+	margin: 14px 10px 14px 0;
+}
+nav ul{
+	
+}
+nav li{
+	float: left;
+	font-weight: 100;
+}
+nav a{
+	border-right:1px solid rgba(0,0,0,0.5);
+	box-shadow: 1px 0 0 rgba(255,255,255,0.2);
+	color: #d4d4d4;
+	display: block;
+	padding: 5px 15px;
+	text-shadow: 0 -1px 0 #000;
+}
+nav li:last-child a{
+	border: none;
+	box-shadow:none;
+}
+nav a:hover{
+	color: #fff;
+}
+/* ========================================================= Intro ===*/
+#intro{
+	background: rgb(55,60,74);
+	background: -moz-linear-gradient(top,  rgba(55,60,74,1) 0%, rgba(23,25,31,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(55,60,74,1)), color-stop(100%,rgba(23,25,31,1)));
+	background: -webkit-linear-gradient(top,  rgba(55,60,74,1) 0%,rgba(23,25,31,1) 100%);
+	background: -o-linear-gradient(top,  rgba(55,60,74,1) 0%,rgba(23,25,31,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(55,60,74,1) 0%,rgba(23,25,31,1) 100%);
+	background: linear-gradient(top,  rgba(55,60,74,1) 0%,rgba(23,25,31,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373c4a', endColorstr='#17191f',GradientType=0 );
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+	color: #cbcbcb;
+	padding: 55px 0 0 0;
+	margin: 0 0 110px 0;
+}
+#intro .g4 img{
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	margin: 0 0 -60px 0;
+}
+#intro h2{
+	color: #fff;
+	margin: 153px 0 10px;
+	text-shadow: 0 1px 1px #000;
+	text-transform: uppercase;
+}
+#intro h2 span{
+	color: #ebbf45;
+}
+#intro h2 img{
+	vertical-align: text-bottom;
+	border-radius: 4px;
+	box-shadow: 0 2px 3px #000;
+}
+#intro p{
+	font-size: 16px;
+	text-shadow: 0 1px 1px #000;
+}
+#intro #app-store{
+	border-radius: 7px;
+	box-shadow: 0 2px 3px #000;
+}
+/* ========================================================= Features ===*/
+#feats{
+	border: 20px;
+	margin: 0 0 30px;
+	padding: auto;
+}
+#feats img{
+	margin: 0 0 20px;
+	border-radius: 4px;
+	box-shadow: 0 0 0 5px #fff, 0 6px 2px rgba(0,0,0,0.5);
+}	
+#feats h3{
+	margin: 0;
+}
+#feats p{
+	color:#666;
+}
+/* ========================================================= Footer ===*/
+#signup{
+	background: rgb(199,59,35);
+	background: -moz-linear-gradient(top,  rgba(199,59,35,1) 0%, rgba(171,52,31,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(199,59,35,1)), color-stop(100%,rgba(171,52,31,1)));
+	background: -webkit-linear-gradient(top,  rgba(199,59,35,1) 0%,rgba(171,52,31,1) 100%);
+	background: -o-linear-gradient(top,  rgba(199,59,35,1) 0%,rgba(171,52,31,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(199,59,35,1) 0%,rgba(171,52,31,1) 100%);
+	background: linear-gradient(top,  rgba(199,59,35,1) 0%,rgba(171,52,31,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c73b23', endColorstr='#ab341f',GradientType=0 );
+	border: 1px solid #912c1a;
+	border-radius: 4px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+	color: #f7f7f7;
+	font-size: 18px;
+	margin: 0 0 10px;
+	padding: 10px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+}
+#subForm{
+
+}
+#subForm li {
+	float: left;
+    position: relative;
+    width: 453px;
+}
+#subForm label  {
+	color: #888;
+	cursor: text;
+	position: absolute;
+	padding: 8px 0 0 6px;
+	top: 0;
+	left: 0;
+	text-align:left;
+	text-shadow:none;
+	width:100%;
+	z-index:5;	
+}
+#subForm span{
+	font-size: 19px;
+	float:left;
+	margin: 2px 0 0;
+}
+input[type="text"]{
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.5);
+	border:1px solid #824848;
+	color:#333;
+	margin: 0;
+	height:22px;
+	width: 100%;
+}
+input[type="submit"]{
+	background: #676f78;
+	background: -moz-linear-gradient(top,  #676f78 0%, #565c63 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#676f78), color-stop(100%,#565c63));
+	background: -webkit-linear-gradient(top,  #676f78 0%,#565c63 100%);
+	background: -o-linear-gradient(top,  #676f78 0%,#565c63 100%);
+	background: -ms-linear-gradient(top,  #676f78 0%,#565c63 100%);
+	background: linear-gradient(to bottom,  #676f78 0%,#565c63 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#676f78', endColorstr='#565c63',GradientType=0 );
+    border: 1px solid #40444A;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    color: #fff;
+    font-size: 14px;
+    outline: medium none;
+    padding: 6px 7px;
+    position: absolute;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    top:0;
+    right: -11px;
+    z-index: 10;
+}
+footer{
+	color: #6d6d6d;
+	font-size: 11px;
+	margin: 0 0 20px;
+}
+#copy{
+	float: left;
+	display: inline;
+	margin: 0 0 0 10px;
+}
+#copy a{
+	color: #6d6d6d;
+}
+#copy a:hover{
+	color: #000;
+}
+/* ---------
+-- subnav --
+--------- */
+#subnav {
+	float: right;
+	list-style: none;
+	margin: 0 10px 20px 0;
+	padding: 0;
+}
+#subnav li{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#subnav a{
+	border-right: 1px solid #6d6d6d;
+	color: #6d6d6d;
+	padding: 0 10px;
+}
+#subnav a:hover{
+	color: #000;
+}
+#subnav li:last-child a{
+	border: none;
+}
+/* ========================================================= Utility ===*/
+img{
+	height: auto;
+	max-width: 100%;
+}
+/* ========================================================= Structure ===*/
+/* ---------
+ -- 768px --
+--------- */
+@media screen and (min-width: 768px) and (max-width: 960px){
+
+	#intro h2{
+		margin: 83px 0 0;
+	}
+}
+/* ---------
+ -- 480px --
+--------- */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+	#intro{
+		margin: 0 0 30px;
+		padding: 10px 0 20px;
+	}
+	#intro .g4 img{
+		margin:  0;
+	}
+	#intro h2{
+		margin:0;
+	}
+}
+/* ---------
+ -- 320px --
+--------- */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	#intro{
+		margin: 0 0 30px;
+		padding: 10px 0 20px;
+	}
+	#intro .g4 img{
+		margin:  0;
+	}
+	#intro h2{
+		margin:0;
+	}
+}
