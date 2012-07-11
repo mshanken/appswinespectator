@@ -1,6 +1,5 @@
 <?php  $title = 'Site Badge |'; include 'header.php'; ?>
 
-	<div class="container" id="home">
 		<div class="page">
 			<div class="content">
 				<h2>Site Badge</h1>

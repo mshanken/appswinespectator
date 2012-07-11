@@ -4,9 +4,10 @@
 <!--[if IE 8]> <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+	<link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title><?php echo $title ?> Wine Spectator Apps</title>
+	<title><?php echo $title ?> WS Apps</title>
 	<meta name="description" content="">
 	<meta name="author" content="M. Shanken Communications, Inc.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -15,6 +16,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="/style/css/apps.css">
+	
 	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
 	<script>
 		var _gaq = _gaq || [];
@@ -30,13 +32,14 @@
 <body id="home">
 
 <header>
-	<nav>
-		<div class="container">
-			<h1 id="logo"><a href="/"><img src="/img/logo.png"/> <span>Apps</span></a></h1>
+	<div class="container">
+	<h1><a href="">WS Apps</a></h1>
+		<nav>
 			<ul>
-				<li><a href="/about" title="About">About</a></li>
-				<li><a href="/contact" title="Contact">Contact</a></li>
+				<li><a href="/wineratingsplus" title="WineRatings+">WineRatings+</a></li>
+				<li><a href="/vintagechart" title="VintageChart+">VintageChart+</a></li>
+				<li><a href="/guide-to-napa-valley" title="Guide to Napa Valley">Guide to Napa Valley</a></li>
 			</ul>
-		</div><!--/container-->
-	</nav>
+		</nav>
+	</div><!--/container-->
 </header>

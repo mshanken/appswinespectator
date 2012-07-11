@@ -1,6 +1,5 @@
 <?php  $title = 'Contact |'; include 'header.php'; ?>
 
-	<div class="container">
 		<div class="page">
 			<div class="content">
 				<h2>Contact Us</h1>
