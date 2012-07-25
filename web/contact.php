@@ -1,7 +1,8 @@
 <?php  $title = 'Contact |'; include 'header.php'; ?>
 
-		<div class="page">
-			<div class="content">
+	<div class="container">
+		<div class="g12">
+		
 				<h2>Contact Us</h1>
 				<p>We&rsquo;d love to hear from you! If you have comments on our current apps or a suggestion for a future project you would like to see from Wine Spectator, please share them with our development team and editors here.</p>
 				<p>If you have questions about how to use our apps, please tap the <img src="img/info.png" title="Information Icon" alt="i" style="vertical-align:top;"/> (information icon) in that app to view instructions. If your question isn&rsquo;t addressed there, let us know and we&rsquo;ll be happy to help.</p><br/>
@@ -132,7 +133,8 @@ return(preg_match("/^[-_.[:alnum:]]+@((([[:alnum:]]|[[:alnum:]][[:alnum:]-]*[[:a
 					<li><img src="/img/facebook.png"/><p>Facebook<br/><a href="http://www.facebook.com/WineSpectator">facebook.com/winespectator</a></p></li>
 				</ul>
 			</div><!--/one_half-->
-			</div><!--/content-->
-		</div><!--/page-->
+
+		</div><!--/g12-->
+	</div><!--/container-->
 
 <?php include("footer.php"); ?>

@@ -1,4 +1,5 @@
-<div  class="g12">
+<div class="container">
+	<div  class="g12">
 		<div id="signup">
 				<div id="submit" class="clearfix">
 					<form method="post" action="http://lp.winespectator.com/apps/optin" pageId="1000353" siteId="55439" parentPageId="1000352" id="subForm">
@@ -14,9 +15,9 @@
 	<footer>
 		<p id="copy">&copy; 2012 <a href="http://www.winespectator.com/">Wine Spectator</a>. All Rights Reserved.</p>
 		<ul id="subnav">
-			<li><a href="">About</a></li>
-			<li><a href="">Press</a></li>
-			<li><a href="">Contact</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/press">Press</a></li>
+			<li><a href="/contact">Contact</a></li>
 		</ul>
 	</footer>
 </div><!--/container-->

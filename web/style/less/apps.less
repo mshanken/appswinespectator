@@ -2,7 +2,7 @@
 @import "variables.less";
 @import "structure.less";
 @import "forms.less";
-@import "jquery.fancybox.less";
+@import "fancybox.less";
 /* ========================================================= WS Apps ===*/
 html,body {
 	background-color: #e6e6e6;
@@ -21,10 +21,11 @@ h1{
 
 }
 h2 {
+	color: #333;
 	font-family: 'Droid Sans Bold', sans-serif;
 	font-weight: 700;
-	font-size: 45px;
-	margin: 0 0 20px;
+	font-size: 30px;
+	margin: 0 0 10px;
 }
 h3{
 	color: #333;
@@ -57,9 +58,8 @@ header{
 	border-top: 1px solid #acaeb1;
 	border-bottom: 1px solid #000000;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	margin: 0 0 30px;
 	position:relative;
-	
-
 }
 header h1{
 	color: #ffffff;
@@ -113,19 +113,11 @@ nav a:hover{
 }
 /* ========================================================= Intro ===*/
 #intro{
-	background: rgb(55,60,74);
-	background: -moz-linear-gradient(top,  rgba(55,60,74,1) 0%, rgba(23,25,31,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(55,60,74,1)), color-stop(100%,rgba(23,25,31,1)));
-	background: -webkit-linear-gradient(top,  rgba(55,60,74,1) 0%,rgba(23,25,31,1) 100%);
-	background: -o-linear-gradient(top,  rgba(55,60,74,1) 0%,rgba(23,25,31,1) 100%);
-	background: -ms-linear-gradient(top,  rgba(55,60,74,1) 0%,rgba(23,25,31,1) 100%);
-	background: linear-gradient(top,  rgba(55,60,74,1) 0%,rgba(23,25,31,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373c4a', endColorstr='#17191f',GradientType=0 );
 	border-bottom: 1px solid #fff;
 	box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
 	color: #cbcbcb;
 	padding: 55px 0 0 0;
-	margin: 0 0 110px 0;
+	margin: -30px 0 110px 0;
 }
 #intro .g4 img{
 	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
@@ -133,6 +125,7 @@ nav a:hover{
 }
 #intro h2{
 	color: #fff;
+	font-size: 45px;
 	margin: 153px 0 10px;
 	text-shadow: 0 1px 1px #000;
 	text-transform: uppercase;
@@ -152,6 +145,13 @@ nav a:hover{
 #intro #app-store{
 	border-radius: 7px;
 	box-shadow: 0 2px 3px #000;
+}
+/* ========================================================= WineRatings+ ===*/
+#wineratingsplus #intro{
+	background-color: #17191F;
+	background-image: url('/img/intro-wineratingsplus.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
 }
 /* ========================================================= Features ===*/
 #feats{

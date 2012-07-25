@@ -33,11 +33,11 @@
 
 <header>
 	<div class="container">
-	<h1><a href="">WS Apps</a></h1>
+	<h1><a href="/">WS Apps</a></h1>
 		<nav>
 			<ul>
 				<li><a href="/wineratingsplus" title="WineRatings+">WineRatings+</a></li>
-				<li><a href="/vintagechart" title="VintageChart+">VintageChart+</a></li>
+				<li><a href="/vintagechartplus" title="VintageChart+">VintageChart+</a></li>
 				<li><a href="/guide-to-napa-valley" title="Guide to Napa Valley">Guide to Napa Valley</a></li>
 			</ul>
 		</nav>

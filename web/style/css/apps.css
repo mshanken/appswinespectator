@@ -1,6 +1,6 @@
 body,
 html {
-  background-color: #ff0000;
+  background-color: #fff;
 }
 article,
 aside,
@@ -270,23 +270,25 @@ td {
 .clear {
   clear: both;
 }
+/* ========================================================= Variables ===*/
+/* ========================================================= Global ===*/
+/* ---------
+ -- Links --
+--------- */
+/* ========================================================= G12 Omega ===*/
 .container {
   margin: 0 auto;
   width: 960px;
 }
 .container:before,
-.container:after,
-.content:before,
-.content:after {
+.container:after {
   content: "";
   display: table;
 }
-.container:after,
-.content:after {
+.container:after {
   clear: both;
 }
-.container,
-.content {
+.container {
   zoom: 1;
 }
 .g1,
@@ -300,7 +302,9 @@ td {
 .g9,
 .g10,
 .g11,
-.g12 {
+.g12,
+.gc,
+.gs {
   float: left;
   margin: 10px;
   width: 100%;
@@ -310,6 +314,12 @@ td {
 ---------- */
 .container {
   width: 960px;
+}
+.gc {
+  width: 620px;
+}
+.gs {
+  width: 300px;
 }
 .g1 {
   max-width: 60px;
@@ -353,6 +363,12 @@ td {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     width: 768px;
+  }
+  .gc {
+    width: 428px;
+  }
+  .gs {
+    width: 300px;
   }
   .g1 {
     max-width: 44px;
@@ -398,6 +414,12 @@ td {
   .container {
     width: 480px;
   }
+  .gc {
+    width: 460px;
+  }
+  .gs {
+    width: 460px;
+  }
   .g1 {
     max-width: 60px;
   }
@@ -441,6 +463,12 @@ td {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .container {
     width: 320px;
+  }
+  .gc {
+    width: 300px;
+  }
+  .gs {
+    width: 300px;
   }
   .g1 {
     max-width: 44px;
@@ -967,7 +995,7 @@ input.disabled {
 }
 #search-form input[type="submit"] {
   -webkit-appearance: none;
-  background-image: url("https://s3.amazonaws.com/toolkit.mshanken.com/img/search-flat.png");
+  background-image: url("https://s3.amazonaws.com/core.mshanken.com/img/search-flat.png");
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgba(198, 198, 198, 0.6);
@@ -1016,7 +1044,7 @@ input.disabled {
 }
 #search-form-inline input[type="submit"] {
   -webkit-appearance: none;
-  background: url("https://s3.amazonaws.com/toolkit.mshanken.com/img/search.png") no-repeat scroll 13px 3px transparent;
+  background: url("https://s3.amazonaws.com/core.mshanken.com/img/search.png") no-repeat scroll 13px 3px transparent;
   border-color: #b9b9b9;
   border-style: solid;
   border-width: 1px 1px 1px 0;
@@ -1101,7 +1129,7 @@ input:-moz-placeholder {
 .fancybox-close,
 .fancybox-prev span,
 .fancybox-next span {
-  background-image: url('fancybox_sprite.png');
+  background-image: url('https://s3.amazonaws.com/core.mshanken.com/plugins/fancybox/fancybox_sprite.png');
 }
 #fancybox-loading {
   position: fixed;
@@ -1117,7 +1145,7 @@ input:-moz-placeholder {
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url('fancybox_loading.gif') center center no-repeat;
+  background: url('https://s3.amazonaws.com/core.mshanken.com/plugins/fancybox/fancybox_loading.gif') center center no-repeat;
 }
 .fancybox-close {
   position: absolute;
@@ -1134,7 +1162,7 @@ input:-moz-placeholder {
   width: 40%;
   height: 100%;
   cursor: pointer;
-  background: transparent url('blank.gif');
+  background: transparent url('https://s3.amazonaws.com/core.mshanken.com/plugins/fancybox/blank.gif');
   /* helps IE */
 
   z-index: 1003;
@@ -1254,10 +1282,11 @@ body {
   font-size: 14px;
 }
 h2 {
+  color: #333;
   font-family: 'Droid Sans Bold', sans-serif;
   font-weight: 700;
-  font-size: 45px;
-  margin: 0 0 20px;
+  font-size: 30px;
+  margin: 0 0 10px;
 }
 h3 {
   color: #333;
@@ -1281,6 +1310,7 @@ header {
   border-top: 1px solid #acaeb1;
   border-bottom: 1px solid #000000;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  margin: 0 0 30px;
   position: relative;
 }
 header h1 {
@@ -1333,19 +1363,11 @@ nav a:hover {
 }
 /* ========================================================= Intro ===*/
 #intro {
-  background: #373c4a;
-  background: -moz-linear-gradient(top, #373c4a 0%, #17191f 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #373c4a), color-stop(100%, #17191f));
-  background: -webkit-linear-gradient(top, #373c4a 0%, #17191f 100%);
-  background: -o-linear-gradient(top, #373c4a 0%, #17191f 100%);
-  background: -ms-linear-gradient(top, #373c4a 0%, #17191f 100%);
-  background: linear-gradient(top, #373c4a 0%, #17191f 100%);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#373c4a', endColorstr='#17191f', GradientType=0);
   border-bottom: 1px solid #fff;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
   color: #cbcbcb;
   padding: 55px 0 0 0;
-  margin: 0 0 110px 0;
+  margin: -30px 0 110px 0;
 }
 #intro .g4 img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -1353,6 +1375,7 @@ nav a:hover {
 }
 #intro h2 {
   color: #fff;
+  font-size: 45px;
   margin: 153px 0 10px;
   text-shadow: 0 1px 1px #000;
   text-transform: uppercase;
@@ -1372,6 +1395,13 @@ nav a:hover {
 #intro #app-store {
   border-radius: 7px;
   box-shadow: 0 2px 3px #000;
+}
+/* ========================================================= WineRatings+ ===*/
+#wineratingsplus #intro {
+  background-color: #17191F;
+  background-image: url('/img/intro-wineratingsplus.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 /* ========================================================= Features ===*/
 #feats {
