@@ -4,11 +4,11 @@
 	<div id="intro">
 		<div class="container">
 			<div class="g4">
-				    <img src="http://placehold.it/460x882"/>
+				    <img src="/img/phone-wineratingsplus.png"/>
 			</div><!--/.g4-->
 			<div class="g8">
-				<h2><img src="/img/app-icon.png"/> WineRating+</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
+				<h2><img src="/img/app-icon.png"/> Wine<span>Ratings</span>+</h2>
+				<p>Whatever your wine expertise, Wine Spectator's flagship WineRatings+ app for iPhone will help you find your perfect wine at the perfect price. Trying to decide which wine to buy at a retailer or restaurant? Our powerful search lets you quickly consult our 265,000+ wine reviews&mdash;complete with scores, tasting notes, release prices, auction values and drinking windows. Then save your favorites for future reference. Plus, this free download, with a mix of free and premium content, continues to offer our definitive vintage charts, along with expanded wine education and a timely news feed.</p>
 				<a href=""><img src="/img/app-store.png" id="app-store"/></a>			
 			</div><!--/.g8-->
 		</div><!--/.container-->
@@ -17,19 +17,19 @@
 	<div class="container">
 		<div id="feats" class="clearfix">
 			<div class="g4">
-				<img src="http://placehold.it/460x307"/>
-				<h3>Title</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa</p>
+				<a class="lightbox" href="http://placehold.it/460x307"><img src="http://placehold.it/460x307"/></a>
+				<h3>TRUSTED, TIMELY RATINGS</h3>
+				<p>WineRatings+ is automatically updated (no download required) with the latest Wine Spectator reviews&mdash;at least 1,000 each month&mdash;so you can stay on top of new releases. Consult our reviews with confidence: Our experts follow the industry's strictest blind&mdash;tasting methods to ensure fair, reliable results.</p>
 			</div>
 			<div class="g4">
-				<img src="http://placehold.it/460x307"/>
-				<h3>Title</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa</p>
+				<a class="lightbox" href="http://placehold.it/460x307"><img src="http://placehold.it/460x307"/></a>
+				<h3>EXPERT PICKS</h3>
+				<p>Don't have a specific bottle in mind? We can give you advice on which wines to seek out. The Picks section pairs editor&mdash;suggested searches with curated lists of Wine Spectator&mdash;reviewed wines. For example, find great buys among the most recent reviews in &ldquo;Newest Reds and Whites $20 or Less (90+ Points).&rdquo;</p>
 			</div>
 			<div class="g4">
-				<img src="http://placehold.it/460x307"/>
-				<h3>Title</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa</p>
+				<a class="lightbox" href="http://placehold.it/460x307"><img src="http://placehold.it/460x307"/></a>
+				<h3>BEYOND WINE REVIEWS</h3>
+				<p>WineRatings+ also includes a range of free content to expand your wine knowledge, including Vintage Charts summarizing quality and wine character for 55 key regions and grape varieties, educational Learn More articles and entertaining videos, and the WS360 news feed for a timely view into wine culture.</p>
 			</div>
 		</div><!--/feats-->
 	</div><!--/container-->
