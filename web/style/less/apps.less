@@ -22,14 +22,14 @@ h1{
 }
 h2 {
 	color: #333;
-	font-family: 'Droid Sans Bold', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	margin: 0 0 10px;
 }
 h3{
 	color: #333;
-	font-family: 'Droid Sans Bold', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 	font-weight: 700;
 	margin: 0 0 20px;
 }
@@ -62,14 +62,22 @@ header{
 	position:relative;
 }
 header h1{
-	color: #ffffff;
-	display: inline-block;
-	font-family: Helvetica;
-	font-weight: 100;
-	margin: 12px 0 0 10px;
+	color: #FFFFFF;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: helvetica;
+    margin: 13px 0 0 10px;
+    text-shadow: 0 1px 0 #000000;
 }
 header h1 a, header h1 a:hover{
-	color: #ffffff;
+	color: #fff;
+}
+header h1 span{
+	color: #EBBF45;
+	font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 /* ------
 -- nav --
@@ -101,7 +109,7 @@ nav a{
 	box-shadow: 1px 0 0 rgba(255,255,255,0.2);
 	color: #d4d4d4;
 	display: block;
-	padding: 5px 15px;
+	padding: 8px 15px 5px;
 	text-shadow: 0 -1px 0 #000;
 }
 nav li:last-child a{
@@ -111,7 +119,127 @@ nav li:last-child a{
 nav a:hover{
 	color: #fff;
 }
-/* ========================================================= Intro ===*/
+/* ========================================================= Home ===*/
+#home hr{
+	margin: 0;
+}
+/* -----
+-- wr --
+----- */
+#home-wr{
+	background-image: url("/img/home-wr.png");
+	box-shadow: 0 1px 0 #fff;
+	border-radius: 0 0 4px 4px;
+	color: #fff;
+	height: 470px;
+	width: 940px;
+}
+#home-wr-copy{
+	float: right;
+	font-size: 16px;
+    text-shadow: 0 1px 1px #000000;
+	margin:166px 30px 0 0;
+	width: 516px;
+}
+#home-wr h2, #home-wr h2 a{
+	color: #fff;
+	font-family: helvetica;
+	font-size: 41px;
+	margin: 0 0 10px;
+	text-shadow: 0 1px 1px #000;
+	text-transform: uppercase;
+}
+#home-wr h2 span{
+	color: #ebbf45;
+}
+#home-wr h2 img{
+	vertical-align: text-bottom;
+	border-radius: 8px;
+	box-shadow: 0 2px 3px #000;
+}
+#home-wr p{
+	margin-bottom: 44px;
+}
+/* -----
+-- vc --
+----- */
+#home-vc{
+	background-image: url("/img/home-vc.png");
+	box-shadow: 0 1px 0 #fff;
+	border-radius: 0 0 4px 4px;
+	color: #fff;
+	margin-bottom: 30px;
+	height: 300px;
+	width: 460px;
+}
+#home-vc-copy{
+	float: right;
+	font-size: 16px;
+    text-shadow: 0 1px 1px #000000;
+	margin: 40px 30px 0 0;
+	width: 185px;
+}
+#home-vc h2, #home-vc h2 a{
+	color: #fff;
+	font-family: helvetica;
+	font-size: 23px;
+	margin: 0 0 6px;
+	text-shadow: 0 1px 1px #000;
+	text-transform: uppercase;
+}
+#home-vc h2 span{
+	color: #ebbf45;
+}
+#home-vc h2 img{
+	vertical-align: text-bottom;
+	border-radius: 8px;
+	box-shadow: 0 2px 3px #000;
+}
+#home-vc p{
+	font-size: 14px;
+	margin-bottom: 23px;
+}
+/* -----
+-- nv --
+----- */
+#home-nv{
+	background-image: url("/img/home-nv.png");
+	box-shadow: 0 1px 0 #fff;
+	border-radius: 0 0 4px 4px;
+	color: #fff;
+	margin-bottom: 30px;
+	height: 300px;
+	width: 460px;
+}
+#home-nv-copy{
+	float: right;
+	font-size: 16px;
+    text-shadow: 0 1px 1px #000000;
+	margin: 40px 30px 0 0;
+	width: 185px;
+}
+#home-nv h2, #home-nv h2 a{
+	color: #fff;
+	font-family: helvetica;
+	font-size: 24px;
+	line-height: 1.1;
+	margin: 0 0 6px;
+	text-shadow: 0 1px 1px #000;
+	text-transform: uppercase;
+}
+#home-nv h2 span{
+	color: #ebbf45;
+}
+#home-nv h2 img{
+	vertical-align: text-bottom;
+	border-radius: 8px;
+	box-shadow: 0 2px 3px #000;
+}
+#home-nv p{
+	font-size: 14px;
+	margin-bottom: 23px;
+}
+/* =====s==================================================== Intro ===*/
 #intro{
 	border-bottom: 1px solid #fff;
 	box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
@@ -124,6 +252,7 @@ nav a:hover{
 }
 #intro h2{
 	color: #fff;
+	font-family: helvetica;
 	font-size: 45px;
 	margin: 153px 0 10px;
 	text-shadow: 0 1px 1px #000;
@@ -134,7 +263,7 @@ nav a:hover{
 }
 #intro h2 img{
 	vertical-align: text-bottom;
-	border-radius: 4px;
+	border-radius: 8px;
 	box-shadow: 0 2px 3px #000;
 }
 #intro p{
@@ -155,6 +284,34 @@ nav a:hover{
 #wineratingsplus #intro h2{
 	margin: 119px 0 10px;
 }
+/* ========================================================= VintageChart+ ===*/
+#vintagechartplus #intro{
+	background-color: #17191F;
+	background-image: url('/img/intro-vintagechartplus.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#vintagechartplus #intro h2{
+	margin: 134px 0 10px;
+}
+/* ========================================================= Guide to Napa Valley ===*/
+#guidetonapavalley #intro{
+	background-color: #17191F;
+	background-image: url('/img/intro-guidetonapavalley.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#guidetonapavalley #intro h2{
+	font-size: 36px;
+	margin: 71px 0 10px;
+}
+#guidetonapavalley #intro h2 img{
+	vertical-align: bottom;
+	border-radius: 13px;
+}
+#intro .g5 img{
+	margin: 0 0 -60px 0;
+}
 /* ========================================================= Features ===*/
 #feats{
 	border: 20px;
@@ -168,9 +325,47 @@ nav a:hover{
 }	
 #feats h3{
 	margin: 0;
+	text-transform: uppercase;
 }
 #feats p{
 	color:#666;
+}
+/* ========================================================= Site Badge ===*/
+#badge{
+	
+}
+#badge .g4{
+	margin-bottom: 40px;
+}
+#badge .g4 img{
+	display: block;
+	margin: 0 auto;
+}
+#badge textarea {
+    border: 1px solid #aaa;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 #FFFFFF;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    min-height: 200px;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+/* ========================================================= 404 ===*/
+#error-404 h2{
+	margin: 0;
+}
+#error-404 img{
+	display: block;
+	margin: 0 auto 30px;
 }
 /* ========================================================= Footer ===*/
 #signup{
@@ -189,7 +384,7 @@ nav a:hover{
 	font-size: 18px;
 	margin: 0 0 10px;
 	padding: 10px;
-	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 }
 #subForm{
 
@@ -203,7 +398,7 @@ nav a:hover{
 	color: #888;
 	cursor: text;
 	position: absolute;
-	padding: 8px 0 0 6px;
+	padding: 10px 0 0 8px;
 	top: 0;
 	left: 0;
 	text-align:left;
@@ -214,13 +409,14 @@ nav a:hover{
 #subForm span{
 	font-size: 19px;
 	float:left;
-	margin: 2px 0 0;
+	margin: 5px 0 0 5px;
 }
 input[type="text"]{
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.5);
 	border:1px solid #824848;
 	color:#333;
 	margin: 0;
+	padding: 5px 3px 3px 6px;
 	height:22px;
 	width: 100%;
 }
@@ -238,6 +434,7 @@ input[type="submit"]{
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
     color: #fff;
     font-size: 14px;
+    height: 32px;
     outline: medium none;
     padding: 6px 7px;
     position: absolute;

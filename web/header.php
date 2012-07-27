@@ -33,7 +33,7 @@
 
 <header>
 	<div class="container">
-	<h1><a href="/">WS Apps</a></h1>
+	<h1><a href="/"><span>WS</span> Apps</a></h1>
 		<nav>
 			<ul>
 				<li><a href="/wineratingsplus" title="WineRatings+">WineRatings+</a></li>

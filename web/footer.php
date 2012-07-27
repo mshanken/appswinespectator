@@ -16,7 +16,7 @@
 		<p id="copy">&copy; 2012 <a href="http://www.winespectator.com/">Wine Spectator</a>. All Rights Reserved.</p>
 		<ul id="subnav">
 			<li><a href="/about">About</a></li>
-			<li><a href="/press">Press</a></li>
+			<!-- <li><a href="/press">Press</a></li> -->
 			<li><a href="/contact">Contact</a></li>
 		</ul>
 	</footer>

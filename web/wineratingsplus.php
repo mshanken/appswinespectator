@@ -7,9 +7,9 @@
 				    <img src="/img/phone-wineratingsplus.png"/>
 			</div><!--/.g4-->
 			<div class="g8">
-				<h2><img src="/img/app-icon.png"/> Wine<span>Ratings</span>+</h2>
-				<p>Whatever your wine expertise, Wine Spectator's flagship WineRatings+ app for iPhone will help you find your perfect wine at the perfect price. Trying to decide which wine to buy at a retailer or restaurant? Our powerful search lets you quickly consult our 265,000+ wine reviews&mdash;complete with scores, tasting notes, release prices, auction values and drinking windows. Then save your favorites for future reference. Plus, this free download, with a mix of free and premium content, continues to offer our definitive vintage charts, along with expanded wine education and a timely news feed.</p>
-				<a href=""><img src="/img/app-store.png" id="app-store"/></a>			
+				<h2><img src="/img/icon-wineratingsplus.png"/> Wine<span>Ratings</span>+</h2>
+				<p>Whatever your wine expertise, Wine Spectator&lsquo;s flagship WineRatings+ app for iPhone will help you find your perfect wine at the perfect price. Trying to decide which wine to buy at a retailer or restaurant? Our powerful search lets you quickly consult our 265,000+ wine reviews&mdash;complete with scores, tasting notes, release prices, auction values and drinking windows. Then save your favorites for future reference. Plus, this free download, with a mix of free and premium content, continues to offer our definitive vintage charts, along with expanded wine education and a timely news feed.</p>
+				<a href="http://itunes.apple.com/us/app/vintagechart+-by-wine-spectator/id381341648?ls=1&mt=8"><img src="/img/app-store.png" id="app-store"/></a>			
 			</div><!--/.g8-->
 		</div><!--/.container-->
 	</div><!--/#intro-->
@@ -17,17 +17,17 @@
 	<div class="container">
 		<div id="feats" class="clearfix">
 			<div class="g4">
-				<a class="lightbox" href="http://placehold.it/460x307"><img src="http://placehold.it/460x307"/></a>
-				<h3>TRUSTED, TIMELY RATINGS</h3>
-				<p>WineRatings+ is automatically updated (no download required) with the latest Wine Spectator reviews&mdash;at least 1,000 each month&mdash;so you can stay on top of new releases. Consult our reviews with confidence: Our experts follow the industry's strictest blind&mdash;tasting methods to ensure fair, reliable results.</p>
-			</div>
-			<div class="g4">
-				<a class="lightbox" href="http://placehold.it/460x307"><img src="http://placehold.it/460x307"/></a>
+				<a class="lightbox" href="img/wineratingsplus/feat2_b.jpg"><img src="/img/wineratingsplus/feat2_s.jpg"/></a>
 				<h3>EXPERT PICKS</h3>
-				<p>Don't have a specific bottle in mind? We can give you advice on which wines to seek out. The Picks section pairs editor&mdash;suggested searches with curated lists of Wine Spectator&mdash;reviewed wines. For example, find great buys among the most recent reviews in &ldquo;Newest Reds and Whites $20 or Less (90+ Points).&rdquo;</p>
+				<p>Don&lsquo;t have a specific bottle in mind? We can give you advice on which wines to seek out. The Picks section pairs editor-suggested searches with curated lists of Wine Spectator-reviewed wines. For example, find great buys among the most recent reviews in &ldquo;Newest Reds and Whites $20 or Less (90+ Points).&rdquo;</p>
 			</div>
 			<div class="g4">
-				<a class="lightbox" href="http://placehold.it/460x307"><img src="http://placehold.it/460x307"/></a>
+				<a class="lightbox" href="img/wineratingsplus/feat1_b.jpg"><img src="/img/wineratingsplus/feat1_s.jpg"/></a>
+				<h3>TRUSTED, TIMELY RATINGS</h3>
+				<p>WineRatings+ is automatically updated (no download required) with the latest Wine Spectator reviews&mdash;at least 1,000 each month&mdash;so you can stay on top of new releases. Consult our reviews with confidence: Our experts follow strict blind-tasting methods to ensure fair, reliable results.</p>
+			</div>
+			<div class="g4">
+				<a class="lightbox" href="img/wineratingsplus/feat3_b.png"><img src="/img/wineratingsplus/feat3_s.png"/></a>
 				<h3>BEYOND WINE REVIEWS</h3>
 				<p>WineRatings+ also includes a range of free content to expand your wine knowledge, including Vintage Charts summarizing quality and wine character for 55 key regions and grape varieties, educational Learn More articles and entertaining videos, and the WS360 news feed for a timely view into wine culture.</p>
 			</div>
