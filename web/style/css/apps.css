@@ -278,7 +278,7 @@ td {
 /* ========================================================= G12 Omega ===*/
 .container {
   margin: 0 auto;
-  width: 960px;
+  zoom: 1;
 }
 .container:before,
 .container:after {
@@ -287,9 +287,6 @@ td {
 }
 .container:after {
   clear: both;
-}
-.container {
-  zoom: 1;
 }
 .g1,
 .g2,
@@ -304,58 +301,128 @@ td {
 .g11,
 .g12,
 .gc,
-.gs {
+.gs,
+.al {
   float: left;
   margin: 10px;
   width: 100%;
 }
+.al {
+  height: 90px;
+}
+/* ----------
+ -- 1068px --
+---------- */
+.container {
+  width: 1068px;
+}
+.gc {
+  max-width: 728px;
+}
+.gs {
+  max-width: 300px;
+}
+.g1 {
+  max-width: 69px;
+}
+.g2 {
+  max-width: 158px;
+}
+.g3 {
+  max-width: 247px;
+}
+.g4 {
+  max-width: 336px;
+}
+.g5 {
+  max-width: 425px;
+}
+.g6 {
+  max-width: 514px;
+}
+.g7 {
+  max-width: 603px;
+}
+.g8 {
+  max-width: 692px;
+}
+.g9 {
+  max-width: 781px;
+}
+.g10 {
+  max-width: 870px;
+}
+.g11 {
+  max-width: 959px;
+}
+.g12 {
+  max-width: 1048px;
+}
+.al {
+  max-width: 728px;
+}
+.al a {
+  display: none;
+}
 /* ----------
  -- 960px --
 ---------- */
-.container {
-  width: 960px;
-}
-.gc {
-  width: 620px;
-}
-.gs {
-  width: 300px;
-}
-.g1 {
-  max-width: 60px;
-}
-.g2 {
-  max-width: 140px;
-}
-.g3 {
-  max-width: 220px;
-}
-.g4 {
-  max-width: 300px;
-}
-.g5 {
-  max-width: 380px;
-}
-.g6 {
-  max-width: 460px;
-}
-.g7 {
-  max-width: 540px;
-}
-.g8 {
-  max-width: 620px;
-}
-.g9 {
-  max-width: 700px;
-}
-.g10 {
-  max-width: 780px;
-}
-.g11 {
-  max-width: 860px;
-}
-.g12 {
-  max-width: 940px;
+@media screen and (min-width: 1024px) and (max-width: 1068px) {
+  .container {
+    width: 960px;
+  }
+  .gc {
+    max-width: 620px;
+  }
+  .gs {
+    max-width: 300px;
+  }
+  .g1 {
+    max-width: 60px;
+  }
+  .g2 {
+    max-width: 140px;
+  }
+  .g3 {
+    max-width: 220px;
+  }
+  .g4 {
+    max-width: 300px;
+  }
+  .g5 {
+    max-width: 380px;
+  }
+  .g6 {
+    max-width: 460px;
+  }
+  .g7 {
+    max-width: 540px;
+  }
+  .g8 {
+    max-width: 620px;
+  }
+  .g9 {
+    max-width: 700px;
+  }
+  .g10 {
+    max-width: 780px;
+  }
+  .g11 {
+    max-width: 860px;
+  }
+  .g12 {
+    max-width: 940px;
+  }
+  .al {
+    max-width: 940px;
+  }
+  .al a {
+    display: inline-block;
+    float: right;
+  }
+  .al small {
+    display: none;
+  }
 }
 /* ---------
  -- 768px --
@@ -365,10 +432,10 @@ td {
     width: 768px;
   }
   .gc {
-    width: 428px;
+    max-width: 428px;
   }
   .gs {
-    width: 300px;
+    max-width: 300px;
   }
   .g1 {
     max-width: 44px;
@@ -406,6 +473,16 @@ td {
   .g12 {
     max-width: 748px;
   }
+  .al {
+    max-width: 748px;
+  }
+  .al a {
+    display: inline-block;
+    float: right;
+  }
+  .al span {
+    display: none;
+  }
 }
 /* ---------
  -- 480px --
@@ -415,10 +492,10 @@ td {
     width: 480px;
   }
   .gc {
-    width: 460px;
+    max-width: 460px;
   }
   .gs {
-    width: 460px;
+    max-width: 460px;
   }
   .g1 {
     max-width: 60px;
@@ -456,6 +533,9 @@ td {
   .g12 {
     max-width: 460px;
   }
+  .al {
+    display: none;
+  }
 }
 /* ---------
  -- 320px --
@@ -465,10 +545,10 @@ td {
     width: 320px;
   }
   .gc {
-    width: 300px;
+    max-width: 300px;
   }
   .gs {
-    width: 300px;
+    max-width: 300px;
   }
   .g1 {
     max-width: 44px;
@@ -505,6 +585,9 @@ td {
   }
   .g12 {
     max-width: 300px;
+  }
+  .al {
+    display: none;
   }
 }
 /* ========================================================= Forms ===*/
