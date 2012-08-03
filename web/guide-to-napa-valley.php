@@ -63,8 +63,6 @@
 
 					<span><img src="img/napavalley/699.png"/></span>
 
-					<!--<span><img src="/img/napavalley/price.png"/></span>-->
-
 				</div><!--/one_third-->
 			</div><!--/content-->
 			<hr/>
