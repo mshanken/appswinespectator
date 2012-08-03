@@ -1721,7 +1721,7 @@ nav a:hover {
 #subForm li {
   float: left;
   position: relative;
-  width: 453px;
+  width: 503px;
 }
 #subForm label {
   color: #888;
@@ -1738,7 +1738,7 @@ nav a:hover {
 #subForm span {
   font-size: 19px;
   float: left;
-  margin: 5px 0 0 5px;
+  margin: 4px 0 0 5px;
 }
 input[type="text"] {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.5);

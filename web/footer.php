@@ -4,7 +4,7 @@
 				<div id="submit" class="clearfix">
 					<form method="post" action="http://lp.winespectator.com/apps/optin" pageId="1000353" siteId="55439" parentPageId="1000352" id="subForm">
 					<ul>
-						<li><span>Would you like to be notified about new apps?</span></li>
+						<li><span>Would you like to be notified about our new apps?</span></li>
 						<li><label for="control_EMAIL">Your email address...</label><input type="text" name="Email" id="control_EMAIL"/><input type="hidden" name="formSourceName" value="StandardForm"/><input type="submit" value="Subscribe"/></li>
 					</ul>
 					</form>
