@@ -61,7 +61,7 @@
 				<div class="one_third" id="price">
 					<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="/img/appstore.png" id="appstore"/></a>
 
-					<span><img src="img/napavalley/299.png"/></span>
+					<span><img src="img/napavalley/699.png"/></span>
 
 					<!--<span><img src="/img/napavalley/price.png"/></span>-->
 
