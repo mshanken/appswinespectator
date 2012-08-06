@@ -1686,7 +1686,6 @@ nav a:hover {
   font-size: 41px;
   margin: 0 0 10px;
   text-shadow: 0 1px 1px #000;
-  text-transform: uppercase;
 }
 #home-wr h2 span {
   color: #ebbf45;
@@ -1725,7 +1724,6 @@ nav a:hover {
   font-size: 23px;
   margin: 0 0 6px;
   text-shadow: 0 1px 1px #000;
-  text-transform: uppercase;
 }
 #home-vc h2 span {
   color: #ebbf45;
@@ -1766,7 +1764,6 @@ nav a:hover {
   line-height: 1.1;
   margin: 0 0 6px;
   text-shadow: 0 1px 1px #000;
-  text-transform: uppercase;
 }
 #home-nv h2 span {
   color: #ebbf45;
@@ -1797,7 +1794,6 @@ nav a:hover {
   font-size: 45px;
   margin: 153px 0 10px;
   text-shadow: 0 1px 1px #000;
-  text-transform: uppercase;
 }
 #intro h2 span {
   color: #ebbf45;
