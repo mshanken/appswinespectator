@@ -2,6 +2,7 @@
 @import "variables.less";
 @import "structure.less";
 @import "forms.less";
+@import "buttons.less";
 @import "fancybox.less";
 /* ========================================================= WS Apps ===*/
 html,body {
@@ -359,6 +360,45 @@ nav a:hover{
 	box-sizing: border-box;
 
 }
+/* ========================================================= Contact ===*/
+#contact-form{
+	border-right: 1px solid #CCCCCC;
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.9);
+    padding: 0 30px 0 0;
+}
+#contact-form label{
+	padding: 1% 2% 0 0;
+	width: 15%;
+}
+#contact-form input, #contact-form textarea{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 30px;
+	width: 80%;
+}
+#contact-form .button{
+	float: right;
+	margin: 0 10px 0 0;
+	width: 100px;
+}
+#social-links{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#social-links li{
+	margin: 0;
+	padding: 0;
+}
+#social-links img{
+	margin: 0 10px 0 0;
+	vertical-align: text-bottom;
+}
+#social-links p{
+	display: inline-block;
+	line-height: 1;
+}
 /* ========================================================= 404 ===*/
 #error-404 h2{
 	margin: 0;
@@ -411,7 +451,7 @@ nav a:hover{
 	float:left;
 	margin: 4px 0 0 5px;
 }
-input[type="text"]{
+#signup input[type="text"]{
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.5);
 	border:1px solid #824848;
 	color:#333;
@@ -420,7 +460,7 @@ input[type="text"]{
 	height:22px;
 	width: 100%;
 }
-input[type="submit"]{
+#signup input[type="submit"]{
 	background: #676f78;
 	background: -moz-linear-gradient(top,  #676f78 0%, #565c63 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#676f78), color-stop(100%,#565c63));
@@ -515,11 +555,31 @@ img{
 		font-size: 14px;
     	margin: 8px 0 0 5px;
 	}
+	#intro {
+		padding-top: 30px;
+	}
+	#wineratingsplus #intro h2 {
+    	margin-top: 30px;
+	}
+	#vintagechartplus #intro h2 {
+    	margin-top: 40px;
+	}
+	#guidetonapavalley #intro h2 {
+    	font-size: 28px;
+    	margin-top: 8px;
+	}
+	#guidetonapavalley #intro h2 img {
+		border-radius: 9px;
+		width: 50px;
+	}
 }
 /* ---------
  -- 480px --
 --------- */
 @media screen and (min-width: 480px) and (max-width: 767px) {
+	header{
+		margin:0;	
+	}
 	header h1 {
 		display: block;
 		margin: 10px 0 0;
@@ -553,11 +613,37 @@ img{
 		font-size: 18px;
 		margin: 2px 0 10px 5px;
 	}
+	#intro .g5 img, #intro .g4 img {
+		display: none;
+	}
+	#wineratingsplus #intro h2 {
+    	margin-top: 0;
+	}
+	#vintagechartplus #intro h2 {
+    	margin-top: 0;
+	}
+	#guidetonapavalley #intro h2 {
+    	font-size: 28px;
+    	margin-top: 0;
+	}
+	#guidetonapavalley #intro h2 img {
+		border-radius: 9px;
+		width: 50px;
+	}
+	#contact-form{
+		border-bottom: 1px solid #CCCCCC;
+		border-right: none;
+		box-shadow: 0  1px 0 rgba(255, 255, 255, 0.9);
+		padding: 0;
+	}
 }
 /* ---------
  -- 320px --
 --------- */
 @media screen and (min-width: 320px) and (max-width: 479px) {
+	header{
+		margin:0;	
+	}
 	header h1 {
 		display: block;
 		margin: 10px 0 0;
@@ -596,5 +682,48 @@ img{
 	}
 	#copy{
 		width: 130px;
+	}
+	#intro .g5 img, #intro .g4 img {
+		display: none;
+	}
+	#intro h2 img {
+		border-radius: 9px;
+		width: 50px;
+		vertical-align: bottom;
+	}
+	#wineratingsplus #intro h2 {
+		font-size: 29px;
+    	margin-top: 0;
+	}
+	#vintagechartplus #intro h2 {
+    	margin-top: 0;
+    	font-size: 28px;
+	}
+	#guidetonapavalley #intro h2 {
+    	font-size: 25px;
+    	margin-top: 0;
+	}
+	#guidetonapavalley #intro h2 img {
+		display: block;
+		margin: 0 0 10px;
+	}
+	#contact-form{
+		border-bottom: 1px solid #CCCCCC;
+		border-right: none;
+		box-shadow: 0  1px 0 rgba(255, 255, 255, 0.9);
+		padding: 0;
+	}
+	#contact-form label{
+		padding: 0 0 4px;
+   		text-align: left;
+    	width: 100%;
+	}
+	#contact-form input, #contact-form textarea{
+		width: 100%;
+	}
+	#contact-form .button{
+		float: none;
+		margin: 0;
+		width: 100%;
 	}
 }

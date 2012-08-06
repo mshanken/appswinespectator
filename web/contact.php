@@ -77,7 +77,7 @@
 					<li><label for="comments" accesskey=C>Message:</label> <textarea name="comments"><?=$comments;?></textarea></li>
 					<!-- <li><label for=verify accesskey=V>3 + 1 =</label><input name="verify" type="text" id="verify" size="4" value="<?=$verify;?>" /></li> -->
 				</ul>
-				<input type="submit" id="contactus" name="contactus" value="Submit" class="submit button"/>
+				<input type="submit" id="contactus" name="contactus" value="Submit" class="submit button btn primary"/>
 			</fieldset>
 		</form>
 		

@@ -1,3 +1,6 @@
+html {
+  overflow-y: scroll;
+}
 body,
 html {
   background-color: #fff;
@@ -1147,6 +1150,208 @@ input:-moz-placeholder {
   color: #b9b9b9 !important;
   font-style: italic;
 }
+.btn {
+  background: #e6e6e6;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
+  background: -moz-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 #cccccc inset, 1px 0 0 #bbbbbb inset, -1px 0 0 #bbbbbb inset, 0 -1px 0 #aaaaaa inset, 0 2px 0 rgba(255, 255, 255, 0.3) inset, 0 0 4px rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  line-height: normal;
+  margin: 0 5px;
+  padding: 8px 15px 6px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+.btn:hover {
+  background: #d6d6d6;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #d6d6d6));
+  background: -moz-linear-gradient(top, #fefefe 0%, #d6d6d6 100%);
+  text-decoration: none;
+}
+.btn:active {
+  box-shadow: 0 1px 0 rgba(40, 40, 40, 0.4) inset, 1px 0 0 rgba(40, 40, 40, 0.2) inset, -1px 0 0 rgba(40, 40, 40, 0.3) inset, 0 -1px 0 rgba(40, 40, 40, 0.4) inset, 0 1px 5px rgba(0, 0, 0, 0.2) inset;
+}
+/* --------
+ -- Blue --
+-------- */
+.btn.primary {
+  background: #52A8E8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #52a8e8), color-stop(100%, #2e76cf));
+  background: -moz-linear-gradient(top, #52a8e8 0%, #2e76cf 100%);
+  box-shadow: 0 1px 0 rgba(34, 57, 100, 0.6) inset, 1px 0 0 rgba(34, 57, 100, 0.4) inset, -1px 0 0 rgba(34, 57, 100, 0.5) inset, 0 -1px 0 rgba(34, 57, 100, 0.6) inset, 0 2px 0 rgba(255, 255, 255, 0.3) inset, 0 0 4px rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.btn.primary:hover {
+  background: #3E9EE5;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3e9ee5), color-stop(100%, #1666ca));
+  background: -moz-linear-gradient(top, #3e9ee5 0%, #1666ca 100%);
+}
+.btn.primary:active {
+  box-shadow: 0 1px 0 rgba(10, 10, 10, 0.5) inset, 1px 0 0 rgba(10, 10, 10, 0.3) inset, -1px 0 0 rgba(10, 10, 10, 0.4) inset, 0 -1px 0 rgba(10, 10, 10, 0.5) inset, 0 1px 5px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+/* ------------
+ -- Lt. Blue --
+------------ */
+.btn.info {
+  background: #5bc0de;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5bc0de), color-stop(100%, #339bb9));
+  background: -moz-linear-gradient(top, #5bc0de 0%, #339bb9 100%);
+  box-shadow: 0 1px 0 #4fa6c0 inset, 1px 0 0 #3d8094 inset, -1px 0 0 #3d8094 inset, 0 -1px 0 #387688 inset, 0 2px 0 rgba(255, 255, 255, 0.3) inset, 0 0 4px rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.btn.info:hover {
+  background: #56b4d1;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #56b4d1), color-stop(100%, #2e8da8));
+  background: -moz-linear-gradient(top, #56b4d1 0%, #2e8da8 100%);
+}
+.btn.info:active {
+  box-shadow: 0 1px 0 rgba(10, 10, 10, 0.5) inset, 1px 0 0 rgba(10, 10, 10, 0.3) inset, -1px 0 0 rgba(10, 10, 10, 0.4) inset, 0 -1px 0 rgba(10, 10, 10, 0.5) inset, 0 1px 5px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+/* ---------
+ -- Green --
+--------- */
+.btn.success {
+  background: #62c462;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #62c462), color-stop(100%, #57a957));
+  background: -moz-linear-gradient(top, #62c462 0%, #57a957 100%);
+  box-shadow: 0 1px 0 #58b058 inset, 1px 0 0 #418241 inset, -1px 0 0 #418241 inset, 0 -1px 0 #366c36 inset, 0 2px 0 rgba(255, 255, 255, 0.3) inset, 0 0 4px rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.btn.success:hover {
+  background: #5ab45a;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5ab45a), color-stop(100%, #519e51));
+  background: -moz-linear-gradient(top, #5ab45a 0%, #519e51 100%);
+}
+.btn.success:active {
+  box-shadow: 0 1px 0 rgba(10, 10, 10, 0.5) inset, 1px 0 0 rgba(10, 10, 10, 0.3) inset, -1px 0 0 rgba(10, 10, 10, 0.4) inset, 0 -1px 0 rgba(10, 10, 10, 0.5) inset, 0 1px 5px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+/* -------
+ -- Red --
+------- */
+.btn.action {
+  background: #EC6040;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ec6040), color-stop(100%, #e13d29));
+  background: -moz-linear-gradient(top, #ec6040 0%, #e13d29 100%);
+  box-shadow: 0 1px 0 #be331b inset, 1px 0 0 #a42a15 inset, -1px 0 0 #a42a15 inset, 0 -1px 0 #8c200e inset, 0 2px 0 rgba(255, 255, 255, 0.3) inset, 0 0 4px rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-shadow: 0 -1px 0 #a62416;
+}
+.btn.action:hover {
+  background: #E05434;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e05434), color-stop(100%, #ce3420));
+  background: -moz-linear-gradient(top, #e05434 0%, #ce3420 100%);
+}
+.btn.action:active {
+  box-shadow: 0 1px 0 rgba(10, 10, 10, 0.5) inset, 1px 0 0 rgba(10, 10, 10, 0.3) inset, -1px 0 0 rgba(10, 10, 10, 0.4) inset, 0 -1px 0 rgba(10, 10, 10, 0.5) inset, 0 1px 5px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+/* --------
+ -- Grey --
+-------- */
+.btn.grey {
+  background: #BEBEBE;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #bebebe), color-stop(100%, #969696));
+  background: -moz-linear-gradient(top, #bebebe 0%, #969696 100%);
+  box-shadow: 0 1px 0 #999999 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset, 0 -1px 0 #777777 inset, 0 2px 0 rgba(255, 255, 255, 0.3) inset, 0 0 4px rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+}
+.btn.grey:hover {
+  background: #b1b1b1;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b1b1b1), color-stop(100%, #808080));
+  background: -moz-linear-gradient(top, #b1b1b1 0%, #808080 100%);
+}
+.btn.grey:active {
+  box-shadow: 0 1px 0 rgba(10, 10, 10, 0.5) inset, 1px 0 0 rgba(10, 10, 10, 0.3) inset, -1px 0 0 rgba(10, 10, 10, 0.4) inset, 0 -1px 0 rgba(10, 10, 10, 0.5) inset, 0 1px 5px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+/* ---------
+ -- Black --
+--------- */
+.btn.black {
+  background: #686868;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #686868), color-stop(100%, #414141));
+  background: -moz-linear-gradient(top, #686868 0%, #414141 100%);
+  box-shadow: 0 1px 0 #5a5a5a inset, 1px 0 0 #4b4b4b inset, -1px 0 0 #4b4b4b inset, 0 -1px 0 #3c3c3c inset, 0 2px 0 rgba(255, 255, 255, 0.3) inset, 0 0 4px rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.btn.black:hover {
+  background: #5F5F5F;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5f5f5f), color-stop(100%, #333333));
+  background: -moz-linear-gradient(top, #5f5f5f 0%, #333333 100%);
+}
+.btn.black:active {
+  box-shadow: 0 1px 0 rgba(10, 10, 10, 0.5) inset, 1px 0 0 rgba(10, 10, 10, 0.3) inset, -1px 0 0 rgba(10, 10, 10, 0.4) inset, 0 -1px 0 rgba(10, 10, 10, 0.5) inset, 0 1px 5px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+/* -------------
+ -- Disabled --
+------------- */
+.btn.disabled,
+.btn:disabled {
+  cursor: default;
+  -khtml-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  filter: alpha(opacity=5);
+}
+button.btn::-moz-focus-inner,
+input[type=submit].btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+/* ---------
+ -- Icons --
+--------- */
+.btn:before {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+  -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), 2px 0 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), 2px 0 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), 2px 0 0 rgba(0, 0, 0, 0.4);
+  float: left;
+  font-size: 15px;
+  margin: -8px 12px -9px -14px;
+  padding: 7px 6px 5px;
+  pointer-events: none;
+  text-align: center;
+  width: 11px;
+}
+.btn.add:before {
+  content: "\271A";
+}
+.btn.delete:before {
+  content: "\2718";
+}
+.btn.save:before {
+  content: "\2714";
+}
+.btn.email:before {
+  content: "\2709";
+}
+.btn.like:before {
+  content: "\2764";
+}
+.btn.next:before {
+  content: "\279C";
+}
+.btn.star:before {
+  content: "\2605";
+}
+.btn.download:before {
+  content: "\2193";
+}
 /*! fancyBox v2.0.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-tmp iframe,
 .fancybox-tmp object {
@@ -1691,6 +1896,46 @@ nav a:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+/* ========================================================= Contact ===*/
+#contact-form {
+  border-right: 1px solid #CCCCCC;
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.9);
+  padding: 0 30px 0 0;
+}
+#contact-form label {
+  padding: 1% 2% 0 0;
+  width: 15%;
+}
+#contact-form input,
+#contact-form textarea {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 30px;
+  width: 80%;
+}
+#contact-form .button {
+  float: right;
+  margin: 0 10px 0 0;
+  width: 100px;
+}
+#social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#social-links li {
+  margin: 0;
+  padding: 0;
+}
+#social-links img {
+  margin: 0 10px 0 0;
+  vertical-align: text-bottom;
+}
+#social-links p {
+  display: inline-block;
+  line-height: 1;
+}
 /* ========================================================= 404 ===*/
 #error-404 h2 {
   margin: 0;
@@ -1740,7 +1985,7 @@ nav a:hover {
   float: left;
   margin: 4px 0 0 5px;
 }
-input[type="text"] {
+#signup input[type="text"] {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.5);
   border: 1px solid #824848;
   color: #333;
@@ -1749,7 +1994,7 @@ input[type="text"] {
   height: 22px;
   width: 100%;
 }
-input[type="submit"] {
+#signup input[type="submit"] {
   background: #676f78;
   background: -moz-linear-gradient(top, #676f78 0%, #565c63 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #676f78), color-stop(100%, #565c63));
@@ -1844,11 +2089,31 @@ img {
     font-size: 14px;
     margin: 8px 0 0 5px;
   }
+  #intro {
+    padding-top: 30px;
+  }
+  #wineratingsplus #intro h2 {
+    margin-top: 30px;
+  }
+  #vintagechartplus #intro h2 {
+    margin-top: 40px;
+  }
+  #guidetonapavalley #intro h2 {
+    font-size: 28px;
+    margin-top: 8px;
+  }
+  #guidetonapavalley #intro h2 img {
+    border-radius: 9px;
+    width: 50px;
+  }
 }
 /* ---------
  -- 480px --
 --------- */
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  header {
+    margin: 0;
+  }
   header h1 {
     display: block;
     margin: 10px 0 0;
@@ -1882,11 +2147,38 @@ img {
     font-size: 18px;
     margin: 2px 0 10px 5px;
   }
+  #intro .g5 img,
+  #intro .g4 img {
+    display: none;
+  }
+  #wineratingsplus #intro h2 {
+    margin-top: 0;
+  }
+  #vintagechartplus #intro h2 {
+    margin-top: 0;
+  }
+  #guidetonapavalley #intro h2 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  #guidetonapavalley #intro h2 img {
+    border-radius: 9px;
+    width: 50px;
+  }
+  #contact-form {
+    border-bottom: 1px solid #CCCCCC;
+    border-right: none;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    padding: 0;
+  }
 }
 /* ---------
  -- 320px --
 --------- */
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  header {
+    margin: 0;
+  }
   header h1 {
     display: block;
     margin: 10px 0 0;
@@ -1925,5 +2217,50 @@ img {
   }
   #copy {
     width: 130px;
+  }
+  #intro .g5 img,
+  #intro .g4 img {
+    display: none;
+  }
+  #intro h2 img {
+    border-radius: 9px;
+    width: 50px;
+    vertical-align: bottom;
+  }
+  #wineratingsplus #intro h2 {
+    font-size: 29px;
+    margin-top: 0;
+  }
+  #vintagechartplus #intro h2 {
+    margin-top: 0;
+    font-size: 28px;
+  }
+  #guidetonapavalley #intro h2 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  #guidetonapavalley #intro h2 img {
+    display: block;
+    margin: 0 0 10px;
+  }
+  #contact-form {
+    border-bottom: 1px solid #CCCCCC;
+    border-right: none;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    padding: 0;
+  }
+  #contact-form label {
+    padding: 0 0 4px;
+    text-align: left;
+    width: 100%;
+  }
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+  }
+  #contact-form .button {
+    float: none;
+    margin: 0;
+    width: 100%;
   }
 }
