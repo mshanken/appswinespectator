@@ -29,7 +29,7 @@
 		})();
 	</script>
 </head>
-<body id="home">
+<body>
 
 <header>
 	<div class="container">
