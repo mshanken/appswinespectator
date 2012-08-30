@@ -1557,8 +1557,6 @@ input[type=submit].btn::-moz-focus-inner {
 html,
 body {
   background-color: #e6e6e6;
-  background-image: url(../img/bg.png);
-  background-repeat: repeat;
   display: block;
 }
 /* ========================================================= Typography ===*/
