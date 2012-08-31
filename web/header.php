@@ -16,7 +16,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="/style/css/apps.css">
-	
+	<link rel="image_src" href="/img/icon-wineratingsplus114.png" />
 	<script src="https://s3.amazonaws.com/toolkit.mshanken.com/js/modernizr.min.js"></script>
 	<script>
 		var _gaq = _gaq || [];
