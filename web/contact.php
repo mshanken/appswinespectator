@@ -93,6 +93,7 @@
 		<div class="g4">
 			<ul id="social-links">
 				<li><img src="/img/email.png"/><p>Email<br/><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#112;&#112;&#115;&#64;&#119;&#105;&#110;&#101;&#115;&#112;&#101;&#99;&#116;&#97;&#116;&#111;&#114;&#46;&#99;&#111;&#109;">&#97;&#112;&#112;&#115;&#64;&#119;&#105;&#110;&#101;&#115;&#112;&#101;&#99;&#116;&#97;&#116;&#111;&#114;&#46;&#99;&#111;&#109;</a></p></li>
+				<li><img src="/img/support_32.png"/><p>Customer Support<br/><a href="http://app-help.winespectator.com">app-help.winespectator.com</a></p></li>
 				<li><img src="/img/twitter.png"/><p>Twitter<br/><a href="http://twitter.com/WineSpectator">@WineSpectator</a></p></li>
 				<li><img src="/img/facebook.png"/><p>Facebook<br/><a href="http://www.facebook.com/WineSpectator">facebook.com/winespectator</a></p></li>
 			</ul>
