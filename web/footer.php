@@ -1,6 +1,6 @@
 <div class="container">
 	<div  class="g12">
-		<div id="signup">
+		<!--<div id="signup">
 				<div id="submit" class="clearfix">
 					<form method="post" action="http://lp.winespectator.com/apps/optin" pageId="1000353" siteId="55439" parentPageId="1000352" id="subForm">
 					<ul>
@@ -8,10 +8,11 @@
 						<li><label for="control_EMAIL">Your email address...</label><input type="text" name="Email" id="control_EMAIL"/><input type="hidden" name="formSourceName" value="StandardForm"/><input type="submit" value="Subscribe"/></li>
 					</ul>
 					</form>
-				</div><!--/submit-->
-		</div><!--/signup-->
+				</div>
+		</div>-->
+		<hr/>
 	</div><!--/g12-->
-					
+
 	<footer>
 		<p id="copy">&copy; 2012 <a href="http://www.winespectator.com/">Wine Spectator</a>. All Rights Reserved.</p>
 		<ul id="subnav">

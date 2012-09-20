@@ -1769,7 +1769,7 @@ nav a:hover {
   font-size: 14px;
   margin-bottom: 23px;
 }
-/* =====s==================================================== Intro ===*/
+/* ========================================================= Intro ===*/
 #intro {
   border-bottom: 1px solid #fff;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
@@ -1796,8 +1796,9 @@ nav a:hover {
   box-shadow: 0 2px 3px #000;
 }
 #intro p {
+  color: #eee;
   font-size: 16px;
-  text-shadow: 0 1px 1px #000;
+  text-shadow: 0 1px 1px #000000, 0 0px 30px #000;
 }
 #intro #app-store {
   border-radius: 7px;
