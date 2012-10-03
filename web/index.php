@@ -4,6 +4,7 @@
 
 		<div class="g12">
 			<div id="home-wr">
+				<a href="/vintagechartplus" class="ss"><img src="/img/phone-wineratingsplus.png"/></a>
 				<div id="home-wr-copy">
 					<a href="/wineratingsplus"><img src="/img/phone-wineratingsplus.png" id="mini-phone"></a>
 					<h2><a href="/wineratingsplus"><img src="/img/icon-wineratingsplus.png"/> Wine<span>Ratings</span>+</a></h2>
@@ -22,7 +23,7 @@
 			<div id="home-vc-copy">
 				<h2><a href="/vintagechartplus">Vintage<span>Chart</span>+</a></h2>
 				<p>Make smarter decisions when faced with unfamiliar wines. Find the best vintage to drink now by comparing quality for 50+ regions and varieties.</p>
-				<a href="http://mobile.winespectator.com"><img src="/img/webapp-dark.png" id="app-store"/></a>
+				<a href="http://mobile.winespectator.com"><img src="/img/webapp.png" id="app-store"/></a>
 			</div><!--/home-vc-copy-->
 		</div><!--/g6-->
 
@@ -31,7 +32,7 @@
 			<div id="home-nv-copy">
 				<h2><a href="/guide-to-napa-valley">Guide to Napa Valley</a></h2>
 				<p>Discover the best of this California wine region, with our picks for the top places to stay, dine and visit.</p>
-				<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="/img/app-store-dark.png" id="app-store"/></a>
+				<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="/img/app-store.png" id="app-store"/></a>
 			</div><!--/home-nv-copy-->
 		</div><!--/g6-->
 <div class="clear"></div>

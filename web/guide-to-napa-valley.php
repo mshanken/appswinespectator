@@ -1,4 +1,4 @@
-<?php  $title = 'Guide to Napa Valley'; include 'header.php'; ?>
+<?php  $title = 'Guide to Napa Valley |'; include 'header.php'; ?>
 
 <div id="guidetonapavalley">
 	<div id="intro">
@@ -9,11 +9,11 @@
 			<div class="g7">
 				<h2><img src="/img/icon-guidetonapavalley.png"/> Guide to Napa Valley</h2>
 				<p>Discover the best of this spectacular California wine region with our innovative app on iPad. Make the most of your travels with our editors&lsquo; picks for the top places to stay, dine, taste and visit. Consult the interactive map to get a sense of place for each recommended destination. Learn more about Napa Valley with Wine Spectator&lsquo;s rich articles, beautiful photographs, food-matching tips and reviews of hundreds of Napa&lsquo;s greatest wines.</p>
-				<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="/img/app-store.png" id="app-store"/></a>			
+				<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="/img/app-store.png" id="app-store"/></a>
 			</div><!--/g7-->
 		</div><!--/.container-->
 	</div><!--/#intro-->
-	
+
 	<div class="container">
 		<div id="feats" class="clearfix">
 			<div class="g4">

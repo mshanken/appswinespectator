@@ -1663,27 +1663,27 @@ nav a:hover {
 -- wr --
 ----- */
 #home-wr {
-  background-image: url("/img/home-wr.png");
-  box-shadow: 0 1px 0 #fff;
-  border-radius: 0 0 4px 4px;
-  color: #fff;
-  height: 470px;
-  width: 1048px;
+  margin: 10px 0 30px;
+}
+#home-wr .ss {
+  margin: 0 50px 0 120px;
+}
+#home-wr .ss img {
+  width: 200px;
 }
 #home-wr-copy {
   float: right;
   font-size: 16px;
-  text-shadow: 0 1px 1px #000000;
-  margin: 150px 30px 0 0;
-  width: 622px;
+  margin: 75px 50px 0 0;
+  width: 628px;
 }
 #home-wr h2,
 #home-wr h2 a {
-  color: #fff;
+  color: #333;
   font-family: helvetica;
   font-size: 41px;
-  margin: 0 0 10px;
-  text-shadow: 0 1px 1px #000;
+  margin: 0 0 6px;
+  text-shadow: none;
 }
 #home-wr h2 span {
   color: #ebbf45;
@@ -1693,11 +1693,11 @@ nav a:hover {
 }
 #home-wr h2 img {
   vertical-align: text-bottom;
-  border-radius: 8px;
+  border-radius: 11px;
   box-shadow: 0 2px 3px #000;
 }
 #home-wr p {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 /* -----
 -- vc --
@@ -1802,7 +1802,7 @@ nav a:hover {
 }
 #intro #app-store {
   border-radius: 7px;
-  box-shadow: 0 2px 3px #000;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 0 40px #4a4e5a, 0 2px 3px #000000;
 }
 /* ========================================================= WineRatings+ ===*/
 #wineratingsplus #intro {
@@ -1823,6 +1823,9 @@ nav a:hover {
 }
 #vintagechartplus #intro h2 {
   margin: 134px 0 10px;
+}
+#vintagechartplus #app-store {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 0 40px #5b584b, 0 2px 3px #000000;
 }
 /* ========================================================= Guide to Napa Valley ===*/
 #guidetonapavalley #intro {

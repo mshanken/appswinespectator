@@ -1,4 +1,4 @@
-<?php  $title = 'VintageChart+'; include 'header.php'; ?>
+<?php  $title = 'VintageChart+ |'; include 'header.php'; ?>
 
 <div id="vintagechartplus">
 	<div id="intro">
