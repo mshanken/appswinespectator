@@ -1675,7 +1675,7 @@ nav a:hover {
   float: right;
   font-size: 16px;
   margin: 75px 50px 0 0;
-  width: 628px;
+  width: 624px;
 }
 #home-wr h2,
 #home-wr h2 a {
@@ -2072,7 +2072,7 @@ img {
     width: 940px;
   }
   #home-wr-copy {
-    margin-top: 141px;
+    margin-top: 80px;
     width: 516px;
   }
   #home-wr #mini-phone {
@@ -2096,8 +2096,8 @@ img {
     width: 748px;
   }
   #home-wr-copy {
-    margin-top: 112px;
-    width: 342px;
+    margin-top: 20px;
+    width: 324px;
   }
   #home-wr p {
     margin-bottom: 13px;
@@ -2173,13 +2173,8 @@ img {
     padding: 8px 23px 5px;
   }
   #home-wr {
-    background-image: url("/img/stripe.png");
-    border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #ffffff;
-    height: auto;
     margin: 20px 0 0;
-    padding: 20px;
-    width: 420px;
+    width: 100%;
   }
   #home-wr-copy {
     float: none;
@@ -2292,13 +2287,11 @@ img {
     padding: 8px 23px 5px;
   }
   #home-wr {
-    background-image: url("/img/stripe.png");
-    border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #ffffff;
-    height: auto;
     margin: 20px 0 0;
-    padding: 20px;
-    width: 260px;
+    width: 100%;
+  }
+  #home-wr .ss {
+    margin: 0 50px;
   }
   #home-wr-copy {
     float: none;
