@@ -2063,6 +2063,12 @@ img {
   height: auto;
   max-width: 100%;
 }
+.error_message {
+  background-color: #FFCDCD;
+  border: 1px solid #FC4A41;
+  margin: 0 10px;
+  padding: 5px;
+}
 /* ========================================================= Structure ===*/
 /* ----------
  -- 960px --
