@@ -4,7 +4,7 @@
 
 		<div class="g12">
 			<div id="home-wr">
-				<a href="/vintagechartplus" class="ss"><img src="/img/phone-wineratingsplus.png"/></a>
+				<a href="/wineratingsplus" class="ss"><img src="/img/phone-wineratingsplus.png"/></a>
 				<div id="home-wr-copy">
 					<h2><a href="/wineratingsplus"><img src="/img/icon-wineratingsplus.png"/> Wine<span>Ratings</span>+</a></h2>
 					<p>Get convenient, expert advice when choosing wine for dinner, a party or another occasion. Wine Spectator&lsquo;s flagship Wine Ratings+ app provides quick access to all 270,000-plus of our wine reviews. Designed for connoisseurs and casual drinkers, this comprehensive app for iPhone helps you make better choices, discover great values, learn about wine and stay updated on what&lsquo;s new.</p>
