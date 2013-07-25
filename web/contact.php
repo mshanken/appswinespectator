@@ -47,7 +47,7 @@
 					$comments = stripslashes($comments);
 				}
 
-				$address = "apps@winespectator.com";
+				$address = "winespectatorcomapps@mshanken.freshdesk.com";
 				$e_subject = 'Contact Form: ' . $name . '.';
 				$e_body = "apps.winespectator contact form: You have been contacted by $name.\r\n\n";
 				$e_content = "\"$comments\"\r\n\n";
