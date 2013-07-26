@@ -18,7 +18,7 @@
 		<ul id="subnav">
 			<li><a href="/about">About</a></li>
 			<li><a href="http://app-help.winespectator.com/">Support</a></li>
-			<li><a href="/contact">Contact</a></li>
+			<li><a href="mailto:winespectatorcomapps@mshanken.freshdesk.com">Contact</a></li>
 		</ul>
 	</footer>
 </div><!--/container-->
