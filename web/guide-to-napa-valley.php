@@ -4,7 +4,7 @@
 	<div id="intro">
 		<div class="container">
 			<div class="g5">
-				    <img src="/img/guide-w13.png"/>
+				    <img src="/img/guide-a13.png"/>
 			</div><!--/g5-->
 			<div class="g7">
 				<h2><img src="/img/icon-guidetonapavalley.png"/> Guide to Napa Valley</h2>

@@ -27,7 +27,7 @@
 		</div><!--/g6-->
 
 		<div class="g6" id="home-nv">
-			<a href="/guide-to-napa-valley"><img src="/img/guild-w13-small.png"/></a>
+			<a href="/guide-to-napa-valley"><img src="/img/guild-a13-small.png"/></a>
 			<div id="home-nv-copy">
 				<h2><a href="/guide-to-napa-valley">Guide to Napa Valley</a></h2>
 				<p>Discover the best of this California wine region, with our picks for the top places to stay, dine and visit.</p>
