@@ -31,6 +31,11 @@
 				<h3>BEYOND WINE REVIEWS</h3>
 				<p>WineRatings+ also includes a range of free content to expand your wine knowledge, including Vintage Charts summarizing quality and wine character for 55 key regions and grape varieties, educational Learn More articles and entertaining videos, and the WS360 news feed for a timely view into wine culture.</p>
 			</div>
+			<div class="g12">
+				<div id="video" style="text-align:center;padding:20px 0;">
+					<img src="http://placehold.it/600x400" />
+				</div>
+			</div>
 		</div><!--/feats-->
 	</div><!--/container-->
 </div><!--/wineratingsplus-->
