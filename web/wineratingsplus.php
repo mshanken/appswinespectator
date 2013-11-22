@@ -41,8 +41,8 @@
 					     <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
 					     <object id="myExperience1195045806001" class="BrightcoveExperience">
 					       <param name="bgcolor" value="#FFFFFF" />
-					       <param name="width" value="400" />
-  							<param name="height" value="273" />
+					       <param name="width" value="100%" />
+  							<param name="height" value="100%" />
 					       <param name="playerID" value="2549687870001" />
   							<param name="playerKey" value="AQ~~,AAAAAAkNHlc~,obZoXc4GRvmyZdilbZFwmOBncq5xWpnP" />
 					       <param name="isVid" value="true" />
