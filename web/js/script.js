@@ -16,4 +16,13 @@ $(document).ready(function() {
         $("#signup ul").parent().hide();
         $("#submit").after('<p>Thanks for signing up. Make sure to follow on twitter at <a href="https://twitter.com/winespectator">@WineSpectator</a>.</p>');
     });
+
+    // resizing function - newWidth is percentage of content width as a decimal value
+    BCL.resizePlayer = function(newWidth) {
+      var $BCLcontainingBlock = $('#BCLcontainingBlock');
+      $BCLcontainingBlock.width($('#BCLbodyContent').width() * newWidth);
+      BCL.experienceModule.setSize($BCLcontainingBlock.width(),$BCLcontainingBlock.height());
+      BCL.currentPlayerWidth = newWidth;
+    }
+
 });

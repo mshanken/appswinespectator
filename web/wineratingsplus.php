@@ -33,7 +33,31 @@
 			</div>
 			<div class="g12">
 				<div id="video" style="text-align:center;padding:20px 0;">
-					<img src="http://placehold.it/600x400" />
+					<div id="BCLcontainingBlock">
+					   <div class="BCLvideoWrapper">
+					     <!-- Start of Brightcove Player -->
+					     <div style="display:none">
+					     </div>
+					     <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+					     <object id="myExperience1195045806001" class="BrightcoveExperience">
+					       <param name="bgcolor" value="#FFFFFF" />
+					       <param name="width" value="400" />
+  							<param name="height" value="273" />
+					       <param name="playerID" value="2549687870001" />
+  							<param name="playerKey" value="AQ~~,AAAAAAkNHlc~,obZoXc4GRvmyZdilbZFwmOBncq5xWpnP" />
+					       <param name="isVid" value="true" />
+					       <param name="isUI" value="true" />
+					       <param name="dynamicStreaming" value="true" />
+					       <param name="@videoPlayer" value="2857017603001" />
+					         <!-- params for Smart Player API -->
+					       <param name="includeAPI" value="true" />
+					       <param name="templateLoadHandler" value="onTemplateLoaded" />
+					       <param name="templateReadyHandler" value="onTemplateReady" />
+					     </object>
+					     <script type="text/javascript">brightcove.createExperiences();</script>
+					     <!-- End of Brightcove Player -->
+					   </div>
+					</div>
 				</div>
 			</div>
 		</div><!--/feats-->
