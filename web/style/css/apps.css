@@ -1666,34 +1666,34 @@ nav a:hover {
   margin: 10px 0 30px;
 }
 #home-wr .ss {
-  margin: 0 50px 0 120px;
+  /*margin: 0 50px 0 120px;*/
 }
 #home-wr .ss img {
-  width: 200px;
+  /*width: 200px;*/
 }
 #home-wr-copy {
   float: right;
   font-size: 16px;
-  margin: 75px 50px 0 0;
-  width: 624px;
+  margin: 0;
+  /*width: 624px;*/
 }
 #home-wr h2,
 #home-wr h2 a {
   color: #333;
   font-family: helvetica;
-  font-size: 41px;
+  font-size: 58px;
   margin: 0 0 6px;
   text-shadow: none;
 }
 #home-wr h2 span {
-  color: #ebbf45;
+  color: #e42e33;
 }
 #home-wr #mini-phone {
   display: none;
 }
 #home-wr h2 img {
   vertical-align: text-bottom;
-  border-radius: 11px;
+  border-radius: 0;
   box-shadow: 0 2px 3px #000;
 }
 #home-wr p {
