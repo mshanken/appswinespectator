@@ -14,7 +14,7 @@
 	</div><!--/g12-->
 
 	<footer>
-		<p id="copy">&copy; 2013 <a href="http://www.winespectator.com/">Wine Spectator</a>. All Rights Reserved.</p>
+		<p id="copy">&copy; 2014 <a href="http://www.winespectator.com/">Wine Spectator</a>. All Rights Reserved.</p>
 		<ul id="subnav">
 			<li><a href="/about">About</a></li>
 			<li><a href="http://app-help.winespectator.com/">Support</a></li>

@@ -1783,7 +1783,7 @@ nav a:hover {
 #intro h2 {
   color: #fff;
   font-family: helvetica;
-  font-size: 45px;
+  font-size: 52px;
   margin: 153px 0 10px;
   text-shadow: 0 1px 1px #000;
 }
@@ -1796,9 +1796,9 @@ nav a:hover {
   box-shadow: 0 2px 3px #000;
 }
 #intro p {
-  color: #eee;
+  color: #f3f3f3;
   font-size: 16px;
-  text-shadow: 0 1px 1px #000000, 0 0px 30px #000;
+  /*text-shadow: 0 1px 1px #000000, 0 0px 30px #000;*/
 }
 #intro #app-store {
   border-radius: 7px;
@@ -1806,13 +1806,14 @@ nav a:hover {
 }
 /* ========================================================= WineRatings+ ===*/
 #wineratingsplus #intro {
-  background-color: #17191F;
-  background-image: url('/img/intro-wineratingsplus.jpg');
+  /*background-color: #17191F;*/
+  background-color: #35373D;
+  /*background-image: url('/img/intro-wineratingsplus.jpg');
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center bottom;*/
 }
 #wineratingsplus #intro h2 {
-  margin: 23px 0 10px;
+  margin: 11px 0 10px;
 }
 /* ========================================================= VintageChart+ ===*/
 #vintagechartplus #intro {
