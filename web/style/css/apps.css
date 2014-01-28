@@ -1792,8 +1792,8 @@ nav a:hover {
 }
 #intro h2 img {
   vertical-align: text-bottom;
-  border-radius: 0px;
-  box-shadow: 0 1px 1px #000;
+  border-radius: 9px;
+  box-shadow: 0 0px 1px #444444;
 }
 #intro p {
   color: #444444;
