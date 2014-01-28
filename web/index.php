@@ -4,10 +4,10 @@
 
 		
 			<div id="home-wr" class="clearfix">
-				<div class="g6">
-					<a href="/wineratingsplus" class="ss"><img src="/img/phone-wineratingsplus.png"/></a>
+				<div class="g5">
+					<a href="/wineratingsplus" class="ss"><img src="/img/devices-ios7.png"/></a>
 				</div>
-				<div class="g6">
+				<div class="g7">
 					<div id="home-wr-copy">
 						<h2><a href="/wineratingsplus"><img src="/img/icon-wineratingsplus.png"/> Wine<span>Ratings</span>+</a></h2>
 						<p>Get convenient, expert advice when choosing wine for dinner, a party or another occasion. Wine Spectator's flagship Wine Ratings+ app provides quick access to all of our wine reviews&mdash;nearly 300,000. Designed for connoisseurs and casual drinkers, this comprehensive app for iPhone and iPad helps you make better choices, discover great values, learn about wine and stay updated on what&lsquo;s new.</p>
