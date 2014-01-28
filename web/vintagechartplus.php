@@ -3,10 +3,10 @@
 <div id="vintagechartplus">
 	<div id="intro">
 		<div class="container">
-			<div class="g4">
+			<div class="g3">
 				    <img src="/img/phone-vintagechartplus.png"/>
 			</div><!--/.g4-->
-			<div class="g8">
+			<div class="g9">
 				<h2><img src="/img/icon-vintagechartplus.png"/> Vintage<span>Chart</span>+</h2>
 				<p>Wine lovers know that a year can make a world of difference. Now you can quickly select a reliable vintage with the expert information in our free smartphone app. VintageChart+ provides Wine Spectator&lsquo;s ratings of vintage quality in the world&lsquo;s top wine regions, along with a guide to when the wines should be drinking at their best. Remove the guesswork and get the most out of what&lsquo;s in the bottle.</p>
 				<a href="http://mobile.winespectator.com/vcplus/iphone-android/"><img src="/img/webapp.png" id="app-store"/></a>

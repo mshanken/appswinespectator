@@ -3,10 +3,10 @@
 <div id="guidetonapavalley">
 	<div id="intro">
 		<div class="container">
-			<div class="g5">
+			<div class="g4">
 				    <img src="/img/guide-a13.png"/>
 			</div><!--/g5-->
-			<div class="g7">
+			<div class="g8">
 				<h2><img src="/img/icon-guidetonapavalley.png"/> Guide to Napa Valley</h2>
 				<p>Discover the best of this spectacular California wine region with our innovative app for iPad. Make the most of your travels with our editors&lsquo; picks for the top places to stay, dine, taste and visit. Consult the interactive map to get a sense of place for each recommended destination. Learn more about Napa Valley with Wine Spectator&lsquo;s rich articles, beautiful photographs, food-matching tips and reviews of hundreds of Napa&lsquo;s greatest wines.</p>
 				<a href="http://itunes.apple.com/us/app/wine-spectators-guide-to-napa/id454493121"><img src="/img/app-store.png" id="app-store"/></a>

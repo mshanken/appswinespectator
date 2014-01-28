@@ -1778,7 +1778,7 @@ nav a:hover {
   margin: -36px 0 110px 0;
 }
 #intro .g4 img {
-  margin: 0 0 -60px 0;
+  /*margin: 0 0 -60px 0;*/
 }
 #intro h2 {
   color: #444444;
@@ -1816,23 +1816,24 @@ nav a:hover {
 }
 /* ========================================================= VintageChart+ ===*/
 #vintagechartplus #intro {
-  background-color: #17191F;
+  /*background-color: #17191F;
   background-image: url('/img/intro-vintagechartplus.jpg');
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center bottom;*/
 }
 #vintagechartplus #intro h2 {
-  margin: 134px 0 10px;
+  margin: 94px 0 10px;
 }
+#vintagechartplus #intro h2 span{color:#EBBF45}
 #vintagechartplus #app-store {
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 0 40px #5b584b, 0 2px 3px #000000;
+  /*box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 0 40px #5b584b, 0 2px 3px #000000;*/
 }
 /* ========================================================= Guide to Napa Valley ===*/
 #guidetonapavalley #intro {
-  background-color: #17191F;
+  /*background-color: #17191F;
   background-image: url('/img/intro-guidetonapavalley.jpg');
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center bottom;*/
 }
 #guidetonapavalley #intro h2 {
   font-size: 36px;
@@ -2075,13 +2076,13 @@ img {
   margin: 0;
 }
 #BCLcontainingBlock {
-  width: 98%;
+  width: 100%;
   margin-left: 0px;
   margin-bottom: 10px;
   float: none;
-  padding:1%;
+  padding:0;
   box-shadow: 0 0 0 5px #ffffff, 0 6px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   background-color: white;
 }
 .BCLvideoWrapper {
