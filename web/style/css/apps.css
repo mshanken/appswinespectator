@@ -1774,7 +1774,7 @@ nav a:hover {
   border-bottom: 1px solid #fff;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
   color: #cbcbcb;
-  padding: 55px 0 0 0;
+  padding: 45px 0 45px 0;
   margin: -36px 0 110px 0;
 }
 #intro .g4 img {
@@ -1812,7 +1812,7 @@ nav a:hover {
   background-position: center bottom;
 }
 #wineratingsplus #intro h2 {
-  margin: 119px 0 10px;
+  margin: 23px 0 10px;
 }
 /* ========================================================= VintageChart+ ===*/
 #vintagechartplus #intro {
