@@ -1788,11 +1788,11 @@ nav a:hover {
   text-shadow: 0 1px 1px #000;
 }
 #intro h2 span {
-  color: #ebbf45;
+  color: #e42e33;
 }
 #intro h2 img {
   vertical-align: text-bottom;
-  border-radius: 9px;
+  border-radius: 0px;
   box-shadow: 0 2px 3px #000;
 }
 #intro p {
