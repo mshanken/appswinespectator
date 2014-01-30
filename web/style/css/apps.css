@@ -1556,7 +1556,7 @@ input[type=submit].btn::-moz-focus-inner {
 /* ========================================================= WS Apps ===*/
 html,
 body {
-  background-color: #e6e6e6;
+  background-color: #eeeeee;
   display: block;
 }
 /* ========================================================= Typography ===*/
@@ -1771,11 +1771,12 @@ nav a:hover {
 }
 /* ========================================================= Intro ===*/
 #intro {
-  border-bottom: 1px solid #fff;
-  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+  background-color: #f2f1ed;
+  border-bottom: 1px solid #f6f4ea;
+  box-shadow: 0 2px 42px rgba(88, 88, 88, 0.3);
   color: #cbcbcb;
   padding: 45px 0 45px 0;
-  margin: -36px 0 110px 0;
+  margin: -36px 0 68px 0;
 }
 #intro .g4 img {
   /*margin: 0 0 -60px 0;*/
