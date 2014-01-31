@@ -1634,7 +1634,7 @@ nav {
   border-radius: 4px;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2) inset;
   float: right;
-  margin: 14px 10px 14px 0;
+  margin: 18px 10px 10px 0;
   text-align: center;
 }
 nav li {
@@ -1682,7 +1682,7 @@ nav a:hover {
 #home-wr h2 a {
   color: #333;
   font-family: helvetica;
-  font-size: 58px;
+  font-size: 48px;
   margin: 0 0 6px;
   text-shadow: 0;
 }
@@ -1711,7 +1711,7 @@ nav a:hover {
 #home-vc-copy {
   float: right;
   font-size: 16px;
-  margin: 56px 20px 0 30px;
+  margin: 56px 20px 0 10px;
   text-shadow: none;
   width: 299px;
 }
@@ -1720,6 +1720,7 @@ nav a:hover {
   color: #333;
   font-family: helvetica;
   font-size: 23px;
+  line-height: 1.2;
   margin: 0 0 6px;
   text-shadow: none;
 }
@@ -1745,7 +1746,7 @@ nav a:hover {
 #home-nv-copy {
   float: right;
   font-size: 16px;
-  margin: 66px 0 0 30px;
+  margin: 66px 0 0 10px;
   text-shadow: none;
   width: 247px;
 }
@@ -1753,8 +1754,8 @@ nav a:hover {
 #home-nv h2 a {
   color: #333;
   font-family: helvetica;
-  font-size: 24px;
-  line-height: 1.1;
+  font-size: 23px;
+  line-height: 1.2;
   margin: 0 0 6px;
   text-shadow: none;
 }
