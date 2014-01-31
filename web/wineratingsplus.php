@@ -4,7 +4,7 @@
 	<div id="intro">
 		<div class="container">
 			<div class="g6">
-				    <img src="/img/devices-ios7.png"/>
+				    <img src="/img/devices-ios7.png" class="device"/>
 			</div><!--/.g4-->
 			<div class="g6">
 				<h2><img src="/img/icon-wineratingsplus.png"/> Wine<span>Ratings</span>+</h2>

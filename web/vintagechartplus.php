@@ -4,7 +4,7 @@
 	<div id="intro">
 		<div class="container">
 			<div class="g3">
-				    <img src="/img/phone-vintagechartplus.png"/>
+				    <img src="/img/phone-vintagechartplus.png" class="device"/>
 			</div><!--/.g4-->
 			<div class="g9">
 				<h2><img src="/img/icon-vintagechartplus.png"/> Vintage<span>Chart</span>+</h2>
