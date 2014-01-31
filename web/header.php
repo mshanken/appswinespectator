@@ -34,13 +34,17 @@
 
 <header>
 	<div class="container">
-	<h1><a href="/"><span>WS</span> Apps</a></h1>
-		<nav>
-			<ul>
-				<li><a href="/wineratingsplus" title="WineRatings+">WineRatings+</a></li>
-				<li><a href="/vintagechartplus" title="VintageChart+">VintageChart+</a></li>
-				<li><a href="/guide-to-napa-valley" title="Guide to Napa Valley">Guide to Napa Valley</a></li>
-			</ul>
-		</nav>
+		<div class="g6">
+			<h1><a href="/"><span>WS</span> Apps</a></h1>
+		</div>
+		<div class="g6">
+			<nav>
+				<ul>
+					<li><a href="/wineratingsplus" title="WineRatings+">WineRatings+</a></li>
+					<li><a href="/vintagechartplus" title="VintageChart+">VintageChart+</a></li>
+					<li><a href="/guide-to-napa-valley" title="Guide to Napa Valley">Guide to Napa Valley</a></li>
+				</ul>
+			</nav>
+		</div>
 	</div><!--/container-->
 </header>

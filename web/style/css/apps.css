@@ -1635,6 +1635,7 @@ nav {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2) inset;
   float: right;
   margin: 14px 10px 14px 0;
+  text-align: center;
 }
 nav li {
   float: left;
@@ -1645,7 +1646,7 @@ nav a {
   box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2);
   color: #d4d4d4;
   display: block;
-  padding: 8px 15px 5px;
+  padding: 8px 6px 5px;
   text-shadow: 0 -1px 0 #000000;
 }
 nav li:last-child a {
@@ -2114,11 +2115,11 @@ img {
 ---------- */
 @media screen and (min-width: 1024px) and (max-width: 1068px) {
   #home-wr {
-    width: 940px;
+    /*width: 940px;*/
   }
   #home-wr-copy {
     margin-top: 80px;
-    width: 516px;
+    /*width: 516px;*/
   }
   #home-wr #mini-phone {
     display: none;
@@ -2138,11 +2139,11 @@ img {
 --------- */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #home-wr {
-    width: 748px;
+    /*width: 748px;*/
   }
   #home-wr-copy {
     margin-top: 20px;
-    width: 324px;
+    /*width: 324px;*/
   }
   #home-wr p {
     margin-bottom: 13px;
@@ -2208,14 +2209,14 @@ img {
   }
   nav {
     float: none;
-    margin: 5px 10px 15px;
+    margin: 5px 10px 12px;
   }
   nav li {
     display: inline-block;
     float: none;
   }
   nav li a {
-    padding: 8px 23px 5px;
+    padding: 8px 16px 5px;
   }
   #home-wr {
     margin: 20px 0 0;
@@ -2336,12 +2337,19 @@ img {
     width: 100%;
   }
   #home-wr .ss {
-    margin: 0 50px;
+    /*margin: 0 50px;*/
   }
   #home-wr-copy {
     float: none;
     margin: 0;
     width: 100%;
+  }
+  #home-wr h2, #home-wr h2 a {
+    color: #333;
+    font-family: helvetica;
+    font-size: 43px;
+    margin: 0 0 6px;
+    text-shadow: 0;
   }
   #home-wr h2 img {
     display: none;
