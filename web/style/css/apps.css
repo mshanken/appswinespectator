@@ -1613,7 +1613,8 @@ header h1 a:hover {
   color: #fff;
 }
 header h1 span {
-  color: #EBBF45;
+  /*color: #EBBF45;*/
+  color:#e42e33;
   font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
