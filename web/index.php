@@ -5,7 +5,7 @@
 		
 			<div id="home-wr" class="clearfix">
 				<div class="g5">
-					<a href="/wineratingsplus" class="ss"><img src="/img/devices-ios7.png"/></a>
+					<a href="/wineratingsplus" class="ss"><img src="/img/devices-ios7-new.png"/></a>
 				</div>
 				<div class="g7">
 					<div id="home-wr-copy">
