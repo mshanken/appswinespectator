@@ -35,8 +35,12 @@
 					   </div>
 					</div>
 				</div>
-				<p>Whatever your wine expertise, Wine Spectator&lsquo;s flagship WineRatings+ app for iPhone and iPad will help you find your perfect wine at the perfect price. Trying to decide which wine to buy at a retailer or restaurant? Our powerful search lets you quickly consult our nearly 300,000 wine reviews&mdash;complete with definitive scores, tasting notes, release prices, current auction prices and drinking windows. Then save your favorites for future reference. Plus, this free download, with a mix of free and premium content, continues to offer our definitive vintage charts, along with expanded wine education and a timely news feed.</p>
-				<a href="http://itunes.apple.com/us/app/vintagechart+-by-wine-spectator/id381341648?ls=1&mt=8"><img src="/img/app-store.png" id="app-store"/></a>
+				<p>
+				Whatever your wine expertise, Wine Spectator&lsquo;s flagship WineRatings+ app for iPhone, iPad and Android devices will help you find your perfect wine at the perfect price. Trying to decide which wine to buy at a retailer or restaurant? Our powerful search lets you quickly consult our nearly 300,000 wine reviews&mdash;complete with definitive scores, tasting notes, release prices, current auction prices and drinking windows. Then save your favorites for future reference. Plus, this free download, with a mix of free and premium content, continues to offer our definitive vintage charts, along with expanded wine education and a timely news feed.</p>
+				<div class="clearfix">
+						<a href="http://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648" class="pull-left"><img src="/img/app-store.png" id="app-store"/></a>
+						<a href="https://play.google.com/store/apps/details?id=com.mshanken.wineratings" class="pull-right"><img src="/img/google-play.png" id="google-play"/></a>
+						</div>
 			</div><!--/.g6-->
 
 		</div><!--/.container-->
