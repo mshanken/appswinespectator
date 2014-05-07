@@ -52,19 +52,19 @@
 				<a class="lightbox" href="img/wineratingsplus/1b.png"><img src="/img/wineratingsplus/1s.png"/></a>
 				<h3>EXPERT PICKS</h3>
 				<p>Don&lsquo;t have a specific bottle in mind? We can give you advice on which wines to seek out. The Picks section pairs editor-suggested searches with curated lists of Wine Spectator-reviewed wines. For example, find great buys among the most recent reviews in &ldquo;Newest Reds and Whites $20 or Less (90+ Points).&rdquo;</p>
-				<a class="lightbox" href="img/wineratingsplus/1b.png"><img src="/img/wineratingsplus/1s.png"/></a>
+				<a class="lightbox" href="img/wineratingsplus/exprt-android.png"><img src="/img/wineratingsplus/exprt-android-thumb.png"/></a>
 			</div>
 			<div class="g4">
 				<a class="lightbox" href="img/wineratingsplus/azwine-lg.png"><img src="/img/wineratingsplus/azwine-thumb.png"/></a>
 				<h3>TRUSTED, TIMELY RATINGS</h3>
 				<p>WineRatings+ is automatically updated (no download required) with the latest Wine Spectator reviews&mdash;at least 1,000 each month&mdash;so you can stay on top of new releases. Consult our reviews with confidence: Our experts follow strict blind-tasting methods to ensure fair, reliable results.</p>
-				<a class="lightbox" href="img/wineratingsplus/azwine-lg.png"><img src="/img/wineratingsplus/azwine-thumb.png"/></a>
+				<a class="lightbox" href="img/wineratingsplus/reds-20.png"><img src="/img/wineratingsplus/reds-20-thumb.png"/></a>
 			</div>
 			<div class="g4">
 				<a class="lightbox" href="img/wineratingsplus/3b.png"><img src="/img/wineratingsplus/3s.png"/></a>
 				<h3>BEYOND WINE REVIEWS</h3>
 				<p>WineRatings+ also includes a range of free content to expand your wine knowledge, including Vintage Charts summarizing quality and wine character for 55 key regions and grape varieties, educational Learn More articles and entertaining videos, and the WS360 news feed for a timely view into wine culture.</p>
-				<a class="lightbox" href="img/wineratingsplus/3b.png"><img src="/img/wineratingsplus/3s.png"/></a>
+				<a class="lightbox" href="img/wineratingsplus/beyond-android.png"><img src="/img/wineratingsplus/beyond-android-thumb.png"/></a>
 			</div>
 			<div class="g12">
 				
