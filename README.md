@@ -1,4 +1,4 @@
-#Wine Spectator Apps site [WS APPS](mshanken.github.io/appswinespectator)
+#Wine Spectator Apps site [WS APPS](http://mshanken.github.io/appswinespectator)
 
 This is Wine spectator apps landing page/sale site
 
