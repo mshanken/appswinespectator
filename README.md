@@ -11,7 +11,7 @@ Once you are done with your changes, you can preview the site by build the stati
 Ask [Edison Leon](mailto:eleon@mshanken.com) if run into problems
 
 ##Updating gh-pages
-After you have merged and/or commited your changes to master checkout gh-pages to compile your new changes and replace previous version. First merge or pull master changes them run ```harp compile _site ./``` to update static pages, because of this compilation README.md and CNAME files will be remove, you'll need to get those back by doing ```git checkout CNAME``` ```git checkout README.md``` now you can add the modified files into git so it's redy to commit and push to gh-pages branch. **WARNING** do not do any work, updates, changes or fixes from this branch (gh-pages branch), all of that will be done at your master brach or a new branch.
+After you have merged and/or commited your changes to master checkout gh-pages to compile your new changes and replace previous version. First merge or pull master changes them run ```harp compile _site ./``` to update static pages, because of this compilation README.md and CNAME files will be remove, you'll need to get those back by doing ```git checkout CNAME``` and ```git checkout README.md``` now you can add the modified files into git so it's redy to commit and push to gh-pages branch. **WARNING** do not do any work, updates, changes or fixes from this branch (gh-pages branch), all of that will be done at your master brach or a new branch.
 
 ### TODO
 
