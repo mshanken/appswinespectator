@@ -1,0 +1,42 @@
+{
+	"index": {
+		"title": "",
+		"description": "",
+		"keywords": ""
+	},
+	"vintagechartplus": {
+		"title": "VintageChart",
+		"description": "VintageChart",
+		"keywords": "VintageChart"
+	},
+	"wineratingsplus": {
+		"title": "WineRatings+",
+		"description": "WineRatings+",
+		"keywords": "WineRatings+"
+	},
+	"about": {
+		"title": "About",
+		"description": "About",
+		"keywords": "About"
+	},
+	"contact": {
+		"title": "Contact",
+		"description": "Contact",
+		"keywords": "Contact"
+	},
+	"guide-to-napa-valley": {
+		"title": "Guide to Napa Valley",
+		"description": "Guide to Napa Valley",
+		"keywords": "Guide to Napa Valley"
+	},
+	"site-badge": {
+		"title": "Site Badge",
+		"description": "Site Badge",
+		"keywords": "Site Badge"
+	},
+	"press": {
+		"title": "Press",
+		"description": "Press",
+		"keywords": "Press"
+	}
+}

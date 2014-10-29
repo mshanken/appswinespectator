@@ -1,0 +1,14 @@
+{
+  "globals": {
+    "title": "WS Apps",
+    "description": "WS Apps",
+    "keywords": "WS Apps",
+    "name": "Edison A. Leon",
+    "email": "eleon@mshanken.com",
+    "uri": "www.mshanken.com",
+
+    "typekit": false,
+    "analytics": false,
+    "disqus": false
+  }
+}
