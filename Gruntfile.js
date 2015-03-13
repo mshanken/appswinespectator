@@ -43,6 +43,7 @@ module.exports = function(grunt) {
         'harp:dist'
     ]);
     grunt.registerTask('gh-pages', [
+        'harp:dist',
         'copy:ghpages'
     ]);
 };
