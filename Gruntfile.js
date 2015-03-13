@@ -10,6 +10,11 @@ module.exports = function(grunt) {
 				server: true,
 				source: '_site'
 			},
+			staticserver: {
+				server:true,
+				source: '_site/www',
+				port: 8800
+			},
 			dist: {
 				source: '_site',
 				dest: '_site/www'

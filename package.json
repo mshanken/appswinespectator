@@ -6,7 +6,8 @@
   "scripts": {
     "server": "grunt server",
     "compile": "grunt compile",
-    "gh-pages": "grunt gh-pages"
+    "gh-pages": "grunt gh-pages",
+    "static": "grunt harp:staticserver"
   },
   "repository": {
     "type": "git",
