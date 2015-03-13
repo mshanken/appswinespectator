@@ -4,7 +4,7 @@ This is the Wine Spectator Apps site
 
 ##How it works
 
-There's two ways to do this either in your desktop or in our QA server. To start you need the following installed (QA's already installed)
+There's two ways to do this either in your desktop or in our QA machine. To start you need the following installed (QA's already installed)
 
 1. Node
 2. NPM
