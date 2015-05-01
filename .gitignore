@@ -42,4 +42,4 @@ build/config/buildinfo.properties
 web/
 web-php/
 node_modules/
-_site/www
+www/

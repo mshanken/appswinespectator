@@ -12,25 +12,25 @@ module.exports = function(grunt) {
 			},
 			staticserver: {
 				server:true,
-				source: '_site/www',
+				source: 'www',
 				port: 8800
 			},
 			dist: {
 				source: '_site',
-				dest: '_site/www'
+				dest: 'www'
 			}
 		},
 		copy: {
 			web: {
 				expand: true,
-				cwd: '_site/www/',
-				src: '*',
+				cwd: 'www/',
+				src: '**/*.*',
 				dest: 'web/'
 			},
 			ghpages: {
 				expand: true,
-				cwd: '_site/www/',
-				src: '*',
+				cwd: 'www/',
+				src: '**/*.*',
 				dest: './'
 			}
 		}
