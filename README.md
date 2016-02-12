@@ -1,22 +1,31 @@
-#Wine Spectator Apps site [WS APPS](http://mshanken.github.io/appswinespectator)
+#Wine Spectator Apps site [WS APPS](http://apps.winespectator.com/)
 
-This is Wine spectator apps landing page/sale site
+The Wine Spectator Apps site is build using harp-js for rapid static HTML generation
 
 ##How it works
 
-This is a static page site build on harp. QA has harp installed so you can clone this project and do any updates as need it
+There's two ways to do this, either in your desktop or in our QA machine. To start you need the following installed (QA's already installed)
 
-Once you are done with your changes, you can preview the site by build the static site in the web folder by running this command ```harp compile _site web/``` then use your sandbox or by running harp server with this comman ```harp server``` you can also preview from your sanbox but adding a prot number the defult is 9000.
+1. Node
+2. NPM
+3. Grunt
+4. [Harpjs](http://harpjs.com/)
 
-Ask [Edison Leon](mailto:eleon@mshanken.com) if run into problems
+This is a static page site build with [Harpjs](http://harpjs.com/). Once you have the requirements installed you can now clone this repo or git pull to update. You can start working on it, a list of commads at your dispose. Enjoy it!
 
-##Updating gh-pages
-After you have merged and/or commited your changes to master checkout gh-pages to compile your new changes and replace previous version. First merge or pull master changes them run ```harp compile _site ./``` to update static pages, because of this compilation README.md and CNAME files will be remove, you'll need to get those back by doing ```git checkout CNAME``` and ```git checkout README.md``` now you can add the modified files into git so it's redy to commit and push to gh-pages branch. **WARNING** do not do any work, updates, changes or fixes from this branch (gh-pages branch), all of that will be done at your master brach or a new branch.
+##```npm install```
+To install grunt task runner dependencies, NPM was added recently so you might want to run it now, not need to run it after that, unless you start by clonning the project again.
 
-### TODO
+##```npm run server```
+Runs harp server from your harpjs working directory (usually _site), once you run this command open your browser with this location http://localhost:9000 to preview your working site. Use ```ctrl+c``` to turn off the server.
 
-* Newsletter
-    - When a user submits, I need something better then a random page (http://lp.winespectator.com/apps/optin).
-* Site Badge
-* 404
-    - Need Copy
+##```npm  run compile```
+Runs harp compile, this command will generate the HTML of your working project that harpjs had created, check harp project if it generates errors.
+
+##```npm run static```
+Like ```npm run server``` it turns on a server but this one serves all generated HTML, this can help you to preview if all generated HTML site works well and have updated correctly if any update. Open your browser with this url http://localhost:8800 to view the harpjs compiled version.
+
+##```npm run gh-pages```
+**NOTE:** this command should run at the **_gh-pages_** branch only.
+
+This command will copy the compiled (HTML generated) version of your working site in the root folder so it can be render at gh-pages in the github site.
