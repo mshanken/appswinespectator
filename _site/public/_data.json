@@ -1,42 +1,23 @@
 {
 	"index": {
-		"title": "",
-		"description": "",
-		"keywords": ""
-	},
-	"vintagechartplus": {
-		"title": "VintageChart",
-		"description": "VintageChart",
-		"keywords": "VintageChart"
+		"title": "WS Apps",
+		"description": "Wine Spectator Mobile Apps",
+		"keywords": "WS Apps, itunes, google play, WineRatings+, WineRatingsplus, Xvalues"
 	},
 	"wineratingsplus": {
 		"title": "WineRatings+",
-		"description": "WineRatings+",
-		"keywords": "WineRatings+"
+		"description": "Get convenient, expert advice when choosing wine for dinner, a party or any occasion. Wine Spectator's flagship Wine Ratings+ app lets you quickly consult all of our wine reviews—more than 300,000.",
+		"keywords": "WineRatings+, WS Apps, itunes, google play"
 	},
-	"about": {
+	"xvalues": {
+		"title": "Xvalues",
+		"description": "Xvalues, the latest app from Wine Spectator, tells you exactly what red, white, or sparkling wines to seek out next time you're shopping for a bottle.",
+		"keywords": "xvalues, WS Apps, itunes, google play"
+	},
+	"support": {
 		"title": "About",
 		"description": "About",
-		"keywords": "About"
-	},
-	"contact": {
-		"title": "Contact",
-		"description": "Contact",
-		"keywords": "Contact"
-	},
-	"guide-to-napa-valley": {
-		"title": "Guide to Napa Valley",
-		"description": "Guide to Napa Valley",
-		"keywords": "Guide to Napa Valley"
-	},
-	"site-badge": {
-		"title": "Site Badge",
-		"description": "Site Badge",
-		"keywords": "Site Badge"
-	},
-	"press": {
-		"title": "Press",
-		"description": "Press",
-		"keywords": "Press"
+		"keywords": "About",
+		"url": "http://app-help.winespectator.com/"
 	}
 }

@@ -10,7 +10,7 @@
 
   <body>
     <!-- Uncomment partials to render include files -->
-    <%- partial("_includes/_header") %>
+    <%- partial("_includes/_header", {navItems:public._data}) %>
 
     <%- yield %>
 
