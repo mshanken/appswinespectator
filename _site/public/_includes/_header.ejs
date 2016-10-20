@@ -9,9 +9,9 @@
 					<% for(var nav in navItems){
 						if (nav !== "index"){
 							if (current.path.length < 2) { %>
-								<li class="<%- (current.source == nav) ? 'active' : '' %>"><a href="<%- (nav == 'support') ? 'http://app-help.winespectator.com/' : '../'+nav %>" target="<%- (nav == 'support') ? '_blank' : '' %>"><%-: nav === 'wineratingsplus' ? 'wineratings+' : nav | capitalize %></a></li>
+								<li class="<%- (current.source == nav) ? 'active' : '' %>"><a href="<%- (nav == 'support') ? 'http://app-help.winespectator.com/' : '../'+nav %>" target="<%- (nav == 'support') ? '_blank' : '' %>"><%- nav === 'wineratingsplus' ? 'wineratings+' : nav  %></a></li>
 							<% } else { %>
-								<li class="<%- (current.path[1] == nav) ? 'active' : '' %>"><a href="<%- (nav == 'support') ? 'http://app-help.winespectator.com/' : '../../'+nav %>" target="<%- (nav == 'support') ? '_blank' : '' %>"><%-: nav === 'wineratingsplus' ? 'wineratings+' : nav | capitalize %></a></li>
+								<li class="<%- (current.path[1] == nav) ? 'active' : '' %>"><a href="<%- (nav == 'support') ? 'http://app-help.winespectator.com/' : '../../'+nav %>" target="<%- (nav == 'support') ? '_blank' : '' %>"><%- nav === 'wineratingsplus' ? 'wineratings+' : nav %></a></li>
 							<% };
 						};
 					}; %>

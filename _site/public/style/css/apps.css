@@ -1,3 +1,9 @@
+.appstore_logo{
+    margin-right: 15px !important;
+  }
+#winerating_logo{
+  margin-top: 35px;
+}
 html {
   overflow-y: scroll;
 }
@@ -1798,7 +1804,7 @@ nav a:hover {
   /*text-shadow: 0 1px 1px #000;*/
 }
 #intro h2 span {
-  color: #e42e33;
+  color: #a60101;
 }
 #intro h2 img {
   vertical-align: text-bottom;
