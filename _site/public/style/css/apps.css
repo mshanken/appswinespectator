@@ -4,6 +4,11 @@
 #winerating_logo{
   margin-top: 35px;
 }
+/*  restaurantawards page */
+#ra_title{
+  font-size:47px !important;
+}
+/*  end of restaurantawards page */
 html {
   overflow-y: scroll;
 }
