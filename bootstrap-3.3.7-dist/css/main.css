@@ -7,9 +7,30 @@
     margin: 0 0 30px;
     position: relative;
 }
+.nav a {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2);
+    color: #d4d4d4;
+    display: block;
+    padding: 8px 10px 5px;
+    text-shadow: 0 -1px 0 #000000;
+}
+.nav_title{
+	color: #ffffff;
+	font-size: 30px;
+}
 .logo_intials{
 	color: #e42e33;
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    background-color: #dddddd;
 }
