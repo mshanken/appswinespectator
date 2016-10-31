@@ -1,4 +1,4 @@
-#into{
+#intro{
     background-color: #f2f1ed !important;
     border-bottom: 1px solid #f6f4ea !important;
     box-shadow: 0 2px 42px rgba(88, 88, 88, 0.3) !important; 
@@ -21,21 +21,6 @@ header{
     margin: 0 0 30px;
     position: relative;
 }
-/*nav{
-    background: #3a3f44;
-    background: -moz-linear-gradient(top, #3a3f44 0%, #2a2d33 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3a3f44), color-stop(100%, #2a2d33));
-    background: -webkit-linear-gradient(top, #3a3f44 0%, #2a2d33 100%);
-    background: -o-linear-gradient(top, #3a3f44 0%, #2a2d33 100%);
-    background: -ms-linear-gradient(top, #3a3f44 0%, #2a2d33 100%);
-    background: linear-gradient(top, #3a3f44 0%, #2a2d33 100%);
-    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#3a3f44', endColorstr='#2a2d33', GradientType=0);
-    border: 1px solid #010101;
-    border-radius: 4px;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2) inset;
-    float: right;
-    text-align: center;
-}*/
 ul {
     list-style: none;
     list-style-image: none;
@@ -76,6 +61,11 @@ ul, #nav_borders{
     border: 1px solid #010101 !important; 
     border-radius: 4px !important;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2) inset !important;
+}
+h3{
+    color: #444444 !important;
+    font-family: helvetica !important;
+    font-size: 52px !important;
 }
 /* index page */
 .nav_title{
@@ -141,4 +131,15 @@ ul, #nav_borders{
 #subnav a{
     color: #6d6d6d;
     padding: 0 10px;
+}
+/* winesrating+ style */
+.page_title{
+    color: #444444;
+    font-family: helvetica;
+    font-weight: 700;
+    font-size: 52px;
+    margin: 0 0 10px;
+}
+.ratings_red{
+    color: #a60101;
 }
