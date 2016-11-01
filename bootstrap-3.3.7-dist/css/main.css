@@ -135,6 +135,10 @@ h3{
 /* End of Footer */
 
 /* winesrating+ style */
+#screenshot_section{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
 #rating_icon{
     border-radius: 0.8em;
 }
@@ -179,6 +183,8 @@ h3{
     width: 356px;
     box-shadow: 0 0 0 5px #ffffff, 0 6px 2px rgba(0, 0, 0, 0.5);
 }
+/* END OF winesrating+ style */
+
 /* MEDIA QUERIES STARTS HERE */ 
 /* ----------- iPhone 4 and 4S ----------- */
 
