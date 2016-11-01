@@ -132,6 +132,8 @@ h3{
     color: #6d6d6d;
     padding: 0 10px;
 }
+/* End of Footer */
+
 /* winesrating+ style */
 .page_title{
     color: #444444;
@@ -140,6 +142,15 @@ h3{
     font-size: 52px;
     margin: 0 0 10px;
 }
+#page_title_space{
+    padding-left: 0px !important;
+}
 .ratings_red{
     color: #a60101;
+}
+#rating_icon{
+    border-radius: 0.8em;
+}
+#wsr_apple_link{
+    padding-left: 0px;
 }
