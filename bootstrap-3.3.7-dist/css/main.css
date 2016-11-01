@@ -140,7 +140,9 @@ h3{
     margin-bottom: 60px;
 }
 #rating_icon{
-    border-radius: 0.8em;
+    vertical-align: text-bottom;
+    border-radius: 9px;
+    box-shadow: 0 0px 1px #444444;
 }
 .page_title{
     color: #444444;
