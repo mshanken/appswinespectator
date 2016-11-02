@@ -1,3 +1,8 @@
+::selection {
+    background: #ffffa9;
+    color: #54545e;
+    text-shadow: none;
+}
 #intro{
     background-color: #f2f1ed !important;
     border-bottom: 1px solid #f6f4ea !important;
@@ -71,6 +76,14 @@ h3{
 .nav_title{
     color: #ffffff !important;
     font-size: 30px;
+}
+.app_title{
+    color: #444444;
+    font-family: helvetica;
+    font-weight: 700;
+    font-size: 52px;
+    margin: 0 0 10px;
+
 }
 #expand-nav{
     padding-top: 15px;
@@ -195,7 +208,9 @@ h3{
     font-size: 17px;
 }
 /* END OF winesrating+ style */
-
+#screenshot_section{
+  background-color: #;
+}
 /* RA page */
 .ra_page_title{
     color: #444444;
