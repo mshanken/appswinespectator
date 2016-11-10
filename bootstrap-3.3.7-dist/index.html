@@ -36,7 +36,7 @@
                     <nav class="navbar">
                         <div class="container">
                             <div class="navbar-header">
-                              <p class="nav_title"><span class="logo_intials">WS</span> Apps</p>
+                              <!-- MAKE LINK WITHOUT STYLE --><p class="nav_title"><span class="logo_intials">WS</span> Apps</p><!-- MAKE LINK WITHOUT STYLE -->
                             </div><!-- navbar-header -->
                             <div id="navbar" class="navbar-collapse collapse">
                               <ul class="nav navbar-nav navbar-right" id="nav-borders">
@@ -54,37 +54,43 @@
     </header><!-- header -->
     
     <div class="container">
-        <div class="row">
+        <div class="row" id="wr_section">
             <div class="col-lg-12 col-xs-12">
                 <div class="row">
                     <div class="col-lg-4 col-xs-12">
                         <img src="http://assets.mshanken.com/promo/images/WSO-Apps-Page_Final-vintagechartsdevices.png" class="img-responsive">
                     </div><!-- col-lg-6 col-xs-12 -->
                     <div class="col-lg-1 col-xs-12">
-                        <img src="http://assets.mshanken.com/promo/images/WSO-Apps-Page_Final-WSlogo.png" class="img-responsive">
+                        <img src="http://assets.mshanken.com/promo/images/WSO-Apps-Page_Final-WSlogo.png" class="img-responsive" id="logo_icon">
                     </div><!-- col-lg-6 col-xs-12 -->
                     <div class="col-lg-7 col-xs-12">
                         <p class="page_title">Wine<span class="ratings_red">Rating</span>+</p>
                         <p>Get convenient, expert advice when choosing wine for dinner, a party or any occasion. Wine Spectator's flagship Wine Ratings+ app lets you quickly consult all of our wine reviews—more than 300,000. Designed for connoisseurs and casual drinkers, this comprehensive app for iPhone, iPad and Android devices helps you make better choices, discover great values, learn about wine and stay updated on what's new.</p>
                         <p>For a small monthly subscription fee, our powerful search gives you access to our editors' scores, tasting notes, release prices, current auction prices and drinking windows. Then save your favorites for future reference. The free download offers our extensive vintage charts, expanded wine education and a timely news feed.</p>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <a href="https://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648"><img src="http://assets.mshanken.com/promo/images/app-store.png" class="img-responsive"></a>
-                            </div><!-- col-lg-6 -->
-                            <div class="col-lg-6">
-                                <a hrtef="https://play.google.com/store/apps/details?id=com.mshanken.wineratings"><img src="http://assets.mshanken.com/promo/images/google-play.png" class="img-responsive"></a>
-                            </div><!-- col-lg-6 -->
-                        </div><!-- row -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-2" id="itunes_button"> 
+                                    <a href="https://itunes.apple.com/us/app/vintagechart-by-wine-spectator/id381341648">
+                                        <img src="http://assets.mshanken.com/promo/images/app-store.png" class="img-responsive" id="itunes_button_image">
+                                    </a>
+                                </div><!-- col-lg-6 -->
+                                <div class="col-lg-2" id="googleplay_button">
+                                    <a hrtef="https://play.google.com/store/apps/details?id=com.mshanken.wineratings">
+                                        <img src="http://assets.mshanken.com/promo/images/google-play.png" class="img-responsive">
+                                    </a>
+                                </div><!-- col-lg-6 -->
+                            </div><!-- row -->
+                        </div><!-- container -->
                     </div><!-- col-lg-6 col-xs-12 -->
                 </div><!-- row -->
             </div><!-- col-lg-12 col-xs-12 -->
         </div><!-- row -->
 
-        <div class="row">
+        <div class="row" id="ra_section">
             <div class="col-lg-12 col-xs-12">
                 <div class="row">
                     <div class="col-lg-1 col-xs-12">
-                        <img src="http://assets.mshanken.com/promo/images/WSO-Apps-Page_Final-restlogo.png" class="img-responsive">
+                        <img src="http://assets.mshanken.com/promo/images/WSO-Apps-Page_Final-restlogo.png" class="img-responsive" id="logo_icon">
                     </div><!-- col-lg-6 col-xs-12 -->
                     <div class="col-lg-7 col-xs-12">
                         <h3 class="app_title">Restaurant Awards</h3>
@@ -98,14 +104,14 @@
             </div><!-- col-lg-12 col-xs-12 -->
         </div><!-- row -->
  
-        <div class="row">
+        <div class="row" id="xv_section">
             <div class="col-lg-12 col-xs-12">
                 <div class="row">
                     <div class="col-lg-4 col-xs-12">
                         <img src="http://assets.mshanken.com/promo/images/WSO-Apps-Page_Final-xvaluesdevices.png" class="img-responsive">
                     </div><!-- col-lg-6 col-xs-12 -->
                     <div class="col-lg-1 col-xs-12">
-                        <img src="http://assets.mshanken.com/promo/images/WSO-Apps-Page_Final-xvalueslogo.png" class="img-responsive">
+                        <img src="http://assets.mshanken.com/promo/images/WSO-Apps-Page_Final-xvalueslogo.png" class="img-responsive" id="logo_icon">
                     </div><!-- col-lg-6 col-xs-12 -->
                     <div class="col-lg-7 col-xs-12">
                         <h3 class="app_title">Xvalues</h3>
@@ -124,12 +130,12 @@
                     <div class="hr">
                     </div>
                     <div class="col-lg-6">
-                        <p>© 2016 Wine Spectator. All rights Reserved.</p>
+                        <p class="copyright">© 2016 Wine Spectator. All rights Reserved.</p>
                     </div><!-- col-lg-6 -->
                     <div class="col-lg-6">
                         <ul id="subnav">
-                            <li><a href="http://apps.winespectator.com/about">About</a></li><span>|</span>
-                            <li><a href="http://app-help.winespectator.com/support/home">Support</a></li><span>|</span>
+                            <li><a href="http://apps.winespectator.com/about">About</a></li>
+                            <li><a href="http://app-help.winespectator.com/support/home">Support</a></li>
                             <li><a href="http://app-help.winespectator.com/support/home">Contact</a></li>
                         </ul>
                     </div><!-- col-lg-6 -->

@@ -1,3 +1,24 @@
+/* OVERWRITTEN STYLE FROM BOOSTRAP.MIN.CSS */
+.navbar{
+    margin-top: 20px;
+    margin-bottom: 10px !important;
+}
+/* over writting bootstrap min navbar-nav>li>a */
+.navbar-nav>li>a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+}
+/*  end here  ( over writting bootstrap min ) */
+/* over writting .navbar-right  from bootstrap min */
+.navbar-right {
+    margin-right: 0px !important;
+    margin-top: 10px !important;
+}
+/* End here */
+
+/* HEADER STYLE */
 ::selection {
     background: #ffffa9;
     color: #54545e;
@@ -72,10 +93,15 @@ h3{
     font-family: helvetica !important;
     font-size: 52px !important;
 }
-/* index page */
 .nav_title{
     color: #ffffff !important;
     font-size: 30px;
+}
+/* END OF HEADER STYLE */
+
+/* index page */
+p{
+  font-family: 'Droid Sans', sans-serif;
 }
 .app_title{
     color: #444444;
@@ -98,27 +124,37 @@ h3{
 #grey-background{
     background-color: rgb(242, 241, 237);
 }
+#wr_section{
+ padding:40px 0;
+}
+#ra_section{
+ padding:40px 0;
+}
+#xv_section{
+ padding:40px 0;
+}
+#logo_icon{
+  border-radius: 6px;
+}
+#itunes_button{
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 170px;
+}
+#itunes_button_image{
+  margin-right: 0px;
+}
+#googleplay_button{
+  padding-left: 0px;
+}
 /* end of index page */
-.navbar{
-    margin-top: 20px;
-    margin-bottom: 10px !important;
-}
-/* over writting bootstrap min navbar-nav>li>a */
-.navbar-nav>li>a {
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-    padding-right: 7px !important;
-    padding-left: 7px !important;
-}
-/*  end here  ( over writting bootstrap min ) */
-/* over writting .navbar-right  from bootstrap min */
-.navbar-right {
-    margin-right: 0px !important;
-    margin-top: 10px !important;
-}
-/* End here */
 
 /* Footer Style */
+.copyright{
+  color: #6d6d6d;
+  padding: 10px 0px;
+  font-size: 11px;
+}
 #footer_intro{
     box-shadow: 0 2px 42px rgba(88, 88, 88, 0.3);
     padding: 45px 0 45px 0;
@@ -134,6 +170,7 @@ h3{
     display: inline;
     float: right;
     border: none !important;
+    padding-top: 15px;
 }
 #subnav ul{
     
@@ -142,11 +179,13 @@ h3{
     list-style: none;
     display: inline;
     border: none !important;
-    margin: 10px;
+    margin: 0px;
 }
 #subnav a{
+    border-right: 1px solid #6d6d6d;
     color: #6d6d6d;
     padding: 0 10px;
+    font-size: 11px;
 }
 /* End of Footer */
 
@@ -208,9 +247,7 @@ h3{
     font-size: 17px;
 }
 /* END OF winesrating+ style */
-#screenshot_section{
-  background-color: #;
-}
+
 /* RA page */
 .ra_page_title{
     color: #444444;
