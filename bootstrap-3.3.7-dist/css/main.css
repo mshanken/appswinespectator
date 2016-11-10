@@ -157,7 +157,7 @@ p{
   border-radius: 6px;
 }
 #itunes_button{
-  padding-left: 0px;
+  padding-left: 10px;
   padding-right: 0px;
   width: 170px;
 }
@@ -166,6 +166,8 @@ p{
 }
 #googleplay_button{
   padding-left: 0px;
+  padding-right: 0px;
+  width: 170px;
 }
 /* end of index page */
 
