@@ -2482,4 +2482,13 @@ img {
   img.device{
     display: none;
   }
+  /* Index page update */ 
+  .appstore_logo{
+    margin-bottom: 10px !important;
+  }
+  /* Index page update */
+  #wineratingsplus #intro h2 {
+    font-size: 25px !important;
+    margin-top: 0;
+  }
 }
