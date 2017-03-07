@@ -1,3 +1,14 @@
+.appstore_logo{
+    margin-right: 15px !important;
+  }
+#winerating_logo{
+  margin-top: 35px;
+}
+/*  restaurantawards page */
+#ra_title{
+  font-size:47px !important;
+}
+/*  end of restaurantawards page */
 html {
   overflow-y: scroll;
 }
@@ -1655,6 +1666,7 @@ nav a {
   display: block;
   padding: 8px 10px 5px;
   text-shadow: 0 -1px 0 #000000;
+  text-transform: capitalize;
 }
 nav li:last-child a {
   border: none;
@@ -1798,7 +1810,7 @@ nav a:hover {
   /*text-shadow: 0 1px 1px #000;*/
 }
 #intro h2 span {
-  color: #e42e33;
+  color: #a60101;
 }
 #intro h2 img {
   vertical-align: text-bottom;
@@ -2299,6 +2311,7 @@ img {
   }
   #wineratingsplus #intro h2 {
     margin-top: 0;
+    font-size: 40px !important;
   }
   #vintagechartplus #intro h2 {
     margin-top: 0;
@@ -2470,5 +2483,14 @@ img {
   }
   img.device{
     display: none;
+  }
+  /* Index page update */ 
+  .appstore_logo{
+    margin-bottom: 10px !important;
+  }
+  /* Index page update */
+  #wineratingsplus #intro h2 {
+    font-size: 25px !important;
+    margin-top: 0;
   }
 }
