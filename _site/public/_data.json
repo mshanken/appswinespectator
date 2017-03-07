@@ -1,24 +1,4 @@
 {
-	"index": {
-		"title": "WS Apps",
-		"description": "Wine Spectator Mobile Apps",
-		"keywords": "WS Apps, itunes, google play, WineRatings+, WineRatingsplus, Xvalues"
-	},
-	"wineratingsplus": {
-		"title": "WineRatings+",
-		"description": "Get convenient, expert advice when choosing wine for dinner, a party or any occasion. Wine Spectator's flagship Wine Ratings+ app lets you quickly consult all of our wine reviews—more than 300,000.",
-		"keywords": "WineRatings+, WS Apps, itunes, google play"
-	},
-	"xvalues": {
-		"title": "Xvalues",
-		"description": "Xvalues, the latest app from Wine Spectator, tells you exactly what red, white, or sparkling wines to seek out next time you're shopping for a bottle.",
-		"keywords": "xvalues, WS Apps, itunes, google play"
-	},
-	"restaurantawards": {
-		"title": "Restaurant Awards",
-		"description": "Wine Spectator’s Restaurant Awards app will help you find restaurants with the world's leading wine lists.",
-		"keywords": "restaurant awards, WS Apps, itunes, google play"
-	},
 	"support": {
 		"title": "About",
 		"description": "About",
