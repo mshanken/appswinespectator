@@ -1,3 +1,8 @@
+# NOT IN USE - OUT OF DATE  
+
+Feb 11, 2021:  apps.winespectator.com has been redirected to App Store Pages 
+
+
 # Wine Spectator Apps site [WS APPS](http://apps.winespectator.com/)
 
 The Wine Spectator Apps site is built using harp-js for rapid static HTML generation
